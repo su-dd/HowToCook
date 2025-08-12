@@ -6,7 +6,7 @@ from typing import List, Dict, Any, Tuple
 # 尝试加载UUID映射
 UUID_MAPPING = {}
 try:
-    UUID_MAPPING_FILE = os.path.join(os.path.dirname(__file__), 'uuid', 'Uuid.json')
+    UUID_MAPPING_FILE = './Uuid/Uuid.json'
     with open(UUID_MAPPING_FILE, 'r', encoding='utf-8') as f:
         uuid_mapping_data = json.load(f)
         # 创建反向映射，将文件路径作为键，UUID作为值
@@ -16,6 +16,8 @@ except FileNotFoundError:
 except json.JSONDecodeError:
     print("警告: uuid/Uuid.json 文件格式错误，将使用默认ID生成方式")
 
+
+# 解析原料文本
 def parse_ingredient_text(text: str) -> Tuple[str, float, str]:
     """
     解析原料文本，提取名称、数量和单位
@@ -64,6 +66,7 @@ def parse_ingredient_text(text: str) -> Tuple[str, float, str]:
     # 如果都没有匹配到，返回原始文本作为名称
     return text, None, None
 
+# 解析Markdown文件
 def parse_markdown_file(file_path: str) -> Dict[str, Any]:
     """
     解析菜谱Markdown文件并提取信息
@@ -287,24 +290,15 @@ def parse_markdown_file(file_path: str) -> Dict[str, Any]:
     # 设置主图路径
     image_path = images[0] if images else None
     
+    
+    print(file_path)
     # 使用UUID作为ID
     relative_path = os.path.relpath(file_path, os.getcwd()).replace('\\', '/')
     dish_id = UUID_MAPPING.get(relative_path)
     
-    # 如果没有找到UUID，则使用原来的构建方式
+    # 如果没有找到UUID， 应该报错，终止程序报错
     if not dish_id:
-        # 构建ID（基于文件路径和标题）
-        # 使用当前工作目录作为基准路径
-        base_path = os.getcwd()
-        relative_path_for_id = os.path.relpath(file_path, base_path).replace('\\', '/')
-        path_parts = relative_path_for_id.split('/')
-        
-        # 移除文件扩展名获取文件名部分
-        if path_parts[-1].endswith('.md'):
-            path_parts[-1] = path_parts[-1][:-3]  # 移除 .md 扩展名
-        
-        # 构建完整的ID
-        dish_id = '-'.join(path_parts)
+        raise ValueError(f"未找到文件 {relative_path} 的UUID映射")
     
     # 构建源路径
     source_path = os.path.relpath(file_path, base_path).replace('\\', '/')
@@ -328,6 +322,7 @@ def parse_markdown_file(file_path: str) -> Dict[str, Any]:
         "additional_notes": additional_notes
     }
 
+# 扫描目录
 def scan_dishes_directory(directory: str) -> Dict[str, List[Dict[str, Any]]]:
     """
     扫描菜谱目录并按分类解析所有.md文件
@@ -366,7 +361,7 @@ def scan_dishes_directory(directory: str) -> Dict[str, List[Dict[str, Any]]]:
         
         for file in files:
             if file.endswith('.md'):
-                file_path = os.path.join(root, file)
+                file_path = os.path.join(root, file).replace('\\', '/')
                 try:
                     recipe_data = parse_markdown_file(file_path)
                     recipes_by_category[category].append(recipe_data)
@@ -375,9 +370,9 @@ def scan_dishes_directory(directory: str) -> Dict[str, List[Dict[str, Any]]]:
     
     return recipes_by_category
 
-def main():
+if __name__ == "__main__":
     # 调整路径以正确指向项目根目录下的dishes文件夹
-    dishes_directory = '../dishes'
+    dishes_directory = 'd:/workspace/HowToCook/dishes'
     recipes_directory = './recipes'
     
     # 确保recipes目录存在
@@ -407,5 +402,3 @@ def main():
         json.dump(all_recipes, f, ensure_ascii=False, indent=2)
     
     print(f"所有菜谱数据已保存到 {all_recipes_file}")
-if __name__ == "__main__":
-    main()
