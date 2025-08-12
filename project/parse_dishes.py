@@ -3,21 +3,7 @@ import json
 import re
 from typing import List, Dict, Any, Tuple
 
-# 尝试加载UUID映射
-UUID_MAPPING = {}
-try:
-    UUID_MAPPING_FILE = './Uuid/Uuid.json'
-    with open(UUID_MAPPING_FILE, 'r', encoding='utf-8') as f:
-        uuid_mapping_data = json.load(f)
-        # 创建反向映射，将文件路径作为键，UUID作为值
-        UUID_MAPPING = {value: key for key, value in uuid_mapping_data.items()}
-except FileNotFoundError:
-    print("警告: 找不到 uuid/Uuid.json 文件，将使用默认ID生成方式")
-except json.JSONDecodeError:
-    print("警告: uuid/Uuid.json 文件格式错误，将使用默认ID生成方式")
 
-
-# 解析原料文本
 def parse_ingredient_text(text: str) -> Tuple[str, float, str]:
     """
     解析原料文本，提取名称、数量和单位
@@ -66,8 +52,8 @@ def parse_ingredient_text(text: str) -> Tuple[str, float, str]:
     # 如果都没有匹配到，返回原始文本作为名称
     return text, None, None
 
-# 解析Markdown文件
-def parse_markdown_file(file_path: str) -> Dict[str, Any]:
+def parse_markdown_file(file_path: str, category: str, uuid_mapping: dict) -> Dict[str, Any]:
+
     """
     解析菜谱Markdown文件并提取信息
     """
@@ -101,26 +87,6 @@ def parse_markdown_file(file_path: str) -> Dict[str, Any]:
     # 提取难度
     difficulty_match = re.search(r'预估烹饪难度：(★+)', content)
     difficulty = len(difficulty_match.group(1)) if difficulty_match else 0
-    
-    # 提取类别（从路径推断）
-    category_map = {
-        'aquatic': '水产',
-        'breakfast': '早餐',
-        'condiment': '佐料',
-        'dessert': '甜品',
-        'drink': '饮品',
-        'meat_dish': '肉食',
-        'semi-finished': '半成品',
-        'soup': '汤类',
-        'staple': '主食',
-        'vegetable_dish': '素菜'
-    }
-    
-    category = '未知'
-    for key, value in category_map.items():
-        if key in file_path:
-            category = value
-            break
     
     # 提取必需原料和工具（支持-和*两种列表标记，包括嵌套列表）
     ingredients = []
@@ -294,7 +260,7 @@ def parse_markdown_file(file_path: str) -> Dict[str, Any]:
     print(file_path)
     # 使用UUID作为ID
     relative_path = os.path.relpath(file_path, os.getcwd()).replace('\\', '/')
-    dish_id = UUID_MAPPING.get(relative_path)
+    dish_id = uuid_mapping.get(relative_path)
     
     # 如果没有找到UUID， 应该报错，终止程序报错
     if not dish_id:
@@ -322,8 +288,8 @@ def parse_markdown_file(file_path: str) -> Dict[str, Any]:
         "additional_notes": additional_notes
     }
 
-# 扫描目录
-def scan_dishes_directory(directory: str) -> Dict[str, List[Dict[str, Any]]]:
+def scan_dishes_directory(directory: str, uuid_mapping: dict) -> Dict[str, List[Dict[str, Any]]]:
+
     """
     扫描菜谱目录并按分类解析所有.md文件
     """
@@ -363,42 +329,10 @@ def scan_dishes_directory(directory: str) -> Dict[str, List[Dict[str, Any]]]:
             if file.endswith('.md'):
                 file_path = os.path.join(root, file).replace('\\', '/')
                 try:
-                    recipe_data = parse_markdown_file(file_path)
+                    recipe_data = parse_markdown_file(file_path, category_map[category], uuid_mapping)
+
                     recipes_by_category[category].append(recipe_data)
                 except Exception as e:
                     print(f"解析文件 {file_path} 时出错: {e}")
     
     return recipes_by_category
-
-if __name__ == "__main__":
-    # 调整路径以正确指向项目根目录下的dishes文件夹
-    dishes_directory = 'd:/workspace/HowToCook/dishes'
-    recipes_directory = './recipes'
-    
-    # 确保recipes目录存在
-    os.makedirs(recipes_directory, exist_ok=True)
-    
-    print("开始解析菜谱文件...")
-    recipes_by_category = scan_dishes_directory(dishes_directory)
-    
-    # 为每个分类创建单独的JSON文件
-    for category, recipes in recipes_by_category.items():
-        output_file = os.path.join(recipes_directory, f"{category}_recipes.json")
-        print(f"正在生成 {category} 分类的菜谱数据，共 {len(recipes)} 个菜谱...")
-        
-        # 写入JSON文件
-        with open(output_file, 'w', encoding='utf-8') as f:
-            json.dump(recipes, f, ensure_ascii=False, indent=2)
-        
-        print(f"{category} 分类的菜谱数据已保存到 {output_file}")
-    
-    # 生成一个包含所有菜谱的文件以保持向后兼容
-    all_recipes = []
-    for recipes in recipes_by_category.values():
-        all_recipes.extend(recipes)
-    
-    all_recipes_file = os.path.join(recipes_directory, 'all_recipes.json')
-    with open(all_recipes_file, 'w', encoding='utf-8') as f:
-        json.dump(all_recipes, f, ensure_ascii=False, indent=2)
-    
-    print(f"所有菜谱数据已保存到 {all_recipes_file}")
