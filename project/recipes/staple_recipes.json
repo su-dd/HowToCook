@@ -1,0 +1,7022 @@
+[
+  {
+    "id": "..-dishes-staple-手工水饺",
+    "name": "手工水饺",
+    "description": "饺子是一道非常好吃的主食之一。饱肚且易于根据自己口味进行调味，适合在 US 的同学吃不到水饺解馋。一般初学者需要 3 小时完成，难度较大\n\n预估烹饪难度：★★★★★",
+    "source_path": "../dishes/staple/手工水饺.md",
+    "image_path": null,
+    "images": [],
+    "category": "主食",
+    "difficulty": 5,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "擀面杖",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 擀面杖",
+        "notes": "量未指定"
+      },
+      {
+        "name": "面粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 面粉",
+        "notes": "量未指定"
+      },
+      {
+        "name": "冷水",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 冷水",
+        "notes": "量未指定"
+      },
+      {
+        "name": "直径 30cm 以上的盆",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 直径 30cm 以上的盆",
+        "notes": "量未指定"
+      },
+      {
+        "name": "芝麻香油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 芝麻香油",
+        "notes": "量未指定"
+      },
+      {
+        "name": "瘦肉末",
+        "quantity": 250.0,
+        "unit": "g",
+        "text_quantity": "- 瘦肉末 250g",
+        "notes": ""
+      },
+      {
+        "name": "肥肉末",
+        "quantity": 20.0,
+        "unit": "g",
+        "text_quantity": "- 肥肉末 20g #不喜可不加",
+        "notes": ""
+      },
+      {
+        "name": "姜",
+        "quantity": 3.0,
+        "unit": "g",
+        "text_quantity": "- 姜 3g",
+        "notes": ""
+      },
+      {
+        "name": "葱",
+        "quantity": 15.0,
+        "unit": "g",
+        "text_quantity": "- 葱 15g",
+        "notes": ""
+      },
+      {
+        "name": "盐",
+        "quantity": 3.0,
+        "unit": "g",
+        "text_quantity": "- 盐 3g",
+        "notes": ""
+      },
+      {
+        "name": "蚝油",
+        "quantity": 2.0,
+        "unit": "ml",
+        "text_quantity": "- 蚝油 2ml",
+        "notes": ""
+      },
+      {
+        "name": "香油",
+        "quantity": 2.0,
+        "unit": "ml",
+        "text_quantity": "- 香油 2ml",
+        "notes": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": 2.0,
+        "unit": "ml",
+        "text_quantity": "- 生抽 2ml",
+        "notes": ""
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": 1.0,
+        "unit": "个",
+        "text_quantity": "- 鸡蛋 1 个",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "盆中加入所有面粉"
+      },
+      {
+        "step": 2,
+        "description": "加入芝麻香油"
+      },
+      {
+        "step": 3,
+        "description": "面粉中央挖小洞"
+      },
+      {
+        "step": 4,
+        "description": "分 4-5 次加入水，并搅和，当出现碎末状的稍微干燥面团时"
+      },
+      {
+        "step": 5,
+        "description": "取消加水，用手将面团压实"
+      },
+      {
+        "step": 6,
+        "description": "面团压实至可把盆周围的面粉纳入即可，此步骤为面光盆光"
+      },
+      {
+        "step": 7,
+        "description": "将面团置于桌上，盆倒扣于桌上，环境温度为 25 度，使面团醒发约 45 分钟"
+      },
+      {
+        "step": 8,
+        "description": "醒发完成后，将面团搓成条状，合成一团，再次搓成条，重复 3 次"
+      },
+      {
+        "step": 9,
+        "description": "擀成条状，切成 20 份均匀大小面团，并搓成直径约 3-3.5cm 的球状"
+      },
+      {
+        "step": 10,
+        "description": "压扁面团，在手上，桌上，擀面杖上，及面团上撒上面粉，此步骤防止面团发粘"
+      },
+      {
+        "step": 11,
+        "description": "用擀面杖将面团擀平，约 8cm 直径，厚约 2mm，中间略微比四周厚 1mm"
+      },
+      {
+        "step": 12,
+        "description": "猪肉去皮,保留部分肥肉,切成小块"
+      },
+      {
+        "step": 13,
+        "description": "菜刀（建议两把）将猪肉剁成肉沫,放入碗中"
+      },
+      {
+        "step": 14,
+        "description": "葱、姜切成末,放入肉碗中搅拌均匀"
+      },
+      {
+        "step": 15,
+        "description": "韭菜洗净,切短至 3mm 以下长度"
+      },
+      {
+        "step": 16,
+        "description": "韭菜和肉沫混合,加入蚝油、生抽、香油各 2ml,加入一个鸡蛋的蛋清,用手混合搅拌均匀"
+      },
+      {
+        "step": 17,
+        "description": "放置 30 分钟即可开始包饺子"
+      },
+      {
+        "step": 18,
+        "description": "左手上放面皮，放饺子馅一面尽量不要粘到面粉，防止无法合拢"
+      },
+      {
+        "step": 19,
+        "description": "右手用筷子夹约面皮 1/2 直径的馅"
+      },
+      {
+        "step": 20,
+        "description": "沿饺子皮圆周进行合拢，捏实，个人吃无需捏花，饺子皮不漏即可"
+      },
+      {
+        "step": 21,
+        "description": "使用可放下 20 只饺子的锅，或分批量煮"
+      },
+      {
+        "step": 22,
+        "description": "烧水，水约 3/4 锅的高度"
+      },
+      {
+        "step": 23,
+        "description": "大火烧开水后放入饺子，调至中火"
+      },
+      {
+        "step": 24,
+        "description": "第一次放入饺子，且水冒泡后，锅边加入 50ml 冷水（重复此步骤两次）"
+      },
+      {
+        "step": 25,
+        "description": "第三次水开后加入冷水 50ml，水开后调至小火等 60s 即可出锅"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "- 煮水饺不需要盖锅盖，加三次水就是为了不让饺子一直处于沸腾状态导致表皮破损变成面片。",
+      "这道菜存在一些补充做法，包括但不限于：",
+      "额外添加下列材料：",
+      "* 黑醋 10ml",
+      "* 姜 一小块 50 克",
+      "* 香油 2 滴",
+      "* 大蒜/蒜泥 3 瓣/人",
+      "* 考虑搭配黑醋食用。建议用量：10-20ml。",
+      "* 考虑姜切丝，在小碗加入 20ml 的黑醋与姜丝搅拌当蘸料，味道更丰富。",
+      "* 考虑搭配黑醋时加入 1~3 滴香油，搅拌当蘸料。",
+      "* 考虑搭配黑醋时加入砸好的蒜泥，搅拌当蘸料。（口腔内会残留蒜味，若饭后需要与他人面对面谈话建议放弃或清洁口腔）",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-汤面",
+    "name": "汤面",
+    "description": "汤面是许多人喜爱的基础主食，根据个人喜好加入任何自己喜欢的食材，营养全面，固液兼具，材料易得，做法简单，有手就行。\n\n预估烹饪难度：★★",
+    "source_path": "../dishes/staple/汤面.md",
+    "image_path": null,
+    "images": [],
+    "category": "主食",
+    "difficulty": 2,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "面食材料可以是手工面条、龙须面、面鱼，也可以是泡面面饼、各类规格粉丝，或者是其他任何自己所喜欢的面食形式。",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 面食材料：可以是手工面条、龙须面、面鱼，也可以是泡面面饼、各类规格粉丝，或者是其他任何自己所喜欢的面食形式。",
+        "notes": "量未指定"
+      },
+      {
+        "name": "菜类材料建议荤素搭配，选择自己喜欢的食材洗干净即可。例如",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 菜类材料：建议荤素搭配，选择自己喜欢的食材洗干净即可。例如：",
+        "notes": "量未指定"
+      },
+      {
+        "name": "牛羊鱼虾等肉类（生熟皆可）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 牛羊鱼虾等肉类（生熟皆可）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "鸡蛋鸭蛋鹅蛋鸵鸟蛋等蛋类",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 鸡蛋鸭蛋鹅蛋鸵鸟蛋等蛋类",
+        "notes": "量未指定"
+      },
+      {
+        "name": "豆块豆筋豆腐皮等豆制品类",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 豆块豆筋豆腐皮等豆制品类",
+        "notes": "量未指定"
+      },
+      {
+        "name": "生菜菠菜油麦菜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 生菜菠菜油麦菜",
+        "notes": "量未指定"
+      },
+      {
+        "name": "青椒番茄胡萝卜等蔬菜类。",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 青椒番茄胡萝卜等蔬菜类。",
+        "notes": "量未指定"
+      },
+      {
+        "name": "面类材料单人一个方便面大小的量，可以在  之间选择。",
+        "quantity": 150.0,
+        "unit": "g",
+        "text_quantity": "- 面类材料：单人一个方便面大小的量，可以在 70-230g 之间选择。",
+        "notes": ""
+      },
+      {
+        "name": "冷水 加入能浸没面的量，一般在  之间选择",
+        "quantity": 300.0,
+        "unit": "ml",
+        "text_quantity": "- 冷水： 加入能浸没面的量，一般在 200 - 400 ml 之间选择",
+        "notes": ""
+      },
+      {
+        "name": "菜类体积大约和面类相当",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 菜类：体积大约和面类相当",
+        "notes": "量未指定"
+      },
+      {
+        "name": "其中青菜体积可忽略",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 其中青菜体积可忽略",
+        "notes": "量未指定"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "先将菜类材料切成边长不超过 4cm 的块状，便于煮熟"
+      },
+      {
+        "step": 2,
+        "description": "如有生肉，则先放入冷水中，盖上锅盖，煮沸腾，先捞出上层血沫，再关火，捞出半熟的肉备用"
+      },
+      {
+        "step": 3,
+        "description": "先大火将水加热至沸腾，后调至中火"
+      },
+      {
+        "step": 4,
+        "description": "将较难煮熟的食材放入锅中（比如半熟肉类、香菇类、等最先放入锅中）。为保证煮熟，可在沸腾后计时 10 分钟，特别难熟的大块食材可追加 5 分钟。"
+      },
+      {
+        "step": 5,
+        "description": "将面食放入锅中，适当搅拌确保面和汤充分接触，使液面保持轻微沸腾，煮 5 分钟。加入面后液面易产生白色泡沫，可适当抬起锅盖通气或者撤下锅盖。"
+      },
+      {
+        "step": 6,
+        "description": "将易于煮熟的食材如青菜类放入锅中，适当搅拌以充分浸没，煮 2-5 分钟"
+      },
+      {
+        "step": 7,
+        "description": "关火，随后加入盐、胡椒粉、香油等自己喜欢的调味料，适当搅拌即可出锅食用"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "- 操作流程可根据自己喜好更改，多多尝试会有惊喜",
+      "- 如掌握不好加盐量，可采用少量多次添加的方法，以免过量",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-炒年糕",
+    "name": "炒年糕",
+    "description": "闽南风味的炒年糕是一道非常好吃的主食。它制作过程简单，原料获取方便，适合海外朋友满足口腹之欲。初学者需要 30 分钟完成，难度较小。\n\n预估烹饪难度：★★★",
+    "source_path": "../dishes/staple/炒年糕.md",
+    "image_path": null,
+    "images": [],
+    "category": "主食",
+    "difficulty": 3,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "年糕/白粿 （形状不限）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 年糕/白粿 （形状不限）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "葱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 葱",
+        "notes": "量未指定"
+      },
+      {
+        "name": "调味料 酱油，盐",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 调味料: 酱油，盐",
+        "notes": "量未指定"
+      },
+      {
+        "name": "（可选）鸡蛋，青菜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- （可选）：鸡蛋，青菜",
+        "notes": "量未指定"
+      },
+      {
+        "name": "年糕",
+        "quantity": 250.0,
+        "unit": "g",
+        "text_quantity": "- 年糕 250 g * 份数",
+        "notes": ""
+      },
+      {
+        "name": "小葱",
+        "quantity": 2.0,
+        "unit": "根",
+        "text_quantity": "- 小葱 2 根 * 份数",
+        "notes": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": 50.0,
+        "unit": "ml",
+        "text_quantity": "- 食用油 50 ml",
+        "notes": ""
+      },
+      {
+        "name": "酱油",
+        "quantity": 15.0,
+        "unit": "ml",
+        "text_quantity": "- 酱油 15 ml",
+        "notes": ""
+      },
+      {
+        "name": "盐  * 份数，按口味喜好。",
+        "quantity": 1.5,
+        "unit": "g",
+        "text_quantity": "- 盐 1-2g * 份数，按口味喜好。",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "锅中加水烧开，煮熟年糕，碗中加水确保年糕不会粘连，捞起年糕备用。"
+      },
+      {
+        "step": 2,
+        "description": "小葱切葱花（将葱白和葱叶分开），青菜切小段备用。"
+      },
+      {
+        "step": 3,
+        "description": "（可选） 制作炒蛋，见[西红柿炒蛋](https://github.com/Anduin2017/HowToCook/blob/master/dishes/vegetable_dish/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E7%82%92%E9%B8%A1%E8%9B%8B.md)。"
+      },
+      {
+        "step": 4,
+        "description": "热锅，加入 30ml 食用油。"
+      },
+      {
+        "step": 5,
+        "description": "将葱白倒入锅中，直至大部分葱白变成焦黄色且发出香味，倒出葱油备用。"
+      },
+      {
+        "step": 6,
+        "description": "重新热锅，加入 20ml 食用油。"
+      },
+      {
+        "step": 7,
+        "description": "加入所有辅料（鸡蛋，青菜等），翻炒均匀。"
+      },
+      {
+        "step": 8,
+        "description": "将年糕的水倒掉，向锅中加入年糕。"
+      },
+      {
+        "step": 9,
+        "description": "加入酱油和盐，翻炒均匀。"
+      },
+      {
+        "step": 10,
+        "description": "关火，加入葱油，翻炒均匀，乘盘。"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "- 辅料的选择可以根据个人选择酌情添加，如加入瘦肉等",
+      "- 在煮年糕的时候注意搅拌，以免粘锅",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-炒方便面",
+    "name": "炒方便面",
+    "description": "这是在探究了传统煮方便面的改良方向之后，进行的一次最成功的尝试。它能够让方便面的美味程度提升很大程度，简单好做。开始炒吧！\n\n预估烹饪难度：★★",
+    "source_path": "../dishes/staple/炒方便面.md",
+    "image_path": null,
+    "images": [],
+    "category": "主食",
+    "difficulty": 2,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "方便面",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 方便面",
+        "notes": "量未指定"
+      },
+      {
+        "name": "盐",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 盐",
+        "notes": "量未指定"
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 鸡蛋",
+        "notes": "量未指定"
+      },
+      {
+        "name": "火腿肠（可选）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 火腿肠（可选）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "方便面用量为",
+        "quantity": 1.2,
+        "unit": "包",
+        "text_quantity": "* 方便面用量为 1.2 包/人 向下取整。",
+        "notes": ""
+      },
+      {
+        "name": "鸡蛋的用量为",
+        "quantity": 1.4,
+        "unit": "个",
+        "text_quantity": "* 鸡蛋的用量为 1.4 个/人 向下取整。",
+        "notes": ""
+      },
+      {
+        "name": "盐的用量为 鸡蛋的用量 *",
+        "quantity": 2.0,
+        "unit": "g",
+        "text_quantity": "* 盐的用量为 鸡蛋的用量 * 2g。",
+        "notes": ""
+      },
+      {
+        "name": "火腿肠的用量为",
+        "quantity": 0.7,
+        "unit": "个",
+        "text_quantity": "* 火腿肠的用量为 0.7 个/人 向上取整。",
+        "notes": ""
+      },
+      {
+        "name": "食用油的用量为  / 人。",
+        "quantity": 14.0,
+        "unit": "ml",
+        "text_quantity": "* 食用油的用量为 10 - 18 ml / 人。",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "将火腿肠撕开包装，切成宽度 1cm 的小块。"
+      },
+      {
+        "step": 2,
+        "description": "向煮锅中加入 300 ml 水。煮沸。"
+      },
+      {
+        "step": 3,
+        "description": "加入方便面面饼，煮 45 秒。煮的过程中将其挑动，把面条打散。"
+      },
+      {
+        "step": 4,
+        "description": "面条打散后立刻关火。"
+      },
+      {
+        "step": 5,
+        "description": "将面汤和面分离。用凉水冲一下面条。"
+      },
+      {
+        "step": 6,
+        "description": "准备一个小碗，将方便面的调料包挤进去。"
+      },
+      {
+        "step": 7,
+        "description": "挤进去所有菜包"
+      },
+      {
+        "step": 8,
+        "description": "挤进去所有酱包"
+      },
+      {
+        "step": 9,
+        "description": "挤进去 50% - 80% 的粉包。（全部粉包都挤进去会很咸）"
+      },
+      {
+        "step": 10,
+        "description": "将上一步的面汤取出 80ml，加入小碗，搅匀，得到调料碗。"
+      },
+      {
+        "step": 11,
+        "description": "取出计算好的数量的鸡蛋，打入一个小碗。"
+      },
+      {
+        "step": 12,
+        "description": "每个鸡蛋加入 2g 盐。搅拌均匀。"
+      },
+      {
+        "step": 13,
+        "description": "热锅 20s，加入份数 * 8ml 油。"
+      },
+      {
+        "step": 14,
+        "description": "加入刚刚准备好的一碗鸡蛋。翻炒大约 20s 至鸡蛋形成固态即可。"
+      },
+      {
+        "step": 15,
+        "description": "将煎鸡蛋取出暂存。"
+      },
+      {
+        "step": 16,
+        "description": "热锅 20s，增加锅内的油到份数 * 10ml。"
+      },
+      {
+        "step": 17,
+        "description": "加入第一步处理的火腿肠。翻炒 10 秒。"
+      },
+      {
+        "step": 18,
+        "description": "加入第二步的面。翻炒 30 秒。"
+      },
+      {
+        "step": 19,
+        "description": "加入第三步的调料碗。翻炒 30 秒。"
+      },
+      {
+        "step": 20,
+        "description": "加入第四步的煎鸡蛋。翻炒 30 秒。"
+      },
+      {
+        "step": 21,
+        "description": "关火盛盘即可。"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "在北京，可以考虑在盛盘后加入芝麻酱。如果芝麻酱太浓稠，可以 1:1 兑水稀释。",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-炒河粉",
+    "name": "炒河粉",
+    "description": "预估烹饪难度：★★★★",
+    "source_path": "../dishes/staple/炒河粉.md",
+    "image_path": null,
+    "images": [],
+    "category": "主食",
+    "difficulty": 4,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "炒河粉、猪肉/牛肉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 炒河粉、猪肉/牛肉",
+        "notes": "量未指定"
+      },
+      {
+        "name": "炒料盐、味精、老抽、生抽、孜然粉（或直接用河粉料）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 炒料：盐、味精、老抽、生抽、孜然粉（或直接用河粉料）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "其他调味料胡椒粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 其他调味料：胡椒粉",
+        "notes": "量未指定"
+      },
+      {
+        "name": "黄瓜、面筋块、绿豆芽、鸡蛋、蒜瓣、小葱、淀粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 黄瓜、面筋块、绿豆芽、鸡蛋、蒜瓣、小葱、淀粉",
+        "notes": "量未指定"
+      },
+      {
+        "name": "盆、盘子",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 盆、盘子",
+        "notes": "量未指定"
+      },
+      {
+        "name": "河粉用量为",
+        "quantity": 250.0,
+        "unit": "g",
+        "text_quantity": "* 河粉用量为 250 g/人，如果需要更大食量，可再加 100g/人 向下取整。",
+        "notes": ""
+      },
+      {
+        "name": "黄瓜丝",
+        "quantity": 30.0,
+        "unit": "g",
+        "text_quantity": "* 黄瓜丝 30g/人、面筋块 30g/人、绿豆芽 30g/人、打碎的鸡蛋 1 个/人。",
+        "notes": ""
+      },
+      {
+        "name": "拍碎的蒜瓣",
+        "quantity": 2.0,
+        "unit": "个",
+        "text_quantity": "* 拍碎的蒜瓣 2 个/人、小葱 1 根/人",
+        "notes": ""
+      },
+      {
+        "name": "河粉料可按",
+        "quantity": 20.0,
+        "unit": "g",
+        "text_quantity": "* 河粉料可按 20g/人添加，若自行准备炒料可 10g 盐+2g 味精+3g 孜然粉。",
+        "notes": ""
+      },
+      {
+        "name": "淀粉可准备每",
+        "quantity": 100.0,
+        "unit": "g",
+        "text_quantity": "* 淀粉可准备每 100g 肉+5g 淀粉比例准备。",
+        "notes": ""
+      },
+      {
+        "name": "老抽/生抽，分别为每",
+        "quantity": 250.0,
+        "unit": "g",
+        "text_quantity": "* 老抽/生抽，分别为每 250g 河粉 10ml/15ml。",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "小葱切碎（葱白和葱叶分开）、蒜瓣拍碎，丢案板上备用。"
+      },
+      {
+        "step": 2,
+        "description": "打碎鸡蛋，捞一点蛋清到一只碗中，剩下的丢入另一只碗中备用。"
+      },
+      {
+        "step": 3,
+        "description": "将绿豆芽放入锅中，大火煮 60 秒。豆芽捞出，过凉水，放入盘中备用。"
+      },
+      {
+        "step": 4,
+        "description": "黄瓜切丝放入盘中备用，可和豆芽丢一起。"
+      },
+      {
+        "step": 5,
+        "description": "处理面筋，单独丢一个盘中。"
+      },
+      {
+        "step": 6,
+        "description": "肉切细条状，加入淀粉与刚刚碗中的鸡蛋清、胡椒粉，顺时针拌匀。"
+      },
+      {
+        "step": 7,
+        "description": "注：超市购买来的凉皮表面一般会有食用油，可以使用自来水清洗。面筋同样。"
+      },
+      {
+        "step": 8,
+        "description": "注：清洗面筋之后，请用手将面筋中的大量水分挤出（不需过于用力）。"
+      },
+      {
+        "step": 9,
+        "description": "加入食用油，锅热倒出。"
+      },
+      {
+        "step": 10,
+        "description": "倒入处理好的肉，翻炒均匀至变色，倒入碗中备用。"
+      },
+      {
+        "step": 11,
+        "description": "趁锅热，加入 20g 食用油（高血压人群可降低用量），倒入葱白、蒜爆炒出香。"
+      },
+      {
+        "step": 12,
+        "description": "加入河粉，淋入老抽提色，翻炒均匀后再加入河粉炒料，继续翻炒。"
+      },
+      {
+        "step": 13,
+        "description": "河粉即将透明时，放入炒制好的肉丝与面筋，并加入生抽提鲜，简单翻炒两次。"
+      },
+      {
+        "step": 14,
+        "description": "加入豆芽与黄瓜丝，翻炒至河粉完全透明。"
+      },
+      {
+        "step": 15,
+        "description": "关火！"
+      },
+      {
+        "step": 16,
+        "description": "撒入葱叶点缀，把锅端起。"
+      },
+      {
+        "step": 17,
+        "description": "倒入盘中，开始干饭。"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "个人口味根据地区、天气、时间均有不同，调料的具体使用量请据个人情况而定，喜欢辣椒的可以自行添加。",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-炒馍",
+    "name": "炒馍",
+    "description": "预估烹饪难度：★★★",
+    "source_path": "../dishes/staple/炒馍.md",
+    "image_path": null,
+    "images": [],
+    "category": "主食",
+    "difficulty": 3,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "馒头（隔天略硬更好）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 馒头（隔天略硬更好）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "盐",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 盐",
+        "notes": "量未指定"
+      },
+      {
+        "name": "油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 油",
+        "notes": "量未指定"
+      },
+      {
+        "name": "孜然粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 孜然粉",
+        "notes": "量未指定"
+      },
+      {
+        "name": "五香粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 五香粉",
+        "notes": "量未指定"
+      },
+      {
+        "name": "小葱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 小葱",
+        "notes": "量未指定"
+      },
+      {
+        "name": "鸡蛋（可选）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 鸡蛋（可选）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "馒头",
+        "quantity": 2.0,
+        "unit": "个",
+        "text_quantity": "* 馒头 2 个（隔天略硬更好）",
+        "notes": ""
+      },
+      {
+        "name": "辣椒粉",
+        "quantity": 3.0,
+        "unit": "g",
+        "text_quantity": "* 辣椒粉 3g",
+        "notes": ""
+      },
+      {
+        "name": "小葱 2 棵",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 小葱 2 棵",
+        "notes": "量未指定"
+      },
+      {
+        "name": "鸡蛋 （可选,",
+        "quantity": 2.0,
+        "unit": "个",
+        "text_quantity": "* 鸡蛋 （可选,2 个）",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "将馒头切成小块或小片。"
+      },
+      {
+        "step": 2,
+        "description": "选有鸡蛋的话将鸡蛋打进碗里，打散（可加盐和五香粉各 1g 或不加，等炒的过程中加）。"
+      },
+      {
+        "step": 3,
+        "description": "鸡蛋浇在馒头上，拌匀，鸡蛋不宜过多。"
+      },
+      {
+        "step": 4,
+        "description": "大火热锅，倒入食用油（不锈钢锅怕伤锅的话可以先倒油，烧至油热也可也可）"
+      },
+      {
+        "step": 5,
+        "description": "将馍丁放进去翻炒，翻炒均匀。"
+      },
+      {
+        "step": 6,
+        "description": "将火调小，炒至馍丁呈金黄色。"
+      },
+      {
+        "step": 7,
+        "description": "放入盐，胡椒粉，五香粉。"
+      },
+      {
+        "step": 8,
+        "description": "最后将葱花放入一起翻炒几下。"
+      },
+      {
+        "step": 9,
+        "description": "关火出锅。"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "- 炒的过程中要注意控制火候，以防炒糊",
+      "- 火大补救措施将火调小，可沿锅边加油润锅或洒水，注意不要全倒在一个地方，最好分散开",
+      "- 调味料可根据个人喜好放入其他香料（比如南德调味料）",
+      "- 如果喜欢吃脆的，可以将火开到最小，多翻炒一会，关火后趁锅热再放置一会再倒出，更香脆",
+      "- 辅料也可根据个人口味方位蒜末，蒜苗等，可以单独爆香在混合",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-炸酱面",
+    "name": "炸酱面",
+    "description": "预估烹饪难度：★★★",
+    "source_path": "../dishes/staple/炸酱面.md",
+    "image_path": null,
+    "images": [],
+    "category": "主食",
+    "difficulty": 3,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "肉丁/肉末",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 肉丁/肉末",
+        "notes": "量未指定"
+      },
+      {
+        "name": "面条（挂面或普通面条）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 面条（挂面或普通面条）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "蒜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 蒜",
+        "notes": "量未指定"
+      },
+      {
+        "name": "菜码（根据个人喜好选择，通常 4-10 种，可选择黄瓜、白菜、萝卜等）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 菜码（根据个人喜好选择，通常 4-10 种，可选择黄瓜、白菜、萝卜等）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "豆瓣酱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 豆瓣酱",
+        "notes": "量未指定"
+      },
+      {
+        "name": "甜面酱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 甜面酱",
+        "notes": "量未指定"
+      },
+      {
+        "name": "如果 *面条* 选择了*挂面*",
+        "quantity": 150.0,
+        "unit": "g",
+        "text_quantity": "* 如果 *面条* 选择了*挂面*：150g",
+        "notes": ""
+      },
+      {
+        "name": "葱",
+        "quantity": 15.0,
+        "unit": "g",
+        "text_quantity": "* 葱 15g",
+        "notes": ""
+      },
+      {
+        "name": "菜码 总量",
+        "quantity": 35.0,
+        "unit": "g",
+        "text_quantity": "* 菜码 总量 35g",
+        "notes": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": 10.0,
+        "unit": "g",
+        "text_quantity": "* 食用油 10g",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "暂无详细步骤说明"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "* 肉推荐瘦肉丁，口感更好，推荐现买现用。",
+      "* *面条*推荐使用*普通面条*。",
+      "* 面条口感关键在于劲道。勿选龙须等细面。",
+      "* 如有条件（另一个锅）且熟练后，第 2、3 步和 1、4、5、6 步可分时并行执行。",
+      "* 甜咸口个人有爱好，两种酱的配比需要自己迭代优化。",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-热干面",
+    "name": "热干面",
+    "description": "预估烹饪难度：★★★",
+    "source_path": "../dishes/staple/热干面.md",
+    "image_path": null,
+    "images": [],
+    "category": "主食",
+    "difficulty": 3,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "热干面特有的碱水面",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 热干面特有的碱水面",
+        "notes": "量未指定"
+      },
+      {
+        "name": "小葱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 小葱",
+        "notes": "量未指定"
+      },
+      {
+        "name": "酸豆角",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 酸豆角",
+        "notes": "量未指定"
+      },
+      {
+        "name": "肉末",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 肉末",
+        "notes": "量未指定"
+      },
+      {
+        "name": "蒜水",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 蒜水",
+        "notes": "量未指定"
+      },
+      {
+        "name": "肉汤汁",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 肉汤汁",
+        "notes": "量未指定"
+      },
+      {
+        "name": "萝卜干",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 萝卜干",
+        "notes": "量未指定"
+      },
+      {
+        "name": "芝麻酱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 芝麻酱",
+        "notes": "量未指定"
+      },
+      {
+        "name": "辣椒油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 辣椒油",
+        "notes": "量未指定"
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 胡椒粉",
+        "notes": "量未指定"
+      },
+      {
+        "name": "酱油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 酱油",
+        "notes": "量未指定"
+      },
+      {
+        "name": "食盐",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 食盐",
+        "notes": "量未指定"
+      },
+      {
+        "name": "鸡精",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 鸡精",
+        "notes": "量未指定"
+      },
+      {
+        "name": "热干面特有的碱水面 (",
+        "quantity": 250.0,
+        "unit": "g",
+        "text_quantity": "* 热干面特有的碱水面 (250g)",
+        "notes": ""
+      },
+      {
+        "name": "小葱 (",
+        "quantity": 10.0,
+        "unit": "g",
+        "text_quantity": "* 小葱 (10g)",
+        "notes": ""
+      },
+      {
+        "name": "酸豆角 (",
+        "quantity": 20.0,
+        "unit": "g",
+        "text_quantity": "* 酸豆角 (20g)",
+        "notes": ""
+      },
+      {
+        "name": "肉末 (",
+        "quantity": 30.0,
+        "unit": "g",
+        "text_quantity": "* 肉末 (30g)",
+        "notes": ""
+      },
+      {
+        "name": "蒜水 (",
+        "quantity": 30.0,
+        "unit": "ml",
+        "text_quantity": "* 蒜水 (30ml)",
+        "notes": ""
+      },
+      {
+        "name": "肉汤汁 (",
+        "quantity": 30.0,
+        "unit": "ml",
+        "text_quantity": "* 肉汤汁 (30ml)",
+        "notes": ""
+      },
+      {
+        "name": "萝卜干 (",
+        "quantity": 50.0,
+        "unit": "g",
+        "text_quantity": "* 萝卜干 (50g)",
+        "notes": ""
+      },
+      {
+        "name": "芝麻酱 (",
+        "quantity": 40.0,
+        "unit": "ml",
+        "text_quantity": "* 芝麻酱 (40ml)",
+        "notes": ""
+      },
+      {
+        "name": "辣椒油 ()",
+        "quantity": 5.0,
+        "unit": "ml",
+        "text_quantity": "* 辣椒油 (0-10ml)",
+        "notes": ""
+      },
+      {
+        "name": "胡椒粉()",
+        "quantity": 5.0,
+        "unit": "g",
+        "text_quantity": "* 胡椒粉(0-10g)",
+        "notes": ""
+      },
+      {
+        "name": "酱油(",
+        "quantity": 5.0,
+        "unit": "ml",
+        "text_quantity": "* 酱油(5ml)",
+        "notes": ""
+      },
+      {
+        "name": "食盐(",
+        "quantity": 3.0,
+        "unit": "g",
+        "text_quantity": "* 食盐(3g)",
+        "notes": ""
+      },
+      {
+        "name": "鸡精()",
+        "quantity": 1.5,
+        "unit": "g",
+        "text_quantity": "* 鸡精(0-3g)",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "水煮沸，并加入碱水面，焯烫 25 秒钟捞起"
+      },
+      {
+        "step": 2,
+        "description": "撒上食盐、鸡精和胡椒粉"
+      },
+      {
+        "step": 3,
+        "description": "芝麻酱用 90ml 水稀释，搅匀，然后加入"
+      },
+      {
+        "step": 4,
+        "description": "加入 5ml 酱油，加入 30ml 肉汤汁和蒜水"
+      },
+      {
+        "step": 5,
+        "description": "加入萝卜干，肉末，酸豆角，葱花"
+      },
+      {
+        "step": 6,
+        "description": "拌均匀后开吃"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "* 辣椒油看个人口味添加",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-煮泡面加蛋",
+    "name": "煮泡面加蛋",
+    "description": "煮泡面加蛋是能满足于各种人群的生存基本需求的重要主食，其材料方便易得，做法简单易上手且制作周期极短。\n\n预估烹饪难度：★",
+    "source_path": "../dishes/staple/煮泡面加蛋.md",
+    "image_path": null,
+    "images": [],
+    "category": "主食",
+    "difficulty": 1,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "泡面",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 泡面",
+        "notes": "量未指定"
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 鸡蛋",
+        "notes": "量未指定"
+      },
+      {
+        "name": "水",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 水",
+        "notes": "量未指定"
+      },
+      {
+        "name": "单人，能支撑一个成年人不饥饿状态约 3 至 4 小时。",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 单人，能支撑一个成年人不饥饿状态约 3 至 4 小时。",
+        "notes": "量未指定"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "先将水加热至沸腾（火候不做严格要求，使用热水会更快）"
+      },
+      {
+        "step": 2,
+        "description": "将取出的面饼放入锅中"
+      },
+      {
+        "step": 3,
+        "description": "将泡面里附带的佐料放入锅中"
+      },
+      {
+        "step": 4,
+        "description": "取出筷子轻微拨动泡面，使佐料充分溶解，面饼充分浸泡受热"
+      },
+      {
+        "step": 5,
+        "description": "盖上锅盖等待约 1 分钟至锅内水再次沸腾"
+      },
+      {
+        "step": 6,
+        "description": "去壳鸡蛋，加入锅中"
+      },
+      {
+        "step": 7,
+        "description": "等待约 3 至 4 分钟，即可"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "- 本指南中的鸡蛋包括但不仅限于：生鸡蛋，熟鸡蛋，卤蛋等",
+      "- 原材料泡面可在楼下便利店购买",
+      "- 可根据个人需要加入佐料，和其他食材包括但不仅限于：火腿肠，生菜，小肉丝，辣条，鱼干，虾仁，鸡腿",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-老干妈拌面",
+    "name": "老干妈拌面",
+    "description": "预估烹饪难度：★",
+    "source_path": "../dishes/staple/老干妈拌面.md",
+    "image_path": null,
+    "images": [],
+    "category": "主食",
+    "difficulty": 1,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "面",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 面",
+        "notes": "量未指定"
+      },
+      {
+        "name": "老干妈",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 老干妈",
+        "notes": "量未指定"
+      },
+      {
+        "name": "酱油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 酱油",
+        "notes": "量未指定"
+      },
+      {
+        "name": "水",
+        "quantity": 1.0,
+        "unit": "升",
+        "text_quantity": "* 水 1 升",
+        "notes": ""
+      },
+      {
+        "name": "面量",
+        "quantity": 120.0,
+        "unit": "克",
+        "text_quantity": "* 面量 120 克 * 份数",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "将水倒入锅中并煮沸"
+      },
+      {
+        "step": 2,
+        "description": "将面均匀放入锅中"
+      },
+      {
+        "step": 3,
+        "description": "在煮的过程注意搅拌，避免面粘成一坨"
+      },
+      {
+        "step": 4,
+        "description": "当用筷子挑起一根面且该面能自然地从筷子上滑落时再等 30 秒关火"
+      },
+      {
+        "step": 5,
+        "description": "将面夹入碗中"
+      },
+      {
+        "step": 6,
+        "description": "按照上面的计量放入老干妈和酱油"
+      },
+      {
+        "step": 7,
+        "description": "用筷子将碗里的面、老干妈、酱油拌均匀"
+      },
+      {
+        "step": 8,
+        "description": "吃"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-肉蛋盖饭",
+    "name": "肉蛋盖饭",
+    "description": "肉蛋盖饭适合于单人简易晚餐，烹饪大约需要十五分钟。\n\n预估烹饪难度：★★★",
+    "source_path": "../dishes/staple/肉蛋盖饭.md",
+    "image_path": null,
+    "images": [],
+    "category": "主食",
+    "difficulty": 3,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "米饭",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 米饭",
+        "notes": "量未指定"
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 鸡蛋",
+        "notes": "量未指定"
+      },
+      {
+        "name": "肉馅",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 肉馅",
+        "notes": "量未指定"
+      },
+      {
+        "name": "老抽",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 老抽",
+        "notes": "量未指定"
+      },
+      {
+        "name": "生抽",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 生抽",
+        "notes": "量未指定"
+      },
+      {
+        "name": "醋",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 醋",
+        "notes": "量未指定"
+      },
+      {
+        "name": "红葱油（可选）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 红葱油（可选）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "葱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 葱",
+        "notes": "量未指定"
+      },
+      {
+        "name": "油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 油",
+        "notes": "量未指定"
+      },
+      {
+        "name": "糖",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 糖",
+        "notes": "量未指定"
+      },
+      {
+        "name": "红葱油可选",
+        "quantity": 10.0,
+        "unit": "g",
+        "text_quantity": "- 红葱油可选 10g",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "煮好米饭，通常使用买米赠送的量杯，一杯米 240g"
+      },
+      {
+        "step": 2,
+        "description": "锅中放油 30ml"
+      },
+      {
+        "step": 3,
+        "description": "放入肉馅，调中火煎至两面微焦"
+      },
+      {
+        "step": 4,
+        "description": "将鸡蛋打入锅中，不要打散，盖上锅盖"
+      },
+      {
+        "step": 5,
+        "description": "调一个碗汁，碗中放入计算中的对应数量的老抽，生抽，醋，糖，红葱油，搅拌均匀"
+      },
+      {
+        "step": 6,
+        "description": "打开锅盖，将碗汁倒入锅中，等待三分钟"
+      },
+      {
+        "step": 7,
+        "description": "关火，将肉蛋盖到米饭上"
+      },
+      {
+        "step": 8,
+        "description": "安全检查，开始食用盖饭"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "- 如果喜欢甜口可以增加 10g 糖",
+      "- 请务必保证做完饭后关掉燃气设备以免发生危险",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-葱油拌面",
+    "name": "葱油拌面",
+    "description": "葱油拌面是一道经典的上海家常面点。做法简单，以其独特的葱油香味而闻名。富含碳水化合物和脂肪，能够快速补充能量。一般初学者只需要 20 分钟即可完成。是一道非常适合加班后的简单晚餐选择。\n\n预估烹饪难度：★★",
+    "source_path": "../dishes/staple/葱油拌面.md",
+    "image_path": null,
+    "images": [],
+    "category": "主食",
+    "difficulty": 2,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "干面条",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 干面条",
+        "notes": "量未指定"
+      },
+      {
+        "name": "小葱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 小葱",
+        "notes": "量未指定"
+      },
+      {
+        "name": "生抽",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 生抽",
+        "notes": "量未指定"
+      },
+      {
+        "name": "老抽",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 老抽",
+        "notes": "量未指定"
+      },
+      {
+        "name": "白糖",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 白糖",
+        "notes": "量未指定"
+      },
+      {
+        "name": "食用油",
+        "quantity": 100.0,
+        "unit": "ml",
+        "text_quantity": "- 食用油 100 ml",
+        "notes": ""
+      },
+      {
+        "name": "葱油酱汁",
+        "quantity": 15.0,
+        "unit": "ml",
+        "text_quantity": "- 葱油酱汁 15 ml",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "将 小葱 洗净，切成长段（约 5-7 cm）。葱白和葱绿可以分开。"
+      },
+      {
+        "step": 2,
+        "description": "锅中加入 100 ml 食用油，中火烧热。先放入葱白段，煸炒至微黄。"
+      },
+      {
+        "step": 3,
+        "description": "加入葱绿段，转小火，继续煸炒。"
+      },
+      {
+        "step": 4,
+        "description": "保持小火，耐心煸炒约 **15-20 分钟**，直至葱段变得焦黄酥脆。"
+      },
+      {
+        "step": 5,
+        "description": "将焦黄的葱段捞出（葱油保留在锅中）。"
+      },
+      {
+        "step": 6,
+        "description": "在锅中的葱油中，加入 60 ml 生抽，20 ml 老抽，15 g 白糖。小火加热并搅拌，约 **1 分钟**，至糖溶解，酱汁混合均匀。立即关火。将制作好的葱油酱汁倒入容器中，放凉后密封保存。"
+      },
+      {
+        "step": 7,
+        "description": "取 80 g 干面条。"
+      },
+      {
+        "step": 8,
+        "description": "锅中加入 1000 ml 饮用水，大火烧开。"
+      },
+      {
+        "step": 9,
+        "description": "放入 面条，根据面条包装说明，煮至熟透（通常 **3-8 分钟**，以包装说明为准）。"
+      },
+      {
+        "step": 10,
+        "description": "将 煮好的 面条 捞出，沥干水分，放入碗中。"
+      },
+      {
+        "step": 11,
+        "description": "在装有 面条 的碗中，加入 15 ml 之前做好的 葱油酱汁。"
+      },
+      {
+        "step": 12,
+        "description": "可以加入之前炸好的葱段（可选）。"
+      },
+      {
+        "step": 13,
+        "description": "用 筷子 快速搅拌均匀，即可食用。"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "- 炸葱油时，火一定要小，要有耐心，才能将葱的香味充分炸出。",
+      "- 制作好的葱油酱汁可以冷藏保存一段时间，下次吃面时直接取用。",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-蒸卤面",
+    "name": "蒸卤面",
+    "description": "蒸卤面是一道豫南的非常经典的家常菜，荤素搭档，简单易学。一般初学者只需要一个小时即可完成。\n\nNOTE：本次标准为豫南口味，可能和其他地方不太一样，食无标准，兼容并包，好吃即可。\n\n预估烹饪难度：★★★★",
+    "source_path": "../dishes/staple/蒸卤面.md",
+    "image_path": null,
+    "images": [],
+    "category": "主食",
+    "difficulty": 4,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "猪五花肉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 猪五花肉",
+        "notes": "量未指定"
+      },
+      {
+        "name": "芹菜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 芹菜",
+        "notes": "量未指定"
+      },
+      {
+        "name": "鲜面条（要求必须是**最细**的，如果附近菜市场没有，请参考制作[焖面](https//note.youdao.com/)）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 鲜面条（要求必须是**最细**的，如果附近菜市场没有，请参考制作[焖面](https://note.youdao.com/)）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "葱,姜,蒜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 葱,姜,蒜",
+        "notes": "量未指定"
+      },
+      {
+        "name": "食用油（花生油最佳）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 食用油（花生油最佳）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "生抽,老抽,料酒,盐,五香粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 生抽,老抽,料酒,盐,五香粉",
+        "notes": "量未指定"
+      },
+      {
+        "name": "蒸锅,需带笼屉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 蒸锅,需带笼屉",
+        "notes": "量未指定"
+      },
+      {
+        "name": "炒锅",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 炒锅",
+        "notes": "量未指定"
+      },
+      {
+        "name": "花椒",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 花椒",
+        "notes": "量未指定"
+      },
+      {
+        "name": "干红椒",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 干红椒",
+        "notes": "量未指定"
+      },
+      {
+        "name": "青椒",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 青椒",
+        "notes": "量未指定"
+      },
+      {
+        "name": "芹菜 两根中等大小的芹菜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 芹菜 两根中等大小的芹菜",
+        "notes": "量未指定"
+      },
+      {
+        "name": "五花肉",
+        "quantity": 350.0,
+        "unit": "g",
+        "text_quantity": "- 五花肉 350g",
+        "notes": ""
+      },
+      {
+        "name": "面条",
+        "quantity": 500.0,
+        "unit": "g",
+        "text_quantity": "- 面条 500g",
+        "notes": ""
+      },
+      {
+        "name": "大葱 10cm",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 大葱 10cm",
+        "notes": "量未指定"
+      },
+      {
+        "name": "大蒜",
+        "quantity": 5.0,
+        "unit": "瓣",
+        "text_quantity": "- 大蒜 5 瓣",
+        "notes": ""
+      },
+      {
+        "name": "姜片",
+        "quantity": 20.0,
+        "unit": "g",
+        "text_quantity": "- 姜片 20g",
+        "notes": ""
+      },
+      {
+        "name": "盐",
+        "quantity": 10.0,
+        "unit": "g",
+        "text_quantity": "- 盐 10g",
+        "notes": ""
+      },
+      {
+        "name": "五香粉",
+        "quantity": 5.0,
+        "unit": "g",
+        "text_quantity": "- 五香粉 5g",
+        "notes": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": 15.0,
+        "unit": "ml",
+        "text_quantity": "- 生抽 15ml",
+        "notes": ""
+      },
+      {
+        "name": "老抽",
+        "quantity": 10.0,
+        "unit": "ml",
+        "text_quantity": "- 老抽 10ml",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "猪肉去皮，切成 `2 cm * 6 cm * 0.5 cm` 薄片备用"
+      },
+      {
+        "step": 2,
+        "description": "芹菜去叶，去掉根部 2cm，然后从中对半切开，切成 2cm 段备用"
+      },
+      {
+        "step": 3,
+        "description": "大蒜去皮切粒备用，葱切 0.2cm 薄片备用，姜切细丝备用"
+      },
+      {
+        "step": 4,
+        "description": "炒锅烧热至冒烟后，倒入 3ml 食用油滑锅后倒出底油"
+      },
+      {
+        "step": 5,
+        "description": "重新加入食用油，加入肉片，葱姜蒜，干红椒，炒 1 分钟，注意不停匀速翻炒"
+      },
+      {
+        "step": 6,
+        "description": "加入料酒，生抽，老抽，再翻炒 1 分钟"
+      },
+      {
+        "step": 7,
+        "description": "续入 500ml 热水。盖上锅盖炖煮 3 分钟"
+      },
+      {
+        "step": 8,
+        "description": "将芹菜，青椒倒入锅中，加入盐，五香粉调味，盖上锅盖继续炖煮煮 3 分钟 后关火"
+      },
+      {
+        "step": 9,
+        "description": "蒸锅加入 1000ml 水，烧开上汽后，将面条摊平在笼屉上放入锅中，蒸 15 分钟"
+      },
+      {
+        "step": 10,
+        "description": "面条蒸熟后取出，用筷子和无情铁手扒拉散开在案板上，室温冷却"
+      },
+      {
+        "step": 11,
+        "description": "将面条放入菜锅中搅拌，搅拌方式为一手持筷，一手持锅铲将菜翻至面条上面，以面条以全部均匀上色为搅拌完成标准"
+      },
+      {
+        "step": 12,
+        "description": "将搅拌后的面条再次放在整屉上，再次蒸 10 分钟 关火"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "- 技术总结",
+      "- 切割猪肉时，可以让菜市场摊贩帮忙，根据经验，请求时机把握在已切割后未付款之前成功率最高",
+      "- 首次做饭时可以提前备好料防止手忙脚乱，后续熟练后可以并发执行",
+      "- 两次蒸面条时，都要尽量的弄散开，可以避免蒸好后团在一起。面条太长时可以拽断，方便后续搅拌与盛取",
+      "- 取出蒸好的面条时尽量动作轻一些，避免蒸屉翻到面条触水",
+      "- 佐餐时啤酒更配呦！",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-蛋包饭",
+    "name": "蛋包饭",
+    "description": "蛋包饭是一道日式经典家常菜，由炒饭和嫩滑鸡蛋组成，口感丰富，色香味俱全。富含蛋白质、碳水和维生素，是非常适合早餐或正餐的选择。预估制作时间为 25 分钟。\n\n预估烹饪难度：★★★",
+    "source_path": "../dishes/staple/蛋包饭.md",
+    "image_path": null,
+    "images": [],
+    "category": "主食",
+    "difficulty": 3,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鸡蛋（建议使用土鸡蛋，口感更香）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 鸡蛋（建议使用土鸡蛋，口感更香）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "洋葱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 洋葱",
+        "notes": "量未指定"
+      },
+      {
+        "name": "胡萝卜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 胡萝卜",
+        "notes": "量未指定"
+      },
+      {
+        "name": "玉米粒",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 玉米粒",
+        "notes": "量未指定"
+      },
+      {
+        "name": "青豆（可选）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 青豆（可选）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "火腿肠或鸡胸肉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 火腿肠或鸡胸肉",
+        "notes": "量未指定"
+      },
+      {
+        "name": "米饭",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 米饭",
+        "notes": "量未指定"
+      },
+      {
+        "name": "番茄酱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 番茄酱",
+        "notes": "量未指定"
+      },
+      {
+        "name": "食用油（建议使用植物油）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 食用油（建议使用植物油）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "牛奶（可选，让蛋皮更嫩）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 牛奶（可选，让蛋皮更嫩）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": 2.0,
+        "unit": "个",
+        "text_quantity": "- 鸡蛋 2 个",
+        "notes": ""
+      },
+      {
+        "name": "玉米粒和青豆总共",
+        "quantity": 30.0,
+        "unit": "g",
+        "text_quantity": "- 玉米粒和青豆总共 30g",
+        "notes": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": 15.0,
+        "unit": "ml",
+        "text_quantity": "- 食用油 15ml",
+        "notes": ""
+      },
+      {
+        "name": "牛奶",
+        "quantity": 10.0,
+        "unit": "ml",
+        "text_quantity": "- 牛奶 10ml（与鸡蛋混合）",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "洋葱、胡萝卜、火腿肠或鸡胸肉切成小丁，备用"
+      },
+      {
+        "step": 2,
+        "description": "热锅，锅中倒入 10ml 食用油，等待 10 秒加热"
+      },
+      {
+        "step": 3,
+        "description": "先放入洋葱丁翻炒 1 分钟，出香味后加入胡萝卜、玉米粒、青豆继续翻炒 2 分钟"
+      },
+      {
+        "step": 4,
+        "description": "加入火腿肠或鸡胸肉丁，炒至变色"
+      },
+      {
+        "step": 5,
+        "description": "加入米饭炒散后，加入番茄酱 20ml，翻炒均匀，炒饭完成，盛出备用"
+      },
+      {
+        "step": 6,
+        "description": "鸡蛋打散，加入 10ml 牛奶搅匀"
+      },
+      {
+        "step": 7,
+        "description": "锅中放入 5ml 食用油，倒入蛋液，轻晃锅底让蛋液均匀铺满锅面"
+      },
+      {
+        "step": 8,
+        "description": "用小火加热，待蛋液表面半熟状态时，将炒饭放入蛋液中央"
+      },
+      {
+        "step": 9,
+        "description": "用铲子将蛋皮折叠包住米饭，形成椭圆形状"
+      },
+      {
+        "step": 10,
+        "description": "用锅铲轻轻推至盘中，整理外形，可在表面挤上少量番茄酱装饰"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "- 炒饭用隔夜饭不易粘锅，口感更好。",
+      "- 打蛋时加入牛奶可以让蛋皮更加嫩滑。",
+      "- 操作蛋皮时火力需小，避免底部焦糊。",
+      "- 如果不擅长包裹造型，也可以直接将炒饭铺盘后盖上蛋皮。",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-蛋炒饭",
+    "name": "蛋炒饭",
+    "description": "预估烹饪难度：★★★",
+    "source_path": "../dishes/staple/蛋炒饭.md",
+    "image_path": null,
+    "images": [],
+    "category": "主食",
+    "difficulty": 3,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "冷饭",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 冷饭",
+        "notes": "量未指定"
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 鸡蛋",
+        "notes": "量未指定"
+      },
+      {
+        "name": "火腿",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 火腿",
+        "notes": "量未指定"
+      },
+      {
+        "name": "黄瓜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 黄瓜",
+        "notes": "量未指定"
+      },
+      {
+        "name": "胡萝卜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 胡萝卜",
+        "notes": "量未指定"
+      },
+      {
+        "name": "油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 油",
+        "notes": "量未指定"
+      },
+      {
+        "name": "盐",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 盐",
+        "notes": "量未指定"
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 胡椒粉",
+        "notes": "量未指定"
+      },
+      {
+        "name": "生抽",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 生抽",
+        "notes": "量未指定"
+      },
+      {
+        "name": "香葱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 香葱",
+        "notes": "量未指定"
+      },
+      {
+        "name": "灯影牛肉丝/午餐肉/腊肠/卤肉...等熟肉（备选）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 灯影牛肉丝/午餐肉/腊肠/卤肉...等熟肉（备选）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "冷饭（份数*",
+        "quantity": 500.0,
+        "unit": "ml",
+        "text_quantity": "* 冷饭（份数*500ml）",
+        "notes": ""
+      },
+      {
+        "name": "鸡蛋 （份数*1.5 // 1 向下取整）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 鸡蛋 （份数*1.5 // 1 向下取整）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "火腿（份数*",
+        "quantity": 2.0,
+        "unit": "个",
+        "text_quantity": "* 火腿（份数*2 个）",
+        "notes": ""
+      },
+      {
+        "name": "黄瓜（可选，份数*",
+        "quantity": 30.0,
+        "unit": "g",
+        "text_quantity": "* 黄瓜（可选，份数*30g）",
+        "notes": ""
+      },
+      {
+        "name": "胡萝卜（可选，份数*",
+        "quantity": 30.0,
+        "unit": "g",
+        "text_quantity": "* 胡萝卜（可选，份数*30g）",
+        "notes": ""
+      },
+      {
+        "name": "油（份数*",
+        "quantity": 12.0,
+        "unit": "ml",
+        "text_quantity": "* 油（份数*12ml）",
+        "notes": ""
+      },
+      {
+        "name": "盐（份数\\*",
+        "quantity": 4.0,
+        "unit": "g",
+        "text_quantity": "* 盐（份数\\*4g - 份数*6g）",
+        "notes": ""
+      },
+      {
+        "name": "胡椒粉（份数*",
+        "quantity": 8.0,
+        "unit": "g",
+        "text_quantity": "* 胡椒粉（份数*8g）",
+        "notes": ""
+      },
+      {
+        "name": "香葱（份数*",
+        "quantity": 1.0,
+        "unit": "颗",
+        "text_quantity": "* 香葱（份数*1 颗）",
+        "notes": ""
+      },
+      {
+        "name": "生抽（份数*",
+        "quantity": 10.0,
+        "unit": "ml",
+        "text_quantity": "* 生抽（份数*10ml）",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "米饭提前用铲子铲成小块"
+      },
+      {
+        "step": 2,
+        "description": "火腿肠、胡萝卜、黄瓜等根据需求切片或者块状"
+      },
+      {
+        "step": 3,
+        "description": "如果家里有熟肉 准备好味道更佳"
+      },
+      {
+        "step": 4,
+        "description": "将蛋白，蛋黄分开，分别打入一个大碗里，各自搅匀。注意，不要在这一步加盐。"
+      },
+      {
+        "step": 5,
+        "description": "大火热锅，待锅里冒烟放入食用油，放入蛋白，待主体凝固后盛出备用。"
+      },
+      {
+        "step": 6,
+        "description": "如果油够，则直接放入蛋黄，如果油不够则放入食用油并等其升温到大火热锅"
+      },
+      {
+        "step": 7,
+        "description": "待主体凝固后，将火调至中小火，倒入火腿肠、熟肉，胡萝卜、黄瓜等备料、翻炒 10 秒钟（到爆香）"
+      },
+      {
+        "step": 8,
+        "description": "重新倒入蛋白，翻炒 5s 钟，迅速倒入米饭大火翻炒，为的就是每一粒饭都裹上鸡蛋。"
+      },
+      {
+        "step": 9,
+        "description": "翻炒过程中将米饭的块状捣碎、这一步过程会比较长、待米饭全部捣碎再翻炒均匀即可"
+      },
+      {
+        "step": 10,
+        "description": "调至小火、加盐、胡椒粉、生抽"
+      },
+      {
+        "step": 11,
+        "description": "进一步翻炒均匀，能看到一些米饭在锅里有“跳起来”的时候其实就已经差不多了"
+      },
+      {
+        "step": 12,
+        "description": "最后倒入香葱再翻炒 10s"
+      },
+      {
+        "step": 13,
+        "description": "关火、盛入碗中"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "* 技术总结",
+      "- 使用隔夜的冷饭炒饭最佳，没有冷饭的同学也可以现煮（可以使用冰箱立马给米饭降温），不过要做到“粒粒分明”的口感就需要炒更久。",
+      "- 炒饭要做到“粒粒分明”其实就是要将饭炒干。为什么要用隔夜的冷饭是因为隔夜已经流失了一定的水分。",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-螺蛳粉",
+    "name": "螺蛳粉",
+    "description": "正宗的螺蛳粉是不臭的！\n\n预估烹饪难度：★",
+    "source_path": "../dishes/staple/螺蛳粉.md",
+    "image_path": null,
+    "images": [],
+    "category": "主食",
+    "difficulty": 1,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "根据个人经验，一包袋装螺蛳粉足够一人一餐食（虽然看着很大包）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 根据个人经验，一包袋装螺蛳粉足够一人一餐食（虽然看着很大包）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "水 1L",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 水 1L",
+        "notes": "量未指定"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "锅中加水，将水烧开"
+      },
+      {
+        "step": 2,
+        "description": "下米粉，煮 3-5 分钟，期间用筷子搅拌，防止米粉粘在一起"
+      },
+      {
+        "step": 3,
+        "description": "下汤料包，按个人口味添加"
+      },
+      {
+        "step": 4,
+        "description": "下一部分配料包，如木耳，花生，螺蛳（这部分配料需要煮一会才入味）"
+      },
+      {
+        "step": 5,
+        "description": "下调味包，按个人口味添加"
+      },
+      {
+        "step": 6,
+        "description": "搅拌后捞出，放入碗中"
+      },
+      {
+        "step": 7,
+        "description": "下剩下的配料包，如酸笋，豆皮（这部分配料不适合被汤泡太久）"
+      },
+      {
+        "step": 8,
+        "description": "享用美食"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "- 如果想要更有嚼劲的粉，可以缩短第二步煮粉的时间",
+      "- 如果想在螺蛳粉中添加炸蛋，请参考炸蛋的教程",
+      "- 配料的选择请依照个人口味",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-酸辣蕨根粉",
+    "name": "酸辣蕨根粉",
+    "description": "酸辣蕨根粉是一道适合初学者的简单易做的凉菜，可做主食，以酸辣口为主，预计 10 分钟可做完。\n\n预估烹饪难度：★★",
+    "source_path": "../dishes/staple/酸辣蕨根粉.md",
+    "image_path": null,
+    "images": [],
+    "category": "主食",
+    "difficulty": 2,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "蕨根粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 蕨根粉",
+        "notes": "量未指定"
+      },
+      {
+        "name": "油泼辣子",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 油泼辣子",
+        "notes": "量未指定"
+      },
+      {
+        "name": "酱油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 酱油",
+        "notes": "量未指定"
+      },
+      {
+        "name": "香醋",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 香醋",
+        "notes": "量未指定"
+      },
+      {
+        "name": "小米辣（可选）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 小米辣（可选）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "蒜（可选）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 蒜（可选）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "葱（可选）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 葱（可选）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "盐",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 盐",
+        "notes": "量未指定"
+      },
+      {
+        "name": "糖",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 糖",
+        "notes": "量未指定"
+      },
+      {
+        "name": "一口有点深度的锅",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 一口有点深度的锅",
+        "notes": "量未指定"
+      },
+      {
+        "name": "酱油  醋  油泼辣子 = 3  2  2 （酱料具体量根据蕨根粉多少决定，这个比例仅为保证口味的方向不出错）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 酱油 : 醋 : 油泼辣子 = 3 : 2 : 2 （酱料具体量根据蕨根粉多少决定，这个比例仅为保证口味的方向不出错）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "如果觉得酱料较为清淡，可以加入 2 至",
+        "quantity": 5.0,
+        "unit": "克",
+        "text_quantity": "* 如果觉得酱料较为清淡，可以加入 2 至 5 克盐",
+        "notes": ""
+      },
+      {
+        "name": "如果想要酱料鲜一些，可以加入",
+        "quantity": 2.0,
+        "unit": "克",
+        "text_quantity": "* 如果想要酱料鲜一些，可以加入 2 克糖",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "锅中加入约为深度 3/5 的水，烧开"
+      },
+      {
+        "step": 2,
+        "description": "水沸腾后加入蕨根粉，中小火煮 8 分钟"
+      },
+      {
+        "step": 3,
+        "description": "出锅"
+      },
+      {
+        "step": 4,
+        "description": "根据配比，加入酱油、醋、油泼辣子"
+      },
+      {
+        "step": 5,
+        "description": "用筷子蘸取，尝一口"
+      },
+      {
+        "step": 6,
+        "description": "如果觉得此时酱油味稍浓，加入准备好的盐"
+      },
+      {
+        "step": 7,
+        "description": "如果觉得此时不够鲜，加入准备好的糖"
+      },
+      {
+        "step": 8,
+        "description": "充分搅拌至大部分颗粒状调料溶解"
+      },
+      {
+        "step": 9,
+        "description": "取一个碗"
+      },
+      {
+        "step": 10,
+        "description": "加入上一步调制的酱料"
+      },
+      {
+        "step": 11,
+        "description": "将蕨根粉过冷水后放入酱料中"
+      },
+      {
+        "step": 12,
+        "description": "充分搅拌"
+      },
+      {
+        "step": 13,
+        "description": "将准备的葱、蒜、小米辣切碎后撒在粉上"
+      },
+      {
+        "step": 14,
+        "description": "完成啦(｡･∀･)ﾉﾞ"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "* 葱姜蒜为附加调料，加入可以增添风味，不加也并无大碍",
+      "* 糖和盐根据个人口味，需要加入的具体量不同，请酌情加入",
+      "* 建议使用碗作为最终装盘餐具，因为使用盘子会使吃粉变得困难一些",
+      "* 整体口味偏辣，如果不能吃辣请减少油泼辣子的量并且不加入小米辣",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-醪糟小汤圆",
+    "name": "醪糟小汤圆",
+    "description": "预估烹饪难度：★★",
+    "source_path": "../dishes/staple/醪糟小汤圆.md",
+    "image_path": null,
+    "images": [],
+    "category": "主食",
+    "difficulty": 2,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "小汤圆",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 小汤圆",
+        "notes": "量未指定"
+      },
+      {
+        "name": "醪糟",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 醪糟",
+        "notes": "量未指定"
+      },
+      {
+        "name": "白糖",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 白糖",
+        "notes": "量未指定"
+      },
+      {
+        "name": "枸杞（可选）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 枸杞（可选）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "水",
+        "quantity": 300.0,
+        "unit": "毫升",
+        "text_quantity": "* 水 300 毫升 * 份数",
+        "notes": ""
+      },
+      {
+        "name": "枸杞",
+        "quantity": 5.0,
+        "unit": "颗",
+        "text_quantity": "* 枸杞 5 颗 * 份数",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "将水倒入锅中并煮沸"
+      },
+      {
+        "step": 2,
+        "description": "放入小汤圆煮 8 分钟"
+      },
+      {
+        "step": 3,
+        "description": "放入醪糟和枸杞再煮 2 分钟"
+      },
+      {
+        "step": 4,
+        "description": "盛入碗中根据个人口味加入白糖并搅拌均匀"
+      },
+      {
+        "step": 5,
+        "description": "吃"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "* 白糖的用量根据个人口味更改",
+      "* 若喜欢更浓的口感可以减少 100 毫升内的水",
+      "* 若喜欢软点的枸杞口感，可以将枸杞和小汤圆同时煮",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-韭菜盒子",
+    "name": "韭菜盒子",
+    "description": "韭菜盒子是一道美味的传统小吃，外皮酥脆，内馅鲜香，富含维生素和蛋白质。制作简单，适合午餐，预计制作时长约 2.5 小时。\n\n预估烹饪难度：★★★",
+    "source_path": "../dishes/staple/韭菜盒子.md",
+    "image_path": null,
+    "images": [],
+    "category": "主食",
+    "difficulty": 3,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "韭菜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 韭菜",
+        "notes": "量未指定"
+      },
+      {
+        "name": "虾仁",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 虾仁",
+        "notes": "量未指定"
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 鸡蛋",
+        "notes": "量未指定"
+      },
+      {
+        "name": "香油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 香油",
+        "notes": "量未指定"
+      },
+      {
+        "name": "盐",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 盐",
+        "notes": "量未指定"
+      },
+      {
+        "name": "面粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 面粉",
+        "notes": "量未指定"
+      },
+      {
+        "name": "鸡蛋 3 枚",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 鸡蛋 3 枚",
+        "notes": "量未指定"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "将面粉放入大碗中，加入水，搅拌成光滑的面团，静置 30 分钟。"
+      },
+      {
+        "step": 2,
+        "description": "韭菜洗净切碎，加入打散的鸡蛋、5g 盐，搅拌均匀。"
+      },
+      {
+        "step": 3,
+        "description": "将面团分成小剂子，擀成薄圆饼，包入韭菜、虾仁、鸡蛋液。"
+      },
+      {
+        "step": 4,
+        "description": "热锅，加入食用油，放入包好的韭菜盒子，煎至两面金黄，约 3-4 分钟。"
+      },
+      {
+        "step": 5,
+        "description": "盛盘，稍凉后即可享用。"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "- 制作时可根据个人口味添加豆腐干等配料。",
+      "- 注意煎制时火候，避免外焦内生。",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-麻油拌面",
+    "name": "麻油拌面",
+    "description": "省吃俭用懒人的菜：麻油拌面：想必大家都会有节约开销的时刻吧，附上个人耐吃又省钱的食谱。不需要太多的步骤简单的煮，捞，吃。\n\n- 单身的朋友懒惰出门，又不想花钱，简简单单就一餐。\n- 非单身的朋友想存钱，让女友花钱，简简单单就一餐。\n\n预估烹饪难度：★",
+    "source_path": "../dishes/staple/麻油拌面.md",
+    "image_path": null,
+    "images": [],
+    "category": "主食",
+    "difficulty": 1,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "风干快熟面/任何牌子的快熟面（不需要调味料）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 风干快熟面/任何牌子的快熟面（不需要调味料）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "麻油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 麻油",
+        "notes": "量未指定"
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 胡椒粉",
+        "notes": "量未指定"
+      },
+      {
+        "name": "老抽",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 老抽",
+        "notes": "量未指定"
+      },
+      {
+        "name": "盐",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 盐",
+        "notes": "量未指定"
+      },
+      {
+        "name": "水",
+        "quantity": 1.0,
+        "unit": "升",
+        "text_quantity": "* 水 1 升",
+        "notes": ""
+      },
+      {
+        "name": "快熟面",
+        "quantity": 1.0,
+        "unit": "块",
+        "text_quantity": "* 快熟面 1 块",
+        "notes": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": 5.0,
+        "unit": "克",
+        "text_quantity": "* 生抽 5 克（可选）",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "将水倒入锅中并煮沸 （喜欢吃 q 弹面的同学，可在水里加入 30 克盐，用盐水煮出来的面会比较 q 弹）"
+      },
+      {
+        "step": 2,
+        "description": "将快熟面放入锅中 3 分钟（也可参考当下品牌快熟面的烹饪时间）"
+      },
+      {
+        "step": 3,
+        "description": "当面开始散了可以开始搅拌，让面受热均匀"
+      },
+      {
+        "step": 4,
+        "description": "将水滤干把面倒入碗中"
+      },
+      {
+        "step": 5,
+        "description": "按照上面的计量放入麻油，老抽，胡椒粉，生抽（可选）"
+      },
+      {
+        "step": 6,
+        "description": "筷子搅拌均匀"
+      },
+      {
+        "step": 7,
+        "description": "一道简单即省钱的懒人麻油拌面就完成啦"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-麻辣减脂荞麦面",
+    "name": "麻辣减脂荞麦面",
+    "description": "麻辣减脂荞麦面做法非常简单，不需要任何厨艺基础。\n一份 298 千卡，美味+便宜+减脂，只需要 20 分钟就可以完成。\n\n预估烹饪难度：★★",
+    "source_path": "../dishes/staple/麻辣减脂荞麦面.md",
+    "image_path": null,
+    "images": [],
+    "category": "主食",
+    "difficulty": 2,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "调味料火锅底料、花生酱、全脂牛奶、生抽、辣椒油、醋、花椒油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 调味料：火锅底料、花生酱、全脂牛奶、生抽、辣椒油、醋、花椒油",
+        "notes": "量未指定"
+      },
+      {
+        "name": "原料半干荞麦面、娃娃菜、生菜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 原料：半干荞麦面、娃娃菜、生菜",
+        "notes": "量未指定"
+      },
+      {
+        "name": "洗菜盆、直径 18cm 的小锅",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 洗菜盆、直径 18cm 的小锅",
+        "notes": "量未指定"
+      },
+      {
+        "name": "半干荞麦面",
+        "quantity": 100.0,
+        "unit": "g",
+        "text_quantity": "- 半干荞麦面 100g",
+        "notes": ""
+      },
+      {
+        "name": "娃娃菜",
+        "quantity": 8.0,
+        "unit": "片",
+        "text_quantity": "- 娃娃菜 8 片（共 150g）",
+        "notes": ""
+      },
+      {
+        "name": "生菜",
+        "quantity": 6.0,
+        "unit": "片",
+        "text_quantity": "- 生菜 6 片（共 80g）",
+        "notes": ""
+      },
+      {
+        "name": "火锅底料",
+        "quantity": 25.0,
+        "unit": "g",
+        "text_quantity": "- 火锅底料 25g",
+        "notes": ""
+      },
+      {
+        "name": "花生酱",
+        "quantity": 15.0,
+        "unit": "g",
+        "text_quantity": "- 花生酱 15g",
+        "notes": ""
+      },
+      {
+        "name": "全脂牛奶",
+        "quantity": 150.0,
+        "unit": "ml",
+        "text_quantity": "- 全脂牛奶 150ml",
+        "notes": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": 6.0,
+        "unit": "ml",
+        "text_quantity": "- 生抽 6ml",
+        "notes": ""
+      },
+      {
+        "name": "辣椒油",
+        "quantity": 10.0,
+        "unit": "ml",
+        "text_quantity": "- 辣椒油 10ml",
+        "notes": ""
+      },
+      {
+        "name": "醋",
+        "quantity": 20.0,
+        "unit": "ml",
+        "text_quantity": "- 醋 20ml",
+        "notes": ""
+      },
+      {
+        "name": "花椒油",
+        "quantity": 10.0,
+        "unit": "ml",
+        "text_quantity": "- 花椒油 10ml",
+        "notes": ""
+      },
+      {
+        "name": "水",
+        "quantity": 500.0,
+        "unit": "ml",
+        "text_quantity": "- 水 500ml",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "娃娃菜、生菜洗好，备用"
+      },
+      {
+        "step": 2,
+        "description": "锅内倒入 500ml 水，开大火，将荞麦面和娃娃菜放进去，等待水沸腾"
+      },
+      {
+        "step": 3,
+        "description": "水沸腾后，转小火，加入火锅底料、花生酱、牛奶、生抽、辣椒油，水开后煮 5 分钟"
+      },
+      {
+        "step": 4,
+        "description": "加入生菜，再煮 2 分钟"
+      },
+      {
+        "step": 5,
+        "description": "加入醋、花椒油，关火，直接端着小锅开吃。"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "* 一定要选半干荞麦面，口感最好",
+      "* 可以随意添加其他东西，比如火锅丸、蛋饺等",
+      "* 火锅底料、花生酱、牛奶一定要加，口味三大巨头",
+      "* 如果不能吃酸，可以不加醋",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-中式馅饼-中式馅饼",
+    "name": "中式馅饼",
+    "description": "预估烹饪难度：★★★★",
+    "source_path": "../dishes/staple/中式馅饼/中式馅饼.md",
+    "image_path": null,
+    "images": [],
+    "category": "主食",
+    "difficulty": 4,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "面粉（非自发粉）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 面粉（非自发粉）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "肉沫",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 肉沫",
+        "notes": "量未指定"
+      },
+      {
+        "name": "油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 油",
+        "notes": "量未指定"
+      },
+      {
+        "name": "盐",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 盐",
+        "notes": "量未指定"
+      },
+      {
+        "name": "糖",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 糖",
+        "notes": "量未指定"
+      },
+      {
+        "name": "生粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 生粉",
+        "notes": "量未指定"
+      },
+      {
+        "name": "酱油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 酱油",
+        "notes": "量未指定"
+      },
+      {
+        "name": "风味调料（如鸡粉、孜然、椒盐，可选）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 风味调料（如鸡粉、孜然、椒盐，可选）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "蒜头",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 蒜头",
+        "notes": "量未指定"
+      },
+      {
+        "name": "大葱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 大葱",
+        "notes": "量未指定"
+      },
+      {
+        "name": "鸡蛋（可选）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 鸡蛋（可选）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "胡萝卜（可选）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 胡萝卜（可选）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "平底锅",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 平底锅",
+        "notes": "量未指定"
+      },
+      {
+        "name": "炒锅（可以使用同一个平底锅替代）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 炒锅（可以使用同一个平底锅替代）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "面粉",
+        "quantity": 200.0,
+        "unit": "g",
+        "text_quantity": "* 面粉 200g",
+        "notes": ""
+      },
+      {
+        "name": "风味调料",
+        "quantity": 3.0,
+        "unit": "g",
+        "text_quantity": "* 风味调料 3g",
+        "notes": ""
+      },
+      {
+        "name": "大葱 1/",
+        "quantity": 4.0,
+        "unit": "根",
+        "text_quantity": "* 大葱 1/4 根（靠叶部分）",
+        "notes": ""
+      },
+      {
+        "name": "鸡蛋 （可选，",
+        "quantity": 1.0,
+        "unit": "个",
+        "text_quantity": "* 鸡蛋 （可选，1 个）",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "取肉沫（解冻），加入 1/2 所有上述调料（油、盐、糖、酱油、风味调料）和全部的生粉，搅拌均匀，腌制 30 分钟。"
+      },
+      {
+        "step": 2,
+        "description": "将面粉加入碗中，加入鸡蛋，加入剩下 1/2 所有上述调料，加入相当于面粉 1/2 的水（使得面粉相对粘稠但可以流动），搅拌均匀。"
+      },
+      {
+        "step": 3,
+        "description": "蒜头切为蒜末。"
+      },
+      {
+        "step": 4,
+        "description": "大葱切段。"
+      },
+      {
+        "step": 5,
+        "description": "胡萝卜切末（作为馅料用，所以要求尽量细碎，可用乱刀）"
+      },
+      {
+        "step": 6,
+        "description": "热锅冷油，宽油起锅。"
+      },
+      {
+        "step": 7,
+        "description": "待油烧热后，放入蒜末爆香。"
+      },
+      {
+        "step": 8,
+        "description": "加入腌制的肉沫，翻炒，直至断生。"
+      },
+      {
+        "step": 9,
+        "description": "将胡萝卜末加入肉沫中一同翻炒，直至油被染为金黄色（这是为了萃取胡萝卜的风味）。"
+      },
+      {
+        "step": 10,
+        "description": "关火。冷却 2 分钟。"
+      },
+      {
+        "step": 11,
+        "description": "将炒好的肉沫倒入生面糊中，搅匀。"
+      },
+      {
+        "step": 12,
+        "description": "重新开火，平底锅铺底油。"
+      },
+      {
+        "step": 13,
+        "description": "调至小火，将面糊倒入锅中均匀铺满。保证厚度不要过高。可以端起锅，让面糊流过锅底来完成这一操作。"
+      },
+      {
+        "step": 14,
+        "description": "在饼的表面尚为液态时，撒上大葱段。"
+      },
+      {
+        "step": 15,
+        "description": "保持小火，直到底面凝固。"
+      },
+      {
+        "step": 16,
+        "description": "将饼翻面，继续小火煎烤，直至另一侧凝固。"
+      },
+      {
+        "step": 17,
+        "description": "之后，每一面再额外煎 20 秒。"
+      },
+      {
+        "step": 18,
+        "description": "关火出锅。"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "- 将肉沫和胡萝卜末加入面糊后，应该尽量搅匀，保证味道扩散到饼内各处。",
+      "- 肉沫和胡萝卜末即馅料可以使用各类熟馅料替代。",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-凉粉-凉粉",
+    "name": "凉粉",
+    "description": "![liangfen](./lf1.jpg)\n\n伤心凉粉吃了不会让人伤心的哦！\n\n预估烹饪难度：★★★",
+    "source_path": "../dishes/staple/凉粉/凉粉.md",
+    "image_path": "../dishes/staple/凉粉/lf1.jpg",
+    "images": [
+      "../dishes/staple/凉粉/lf1.jpg"
+    ],
+    "category": "主食",
+    "difficulty": 3,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "豌豆淀粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 豌豆淀粉",
+        "notes": "量未指定"
+      },
+      {
+        "name": "大蒜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 大蒜",
+        "notes": "量未指定"
+      },
+      {
+        "name": "小米辣",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 小米辣",
+        "notes": "量未指定"
+      },
+      {
+        "name": "辣椒粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 辣椒粉",
+        "notes": "量未指定"
+      },
+      {
+        "name": "酱油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 酱油",
+        "notes": "量未指定"
+      },
+      {
+        "name": "醋",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 醋",
+        "notes": "量未指定"
+      },
+      {
+        "name": "白糖",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 白糖",
+        "notes": "量未指定"
+      },
+      {
+        "name": "鸡精",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 鸡精",
+        "notes": "量未指定"
+      },
+      {
+        "name": "盐",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 盐",
+        "notes": "量未指定"
+      },
+      {
+        "name": "花生碎",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 花生碎",
+        "notes": "量未指定"
+      },
+      {
+        "name": "香菜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 香菜",
+        "notes": "量未指定"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "准备食材。"
+      },
+      {
+        "step": 2,
+        "description": "把豌豆淀粉和水各 100 克混合搅拌。"
+      },
+      {
+        "step": 3,
+        "description": "往锅中倒入 600g 水，大火煮开后转为小火。"
+      },
+      {
+        "step": 4,
+        "description": "倒入淀粉水，边倒边不断的搅拌，搅拌到浓稠且色泽均匀。"
+      },
+      {
+        "step": 5,
+        "description": "找一个容器，在容器中刷一层薄薄的食用油。"
+      },
+      {
+        "step": 6,
+        "description": "将煮好的淀粉倒入容器中冷藏 2-4 小时。"
+      },
+      {
+        "step": 7,
+        "description": "冷藏后取出，脱模，切条。"
+      },
+      {
+        "step": 8,
+        "description": "大蒜和小米辣剁成沫，放上 10g 辣椒粉，5g 花生碎，热油搅拌均匀。"
+      },
+      {
+        "step": 9,
+        "description": "再加入 10ml 酱油，10ml 醋，5g 白糖，3g 鸡精，3g 盐搅拌均匀。"
+      },
+      {
+        "step": 10,
+        "description": "将调味料倒在凉粉上，然后撒上香菜即可。"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "- 参考: [制作凉粉的详细步骤](https://www.zhms.cn/recipe/mzvyy.html?source=2)",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-基础牛奶面包-基础牛奶面包",
+    "name": "基础牛奶面包",
+    "description": "![牛奶面包成品](./1-1成品.jpg)\n\n面包是常见的主食。普通面包需要经过长时间的发酵及和面。但本食谱尽量简化了制作步骤，方便新手上手，并尽量保证其风味。当然，要求更高的也可以查阅其的面包食谱。\n\n本食谱**需要的额外的工具较多**，会在后面的章节详细介绍。\n\n本食谱面向**烘焙新手**，难度**中**，预计制作制作时长 **200 分钟**。\n\n预估烹饪难度：★★★★★",
+    "source_path": "../dishes/staple/基础牛奶面包/基础牛奶面包.md",
+    "image_path": "../dishes/staple/基础牛奶面包/1-1成品.jpg",
+    "images": [
+      "../dishes/staple/基础牛奶面包/1-1成品.jpg"
+    ],
+    "category": "主食",
+    "difficulty": 5,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "**酵头**",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- **酵头**",
+        "notes": "量未指定"
+      },
+      {
+        "name": "面粉 1 cup （盛一杯后用勺子挂掉多余的部分，不要晃动）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 面粉 1 cup （盛一杯后用勺子挂掉多余的部分，不要晃动）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "30 ℃ 温水（以不烫手为宜） 1 cup",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 30 ℃ 温水（以不烫手为宜） 1 cup",
+        "notes": "量未指定"
+      },
+      {
+        "name": "酵母",
+        "quantity": 2.0,
+        "unit": "g",
+        "text_quantity": "- 酵母 2 g",
+        "notes": ""
+      },
+      {
+        "name": "盐",
+        "quantity": 2.0,
+        "unit": "g",
+        "text_quantity": "- 盐 2 g",
+        "notes": ""
+      },
+      {
+        "name": "**面团**",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- **面团**",
+        "notes": "量未指定"
+      },
+      {
+        "name": "面粉 2½ cup",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 面粉 2½ cup",
+        "notes": "量未指定"
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": 1.0,
+        "unit": "个",
+        "text_quantity": "- 鸡蛋 1 个",
+        "notes": ""
+      },
+      {
+        "name": "糖或糖浆 ⅛ cup",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 糖或糖浆 ⅛ cup",
+        "notes": "量未指定"
+      },
+      {
+        "name": "奶制品 混合后共 ¼ cup （奶粉需要和水混合。）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 奶制品 混合后共 ¼ cup （奶粉需要和水混合。）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "黄油或玉米油 ⅛ cup",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 黄油或玉米油 ⅛ cup",
+        "notes": "量未指定"
+      },
+      {
+        "name": "谷朊粉 ¼ ~ ½ cup （可选）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 谷朊粉 ¼ ~ ½ cup （可选）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "香草精",
+        "quantity": 3.0,
+        "unit": "g",
+        "text_quantity": "- 香草精 3 g （可选）",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "暂无详细步骤说明"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "1. 常见原料的换算（仅供参考）",
+      "| 体积 /cup |原料  |质量 /g   |",
+      "|:---------:|:----:|:-------:|",
+      "|1          |黄油  |227      |",
+      "|1          |面粉  |120      |",
+      "|1          |细砂糖|180 ~ 200|",
+      "|1          |粗砂糖|200 ~ 220|",
+      "|1          |糖粉  |130      |",
+      "|1          |碎干果|114      |",
+      "|1          |葡萄干|170      |",
+      "|1          |蜂蜜  |340      |",
+      "2. 如何保存多余的面包",
+      "可以把面包切片进行冷冻，在下次使用时可以放置到常温处等待回温，亦或是直接加热。但**千万不要放到冷藏区！** 在冷藏区面包的水分会迅速流失。",
+      "3. 推荐食用方式",
+      "![成品](./5-1成品.jpg)",
+      "a. 取一大块面包，上下一分为二。放入锅中小火加热（一般不需要加油，但如果希望脆皮可在面包表面涂抹黄油后再煎烤） 1 ~ 2 分钟。",
+      "b. 锅中用喷壶喷 3 ~ 4 泵油，大火烧至锅中微微冒烟，转最小火。",
+      "c. 然后下入一枚鸡蛋，盖盖子。等待 2 ~ 3 分钟。然后翻面再加热 2 ~ 3 分钟。",
+      "（这是流心蛋的做法，如需要全熟蛋，可在翻面前加入最多 1 ml 的水，转中小火，直至把水烧干。这样就得到了一个全熟蛋）",
+      "d. 将面包双面涂上喜欢的任何酱料，将鸡蛋夹在中间。",
+      "------------------------------------------",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-微波炉腊肠煲仔饭-微波炉腊肠煲仔饭",
+    "name": "微波炉腊肠煲仔饭",
+    "description": "![微波炉腊肠煲仔饭](微波炉腊肠煲仔饭.png)\n\n程序员以单身汉居多 🐶，做再多的菜也会有一个人吃不完的烦恼，因此一份简单的腊肠煲仔饭则刚刚好。\n\n使用微波炉烹制仅需 `15 分钟` ，既营养又美味，这是一道简单且细腻的主食，给 TA 露上一手吧。\n\n预估烹饪难度：★★",
+    "source_path": "../dishes/staple/微波炉腊肠煲仔饭/微波炉腊肠煲仔饭.md",
+    "image_path": "微波炉腊肠煲仔饭.png",
+    "images": [
+      "微波炉腊肠煲仔饭.png"
+    ],
+    "category": "主食",
+    "difficulty": 2,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "工具",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 工具",
+        "notes": "量未指定"
+      },
+      {
+        "name": "微波炉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 微波炉",
+        "notes": "量未指定"
+      },
+      {
+        "name": "原料",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 原料",
+        "notes": "量未指定"
+      },
+      {
+        "name": "米",
+        "quantity": 200.0,
+        "unit": "ml",
+        "text_quantity": "- 米 200 ml",
+        "notes": ""
+      },
+      {
+        "name": "腊肠",
+        "quantity": 1.0,
+        "unit": "根",
+        "text_quantity": "- 腊肠 1 根",
+        "notes": ""
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": 1.0,
+        "unit": "个",
+        "text_quantity": "- 鸡蛋 1 个",
+        "notes": ""
+      },
+      {
+        "name": "红萝卜",
+        "quantity": 1.0,
+        "unit": "个",
+        "text_quantity": "- 红萝卜 1 个",
+        "notes": ""
+      },
+      {
+        "name": "盐",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 盐",
+        "notes": "量未指定"
+      },
+      {
+        "name": "油",
+        "quantity": 15.0,
+        "unit": "ml",
+        "text_quantity": "- 油 15 ml",
+        "notes": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": 10.0,
+        "unit": "ml",
+        "text_quantity": "- 生抽 10 ml",
+        "notes": ""
+      },
+      {
+        "name": "香葱",
+        "quantity": 1.0,
+        "unit": "颗",
+        "text_quantity": "- 香葱 1 颗",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "将米淘洗干净后倒入 `饭碗` 内，加入 400ml 的水，**盖上盖**"
+      },
+      {
+        "step": 2,
+        "description": "放入微波炉，高火，`6` 分钟，煮饭途中准备原料"
+      },
+      {
+        "step": 3,
+        "description": "切好腊肠"
+      },
+      {
+        "step": 4,
+        "description": "洗好青菜"
+      },
+      {
+        "step": 5,
+        "description": "切好红萝卜片"
+      },
+      {
+        "step": 6,
+        "description": "切好葱花"
+      },
+      {
+        "step": 7,
+        "description": "`青菜碗` 中放入青菜、红萝卜片，倒入 10 ml 油，放入 5 g 盐"
+      },
+      {
+        "step": 8,
+        "description": "`小碗` 中倒入 10 ml 生抽、5 ml 油"
+      },
+      {
+        "step": 9,
+        "description": "6 分钟后，用毛巾或隔热手套取出碗，可以看见米饭已经八分熟"
+      },
+      {
+        "step": 10,
+        "description": "在米饭上摆入切片的腊肠，继续高火 `2` 分钟"
+      },
+      {
+        "step": 11,
+        "description": "取出腊肠饭，放入 `青菜碗`，高火 `4-5` 分钟"
+      },
+      {
+        "step": 12,
+        "description": "在腊肠饭上摆好青菜，磕入鸡蛋，看个人喜好继续高火 `40-60` 秒"
+      },
+      {
+        "step": 13,
+        "description": "取出腊肠饭，此时已经基本完成。"
+      },
+      {
+        "step": 14,
+        "description": "将 `小碗` 放入，继续高火 `30` 秒"
+      },
+      {
+        "step": 15,
+        "description": "在腊肠饭上淋上叮热的生抽，撒上葱花即可"
+      },
+      {
+        "step": 16,
+        "description": "多余的青菜可以沾着酱油吃"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-意式肉酱面-意式肉酱面",
+    "name": "意式肉酱面",
+    "description": "![示例菜成品](./final.jpg)\n\n意式肉酱面是一道非常容易做的菜，做得熟练的话，可以在 15 分钟内完成，从此告别方便面\n\n预估烹饪难度：★",
+    "source_path": "../dishes/staple/意式肉酱面/意式肉酱面.md",
+    "image_path": "../dishes/staple/意式肉酱面/final.jpg",
+    "images": [
+      "../dishes/staple/意式肉酱面/final.jpg"
+    ],
+    "category": "主食",
+    "difficulty": 1,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "意大利面",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 意大利面",
+        "notes": "量未指定"
+      },
+      {
+        "name": "意大利面酱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 意大利面酱",
+        "notes": "量未指定"
+      },
+      {
+        "name": "肉沫",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 肉沫",
+        "notes": "量未指定"
+      },
+      {
+        "name": "白洋葱（紫洋葱也可以）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 白洋葱（紫洋葱也可以）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "洋葱大半个 （大约",
+        "quantity": 150.0,
+        "unit": "克",
+        "text_quantity": "- 洋葱大半个 （大约 150 克，通常是肉的两倍重）",
+        "notes": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": 12.5,
+        "unit": "ml",
+        "text_quantity": "- 食用油 10-15ml",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "锅中加水，烧开后放入意面（等待 6 - 12 分钟）"
+      },
+      {
+        "step": 2,
+        "description": "在烧水的时候可以进行下面这些步骤，但请注意煮面的时间"
+      },
+      {
+        "step": 3,
+        "description": "洋葱切成小丁"
+      },
+      {
+        "step": 4,
+        "description": "空锅中倒油，中火下入洋葱碎"
+      },
+      {
+        "step": 5,
+        "description": "时刻搅拌，注意不要让洋葱烧糊，直到洋葱变成半透明状"
+      },
+      {
+        "step": 6,
+        "description": "下入肉沫，继续搅拌（搅散），直到肉末变成棕色"
+      },
+      {
+        "step": 7,
+        "description": "加入意大利面酱，稍微搅拌一下即可"
+      },
+      {
+        "step": 8,
+        "description": "把煮好的意大利面沥干水分并倒入肉酱中搅拌均匀即可（或者直接把做好的肉酱倒在意面上也行）"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "- 意大利面分为很多不同的粗细，煮面条之前请注意意面盒子上标注的时间",
+      "- 意大利面酱并不是番茄酱，平常用的番茄酱准确是叫番茄沙司，而意大利面酱虽然和番茄沙司都是调味过的番茄酱，但加的调味料不同",
+      "![不同种类的意面](./spaghetti.jpg)",
+      "![意大利面酱](./sauce.jpg)",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-扬州炒饭-扬州炒饭",
+    "name": "扬州炒饭",
+    "description": "扬州炒饭是蛋炒饭的升级版，制作时间较长，但是制作步骤简单\n\n预估烹饪难度：★★★★",
+    "source_path": "../dishes/staple/扬州炒饭/扬州炒饭.md",
+    "image_path": "../dishes/staple/扬州炒饭/veg.png",
+    "images": [
+      "../dishes/staple/扬州炒饭/veg.png"
+    ],
+    "category": "主食",
+    "difficulty": 4,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "冷饭（干一点的为佳）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 冷饭（干一点的为佳）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 鸡蛋",
+        "notes": "量未指定"
+      },
+      {
+        "name": "冷冻去皮基围虾",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 冷冻去皮基围虾",
+        "notes": "量未指定"
+      },
+      {
+        "name": "午餐肉罐头",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 午餐肉罐头",
+        "notes": "量未指定"
+      },
+      {
+        "name": "青豆",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 青豆",
+        "notes": "量未指定"
+      },
+      {
+        "name": "胡萝卜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 胡萝卜",
+        "notes": "量未指定"
+      },
+      {
+        "name": "玉米粒（可选）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 玉米粒（可选）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "葱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 葱",
+        "notes": "量未指定"
+      },
+      {
+        "name": "油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 油",
+        "notes": "量未指定"
+      },
+      {
+        "name": "盐",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 盐",
+        "notes": "量未指定"
+      },
+      {
+        "name": "冷饭",
+        "quantity": 500.0,
+        "unit": "g",
+        "text_quantity": "- 冷饭 500g",
+        "notes": ""
+      },
+      {
+        "name": "冷冻去头去皮基围虾",
+        "quantity": 12.5,
+        "unit": "只",
+        "text_quantity": "- 冷冻去头去皮基围虾 10-15 只",
+        "notes": ""
+      },
+      {
+        "name": "玉米粒",
+        "quantity": 30.0,
+        "unit": "g",
+        "text_quantity": "- 玉米粒 30g",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "胡萝卜切丁 0.2cm*0.2cm*0.2cm，备用"
+      },
+      {
+        "step": 2,
+        "description": "午餐肉切丁 0.2cm*0.2cm*0.2cm，备用"
+      },
+      {
+        "step": 3,
+        "description": "葱分别取葱白和葱绿，各切成 0.25-0.5cm 的小段，分开备用"
+      },
+      {
+        "step": 4,
+        "description": "在碗中打入鸡蛋液，均匀搅拌，备用"
+      },
+      {
+        "step": 5,
+        "description": "将胡萝卜，青豆，玉米粒煮熟捞出，备用（水别倒）"
+      },
+      {
+        "step": 6,
+        "description": "将虾煮熟，捞出备用（水可以倒了）"
+      },
+      {
+        "step": 7,
+        "description": "热锅热油，可以参考[学习炒与煎](../../../tips/learn/学习炒与煎.md)中的热锅双油"
+      },
+      {
+        "step": 8,
+        "description": "第二次倒油需使用 20-30ml 油，等到第二次凉油热了以后，缓慢倒入鸡蛋（控制碗到油直接的流注直径大约在 0.5cm）不要搅拌"
+      },
+      {
+        "step": 9,
+        "description": "鸡蛋凝固后立刻捞出，备用"
+      },
+      {
+        "step": 10,
+        "description": "将午餐肉，青豆，胡萝卜，玉米粒，虾倒入锅中翻炒 1-2 分钟，装盘备用"
+      },
+      {
+        "step": 11,
+        "description": "水冲一下锅，将杂物冲干净，保证锅内干净（可以有油但是不能有杂质）"
+      },
+      {
+        "step": 12,
+        "description": "热锅热油(10ml)，将葱白放入爆香"
+      },
+      {
+        "step": 13,
+        "description": "调至小火（如果油温过高可以关火 1-2 分钟），放入米饭，用铲子快速砸击米饭并翻炒，保证米饭均匀沾到油且粒粒分明"
+      },
+      {
+        "step": 14,
+        "description": "倒入鸡蛋，继续砸击，使鸡蛋碎开并与米饭充分混合"
+      },
+      {
+        "step": 15,
+        "description": "转大火，倒入其他所有备用配料，快速翻炒 1-2 分钟"
+      },
+      {
+        "step": 16,
+        "description": "撒入盐，并翻炒至充分混合"
+      },
+      {
+        "step": 17,
+        "description": "撒入葱绿，翻炒 1 分钟"
+      },
+      {
+        "step": 18,
+        "description": "关火，装盘"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "- 如做完后胳膊酸痛为正常现象，需加强上肢锻炼",
+      "- 超市有青豆，胡萝卜，玉米粒的混合冷冻包装，可以使用这个省去切丁的烦恼，推荐 Pams Mixed Veges 很便宜，或者类似的都可以用（如下图）",
+      "![Pams Mixed Veges](./veg.png)",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-披萨饼皮-披萨饼皮",
+    "name": "披萨饼皮",
+    "description": "![示例是青红椒火腿披萨](./001.jpeg)\n\n披萨制作总体来说比较简单，稍微有点麻烦也是争议最多的就是披萨饼皮，做好了披萨饼皮喜欢吃什么口味的披萨，直接把准备好的食材放上去烤熟就好，所以这里重点说一下披萨饼皮如何制作。\n\n本教程中的饼皮是属于软面团低温隔夜发酵\n\n预估烹饪难度：★★★★",
+    "source_path": "../dishes/staple/披萨饼皮/披萨饼皮.md",
+    "image_path": "../dishes/staple/披萨饼皮/001.jpeg",
+    "images": [
+      "../dishes/staple/披萨饼皮/001.jpeg"
+    ],
+    "category": "主食",
+    "difficulty": 4,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "中筋面粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 中筋面粉",
+        "notes": "量未指定"
+      },
+      {
+        "name": "水（温水）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 水（温水）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "安琪干酵母粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 安琪干酵母粉",
+        "notes": "量未指定"
+      },
+      {
+        "name": "食用盐",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 食用盐",
+        "notes": "量未指定"
+      },
+      {
+        "name": "橄榄油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 橄榄油",
+        "notes": "量未指定"
+      },
+      {
+        "name": "白砂糖",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 白砂糖",
+        "notes": "量未指定"
+      },
+      {
+        "name": "烤箱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 烤箱",
+        "notes": "量未指定"
+      },
+      {
+        "name": "烘焙油纸",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 烘焙油纸",
+        "notes": "量未指定"
+      },
+      {
+        "name": "披萨石（有更好，没有普通烤盘也可以）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 披萨石（有更好，没有普通烤盘也可以）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "擀面杖（非必需）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 擀面杖（非必需）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "面粉",
+        "quantity": 125.0,
+        "unit": "g",
+        "text_quantity": "- 面粉 125g x 4= 500g，",
+        "notes": ""
+      },
+      {
+        "name": "水 70 x 5 =",
+        "quantity": 350.0,
+        "unit": "g",
+        "text_quantity": "- 水 70 x 5 = 350g，",
+        "notes": ""
+      },
+      {
+        "name": "橄榄油 7 x 5 =",
+        "quantity": 35.0,
+        "unit": "g",
+        "text_quantity": "- 橄榄油 7 x 5 =35g，",
+        "notes": ""
+      },
+      {
+        "name": "酵母粉 1 x 5 =",
+        "quantity": 5.0,
+        "unit": "g",
+        "text_quantity": "- 酵母粉 1 x 5 = 5g，",
+        "notes": ""
+      },
+      {
+        "name": "盐 0.6 x 5 =",
+        "quantity": 3.0,
+        "unit": "g",
+        "text_quantity": "- 盐 0.6 x 5 = 3g，",
+        "notes": ""
+      },
+      {
+        "name": "糖 0.6 x 5 =",
+        "quantity": 3.0,
+        "unit": "g",
+        "text_quantity": "- 糖 0.6 x 5 = 3g",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "用准备好的温水把酵母粉化开，稍微搅拌小就好，备用"
+      },
+      {
+        "step": 2,
+        "description": "取准备好的面粉，依次添加盐、橄榄油、白砂糖"
+      },
+      {
+        "step": 3,
+        "description": "准备混合水和面粉，边加水边搅拌直至水全部加完"
+      },
+      {
+        "step": 4,
+        "description": "搅拌至看不到干米粉为止"
+      },
+      {
+        "step": 5,
+        "description": "用差不多三倍大面团的容器装好，密封，冰箱冷藏（4 度） **等待 8~12 小时，一般晚上做第二天就可以用**"
+      },
+      {
+        "step": 6,
+        "description": "观察面团醒发完毕 **差不多是原始大小大约两倍算醒发完毕**"
+      },
+      {
+        "step": 7,
+        "description": "取醒发好的面团，均匀分成四份，分别用保鲜膜盖好，备用"
+      },
+      {
+        "step": 8,
+        "description": "案板撒稍微多一点的干面粉，准备开始揉面"
+      },
+      {
+        "step": 9,
+        "description": "因为是比较湿的面团，所以粘上干面粉后才没那么粘手，不用揉太多次，面团表面稍微光滑一点就可以了"
+      },
+      {
+        "step": 10,
+        "description": "用手拉扯，或者擀面杖擀平，也不一定非得擀圆，只要厚度均匀，烤箱放得进去就好"
+      },
+      {
+        "step": 11,
+        "description": "铺好油纸，放上饼皮，依照个人口味，把准备好的食材放上去，撒上芝士碎"
+      },
+      {
+        "step": 12,
+        "description": "水果烤箱上 180 度，下 220 度，16 分钟即可"
+      },
+      {
+        "step": 13,
+        "description": "肉蔬菜烤箱上 200 度，下 230 度，18 分钟即可"
+      },
+      {
+        "step": 14,
+        "description": "挤上沙拉酱或者其他自己喜欢的酱即可享用~"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "- 一定要注意水的比例",
+      "- 烤箱品质层次不齐，第一次做注意观察火候对披萨的影响",
+      "- 一般不特别标注是低筋或高筋面粉，基本都是中筋面粉",
+      "- 容易出水的水果不能作为食材，比如西瓜、橘子等",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-日式咖喱饭-日式咖喱饭",
+    "name": "日式咖喱饭",
+    "description": "预估烹饪难度：★★★★",
+    "source_path": "../dishes/staple/日式咖喱饭/日式咖喱饭.md",
+    "image_path": "../dishes/staple/日式咖喱饭/成品.jpg",
+    "images": [
+      "../dishes/staple/日式咖喱饭/成品.jpg"
+    ],
+    "category": "主食",
+    "difficulty": 4,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "洋葱",
+        "quantity": 2.0,
+        "unit": "个",
+        "text_quantity": "- 洋葱 2 个",
+        "notes": ""
+      },
+      {
+        "name": "土豆",
+        "quantity": 2.0,
+        "unit": "个",
+        "text_quantity": "- 土豆 2 个",
+        "notes": ""
+      },
+      {
+        "name": "胡萝卜",
+        "quantity": 1.0,
+        "unit": "根",
+        "text_quantity": "- 胡萝卜 1 根",
+        "notes": ""
+      },
+      {
+        "name": "蒜头 2~",
+        "quantity": 3.0,
+        "unit": "瓣",
+        "text_quantity": "- 蒜头 2~3 瓣",
+        "notes": ""
+      },
+      {
+        "name": "肉",
+        "quantity": 2.0,
+        "unit": "斤",
+        "text_quantity": "- 肉 2 斤",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "胡萝卜去头尾，去皮，滚刀切"
+      },
+      {
+        "step": 2,
+        "description": "洋葱剥去外层去芯，切成月牙状"
+      },
+      {
+        "step": 3,
+        "description": "土豆去皮、切大块"
+      },
+      {
+        "step": 4,
+        "description": "肉切块状"
+      },
+      {
+        "step": 5,
+        "description": "剥蒜拍平切碎"
+      },
+      {
+        "step": 6,
+        "description": "咖喱块切碎，增加接触面积加速溶解"
+      },
+      {
+        "step": 7,
+        "description": "热油锅放入蒜和肉，**快速翻炒**至肉*表面变白*"
+      },
+      {
+        "step": 8,
+        "description": "加入胡萝卜，**快速翻炒**至均匀受热"
+      },
+      {
+        "step": 9,
+        "description": "加入洋葱，**快速翻炒**至洋葱*变透明状*"
+      },
+      {
+        "step": 10,
+        "description": "加入土豆，保持翻炒至土豆*变软*（可以用筷子确认）"
+      },
+      {
+        "step": 11,
+        "description": "加水没过所有食材，沸腾后**等待 15 分钟**"
+      },
+      {
+        "step": 12,
+        "description": "关火，加咖喱并搅拌"
+      },
+      {
+        "step": 13,
+        "description": "等待咖喱融化后再开火，缓慢**搅拌 10 分钟**，防止糊锅"
+      },
+      {
+        "step": 14,
+        "description": "在外观*呈粘稠状态*关火结束制作"
+      },
+      {
+        "step": 15,
+        "description": "微波炉：单人份高火 2-3 分钟"
+      },
+      {
+        "step": 16,
+        "description": "锅：需额外加 50ml 水，加热时保持搅拌"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "- [世界美食教程的微博视频](http://t.cn/EJ77yFy)",
+      "---",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-日式肥牛丼饭-日式肥牛丼饭",
+    "name": "日式肥牛丼饭",
+    "description": "预估烹饪难度：★★★★",
+    "source_path": "../dishes/staple/日式肥牛丼饭/日式肥牛丼饭.md",
+    "image_path": "../dishes/staple/日式肥牛丼饭/成品.png",
+    "images": [
+      "../dishes/staple/日式肥牛丼饭/成品.png"
+    ],
+    "category": "主食",
+    "difficulty": 4,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "洋葱",
+        "quantity": 1.0,
+        "unit": "个",
+        "text_quantity": "- 洋葱 1 个",
+        "notes": ""
+      },
+      {
+        "name": "肥牛",
+        "quantity": 250.0,
+        "unit": "克",
+        "text_quantity": "- 肥牛 250 克",
+        "notes": ""
+      },
+      {
+        "name": "葱 1~",
+        "quantity": 2.0,
+        "unit": "根",
+        "text_quantity": "- 葱 1~2 根",
+        "notes": ""
+      },
+      {
+        "name": "白芝麻",
+        "quantity": 5.0,
+        "unit": "克",
+        "text_quantity": "- 白芝麻 5 克",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "洋葱剥去外层去芯，切成月牙状"
+      },
+      {
+        "step": 2,
+        "description": "葱洗净切成 0.5cm 的小段"
+      },
+      {
+        "step": 3,
+        "description": "热锅直接放入白芝麻，**前后晃动锅体**使芝麻均匀受热至*略呈金黄色*"
+      },
+      {
+        "step": 4,
+        "description": "肥牛焯水 1 分钟后捞出"
+      },
+      {
+        "step": 5,
+        "description": "将 40g `味淋`（或 30g `料酒`），30g `酱油`，20g `耗油`，5g `糖`，5g `老抽`（可选，用于调色），在碗中搅拌混合成`调料`（该步骤可直接将碗放在电子秤上进行）"
+      },
+      {
+        "step": 6,
+        "description": "热油锅放入洋葱，**快速翻炒**至洋葱*变透明状*"
+      },
+      {
+        "step": 7,
+        "description": "关小火，加入 250g 水（或出汁），开回大火加热**等待 3 分钟**"
+      },
+      {
+        "step": 8,
+        "description": "加入牛肉和`调料`"
+      },
+      {
+        "step": 9,
+        "description": "**不断翻动**所有食材 **10 分钟**，防止食材粘锅"
+      },
+      {
+        "step": 10,
+        "description": "关火"
+      },
+      {
+        "step": 11,
+        "description": "盛装肥牛丼至[米饭](../米饭/电饭煲蒸米饭.md)上（注意要把汁水淋一些在饭上）"
+      },
+      {
+        "step": 12,
+        "description": "撒上葱花和白芝麻，制作完成。"
+      },
+      {
+        "step": 13,
+        "description": "微波炉：单人份高火 2-3 分钟"
+      },
+      {
+        "step": 14,
+        "description": "锅：需额外加 50ml 水，加热时需**不断翻动**"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "- [河水洋洋实验室 【牛丼｜肥牛饭】吉野家牛肉饭的正宗做法](https://www.bilibili.com/video/BV1rK4y1d7Fk)",
+      "- [夏叔厨房 60秒搞定神仙配方，好吃又下饭的肥牛饭！](https://www.bilibili.com/video/BV1xu4y1676X)",
+      "---",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-河南蒸面条-河南蒸面条",
+    "name": "河南蒸面条",
+    "description": "![示例菜成品](./河南蒸面条.png)\n\n河南蒸面条是一道在河南坊间流行的小吃，也可以用家里的挂面制作。\n\n简单来讲，是先将挂面裹油放入蒸笼蒸熟，再加蔬菜配以调料炒，最后二次蒸制，以达到入味劲道的效果。\n\n预估烹饪难度：★★★★",
+    "source_path": "../dishes/staple/河南蒸面条/河南蒸面条.md",
+    "image_path": "../dishes/staple/河南蒸面条/河南蒸面条.png",
+    "images": [
+      "../dishes/staple/河南蒸面条/河南蒸面条.png"
+    ],
+    "category": "主食",
+    "difficulty": 4,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "挂面 （推荐圆的）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 挂面 （推荐圆的）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "五花肉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 五花肉",
+        "notes": "量未指定"
+      },
+      {
+        "name": "蒜薹",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 蒜薹",
+        "notes": "量未指定"
+      },
+      {
+        "name": "葱 + 姜 + 蒜 + 料酒",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 葱 + 姜 + 蒜 + 料酒",
+        "notes": "量未指定"
+      },
+      {
+        "name": "盐 + 鸡精 + 十三香",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 盐 + 鸡精 + 十三香",
+        "notes": "量未指定"
+      },
+      {
+        "name": "生抽 + 老抽 + 蚝油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 生抽 + 老抽 + 蚝油",
+        "notes": "量未指定"
+      },
+      {
+        "name": "麻油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 麻油",
+        "notes": "量未指定"
+      },
+      {
+        "name": "油 + 锅 + 菜刀 + 铲子",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 油 + 锅 + 菜刀 + 铲子",
+        "notes": "量未指定"
+      },
+      {
+        "name": "蒸篦子",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 蒸篦子",
+        "notes": "量未指定"
+      },
+      {
+        "name": "额外的盆",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 额外的盆",
+        "notes": "量未指定"
+      },
+      {
+        "name": "挂面",
+        "quantity": 300.0,
+        "unit": "g",
+        "text_quantity": "- 挂面 300g",
+        "notes": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": 12.5,
+        "unit": "ml",
+        "text_quantity": "- 食用油 10-15ml",
+        "notes": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": 15.0,
+        "unit": "ml",
+        "text_quantity": "- 生抽 15ml",
+        "notes": ""
+      },
+      {
+        "name": "老抽",
+        "quantity": 10.0,
+        "unit": "ml",
+        "text_quantity": "- 老抽 10ml",
+        "notes": ""
+      },
+      {
+        "name": "蚝油",
+        "quantity": 5.0,
+        "unit": "ml",
+        "text_quantity": "- 蚝油 5ml",
+        "notes": ""
+      },
+      {
+        "name": "盐",
+        "quantity": 2.0,
+        "unit": "g",
+        "text_quantity": "- 盐 2g",
+        "notes": ""
+      },
+      {
+        "name": "鸡精",
+        "quantity": 2.0,
+        "unit": "g",
+        "text_quantity": "- 鸡精 2g",
+        "notes": ""
+      },
+      {
+        "name": "十三香",
+        "quantity": 1.0,
+        "unit": "g",
+        "text_quantity": "- 十三香 1g",
+        "notes": ""
+      },
+      {
+        "name": "葱",
+        "quantity": 10.0,
+        "unit": "g",
+        "text_quantity": "- 葱 10g",
+        "notes": ""
+      },
+      {
+        "name": "姜",
+        "quantity": 5.0,
+        "unit": "g",
+        "text_quantity": "- 姜 5g",
+        "notes": ""
+      },
+      {
+        "name": "蒜",
+        "quantity": 10.0,
+        "unit": "g",
+        "text_quantity": "- 蒜 10g",
+        "notes": ""
+      },
+      {
+        "name": "料酒",
+        "quantity": 5.0,
+        "unit": "ml",
+        "text_quantity": "- 料酒 5ml",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "起锅加 7 成水，水开，上蒸篦子"
+      },
+      {
+        "step": 2,
+        "description": "将挂面，均匀铺开放置，淋 5ml 油并抹匀，蒸 15 分钟"
+      },
+      {
+        "step": 3,
+        "description": "将挂面和蒸篦子取出，放置一边，并倒掉锅中的水"
+      },
+      {
+        "step": 4,
+        "description": "五花肉，切成 2mm 厚度的肉片"
+      },
+      {
+        "step": 5,
+        "description": "蒜薹，切成 3cm 段"
+      },
+      {
+        "step": 6,
+        "description": "葱，切成 0.2cm 薄片"
+      },
+      {
+        "step": 7,
+        "description": "姜，切成 1mm x 1mm x 3cm 的细丝"
+      },
+      {
+        "step": 8,
+        "description": "蒜，放在砧板上拍碎，切成 1mm 的粒度"
+      },
+      {
+        "step": 9,
+        "description": "起锅，烧干水分，加 3ml 食用油"
+      },
+      {
+        "step": 10,
+        "description": "手持锅柄，摇晃锅，使食用油充分挂满锅的 2/3"
+      },
+      {
+        "step": 11,
+        "description": "中火，加入肉片，翻炒 1 分钟"
+      },
+      {
+        "step": 12,
+        "description": "加入葱姜蒜，料酒，继续翻炒 1 分钟"
+      },
+      {
+        "step": 13,
+        "description": "将蒜薹段，放入锅中，翻炒 1 分钟"
+      },
+      {
+        "step": 14,
+        "description": "开始调味，加入老抽、生抽、蚝油、盐、鸡精、十三香，翻炒 1 分钟"
+      },
+      {
+        "step": 15,
+        "description": "加入 500ML 水，没过蔬菜，炖煮 1 分钟"
+      },
+      {
+        "step": 16,
+        "description": "将蒸好的挂面放入，不断搅拌 3 分钟，待挂面全部均匀上色，关火"
+      },
+      {
+        "step": 17,
+        "description": "将搅拌好的挂面和菜，全部倒入额外的盆中"
+      },
+      {
+        "step": 18,
+        "description": "起锅，加冷水 7 成，放上蒸篦子，将拌好的面条和菜，均匀的铺在上面"
+      },
+      {
+        "step": 19,
+        "description": "水开后，大火烧 15 分钟，出锅"
+      },
+      {
+        "step": 20,
+        "description": "淋上 10g 的麻油，即可食用"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "挂面的粗细与口感：",
+      "- 细的、圆的 （超市大部分都是这种，口感更加劲道）",
+      "- 宽的、扁的 （口感比较软）",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-火腿饭团-火腿饭团",
+    "name": "火腿饭团",
+    "description": "![火腿饭团](./饭团.png)\n好吃！富含碳水和蛋白质还有维生素。有手就行的制作难度，预计制作时间 1 h 。\n\n预估烹饪难度：★★★★",
+    "source_path": "../dishes/staple/火腿饭团/火腿饭团.md",
+    "image_path": "../dishes/staple/火腿饭团/饭团.png",
+    "images": [
+      "../dishes/staple/火腿饭团/饭团.png"
+    ],
+    "category": "主食",
+    "difficulty": 4,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "火腿",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 火腿",
+        "notes": "量未指定"
+      },
+      {
+        "name": "米饭",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 米饭",
+        "notes": "量未指定"
+      },
+      {
+        "name": "水",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 水",
+        "notes": "量未指定"
+      },
+      {
+        "name": "冷冻青豆（可选）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 冷冻青豆（可选）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "冷冻玉米粒（可选）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 冷冻玉米粒（可选）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "海苔碎（可选）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 海苔碎（可选）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "喜欢的沙拉酱（推荐日式 mayo！）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 喜欢的沙拉酱（推荐日式 mayo！）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "火腿(",
+        "quantity": 100.0,
+        "unit": "g",
+        "text_quantity": "- 火腿(100g)",
+        "notes": ""
+      },
+      {
+        "name": "米饭(",
+        "quantity": 125.0,
+        "unit": "g",
+        "text_quantity": "- 米饭(125g)",
+        "notes": ""
+      },
+      {
+        "name": "水(",
+        "quantity": 90.0,
+        "unit": "ml",
+        "text_quantity": "- 水(90ml)",
+        "notes": ""
+      },
+      {
+        "name": "冷冻青豆(",
+        "quantity": 30.0,
+        "unit": "g",
+        "text_quantity": "- 冷冻青豆(30g)",
+        "notes": ""
+      },
+      {
+        "name": "冷冻玉米粒(",
+        "quantity": 30.0,
+        "unit": "g",
+        "text_quantity": "- 冷冻玉米粒(30g)",
+        "notes": ""
+      },
+      {
+        "name": "海苔碎(",
+        "quantity": 10.0,
+        "unit": "g",
+        "text_quantity": "- 海苔碎(10g)",
+        "notes": ""
+      },
+      {
+        "name": "喜欢的沙拉酱(",
+        "quantity": 20.0,
+        "unit": "g",
+        "text_quantity": "- 喜欢的沙拉酱(20g)",
+        "notes": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": 12.5,
+        "unit": "ml",
+        "text_quantity": "- 食用油 10-15ml",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "将米饭和水放到电饭锅里，点击米饭模式，等待完成"
+      },
+      {
+        "step": 2,
+        "description": "冷冻玉米粒和青豆放到锅里，加水没过所有食材，沸腾后静待 2 分钟后，捞出。"
+      },
+      {
+        "step": 3,
+        "description": "火腿切成 1cm 的方块"
+      },
+      {
+        "step": 4,
+        "description": "与此同时，加入 10ml 食用油，加入火腿翻炒至火腿上色"
+      },
+      {
+        "step": 5,
+        "description": "将米饭，火腿，海苔碎，青豆，玉米粒，沙拉酱放入碗中，混合均匀即可"
+      },
+      {
+        "step": 6,
+        "description": "装盘（如果有的话）"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "- 沙拉酱的程度可以根据个人口味酌情删减。",
+      "- 可以尝试混合沙拉酱。",
+      "- 参考资料：小红书 - 干饭选手又困了",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-炒凉粉-炒凉粉",
+    "name": "炒凉粉",
+    "description": "![炒凉粉成品](./chaoliangfen.jpg)\n\n炒凉粉是一道流行于山西、陕西地区的一道特色小吃，入口滑嫩，老少皆宜。\n\n预估烹饪难度：★★★",
+    "source_path": "../dishes/staple/炒凉粉/炒凉粉.md",
+    "image_path": "../dishes/staple/炒凉粉/chaoliangfen.jpg",
+    "images": [
+      "../dishes/staple/炒凉粉/chaoliangfen.jpg"
+    ],
+    "category": "主食",
+    "difficulty": 3,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "凉粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 凉粉",
+        "notes": "量未指定"
+      },
+      {
+        "name": "玉米油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 玉米油",
+        "notes": "量未指定"
+      },
+      {
+        "name": "大蒜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 大蒜",
+        "notes": "量未指定"
+      },
+      {
+        "name": "香葱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 香葱",
+        "notes": "量未指定"
+      },
+      {
+        "name": "豆瓣酱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 豆瓣酱",
+        "notes": "量未指定"
+      },
+      {
+        "name": "生抽",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 生抽",
+        "notes": "量未指定"
+      },
+      {
+        "name": "老抽",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 老抽",
+        "notes": "量未指定"
+      },
+      {
+        "name": "食盐",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 食盐",
+        "notes": "量未指定"
+      },
+      {
+        "name": "十三香",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 十三香",
+        "notes": "量未指定"
+      },
+      {
+        "name": "中粗辣椒面",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 中粗辣椒面",
+        "notes": "量未指定"
+      },
+      {
+        "name": "矿泉水",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 矿泉水",
+        "notes": "量未指定"
+      },
+      {
+        "name": "蒜末",
+        "quantity": 10.0,
+        "unit": "g",
+        "text_quantity": "- 蒜末 10g",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "凉粉改刀切麻将块大小"
+      },
+      {
+        "step": 2,
+        "description": "开小火，起锅烧油，锅烧微热后，下入蒜末爆香后加入豆瓣酱炒出红油"
+      },
+      {
+        "step": 3,
+        "description": "将凉粉块下入锅中，翻炒 10 秒"
+      },
+      {
+        "step": 4,
+        "description": "加入生抽提味，老抽上色，翻炒均匀后加入辣椒面继续翻炒均匀"
+      },
+      {
+        "step": 5,
+        "description": "加入食盐、十三香继续翻炒 10 秒"
+      },
+      {
+        "step": 6,
+        "description": "加入准备好的矿泉水，再次翻炒 10 秒，待汤汁浓稠后，关火出锅装盘"
+      },
+      {
+        "step": 7,
+        "description": "撒上葱花即可完成"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "- 选择凉粉时最好选用豌豆淀粉制作成的凉粉，条件不允许的话红薯淀粉或其他也可",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-炒意大利面-炒意大利面",
+    "name": "炒意大利面",
+    "description": "![意大利面](./a.jpg)\n\n这是一道软糯爽口的意大利面的做法，非常简单，用时大概 30 分钟。\n\n预估烹饪难度：★★★",
+    "source_path": "../dishes/staple/炒意大利面/炒意大利面.md",
+    "image_path": "../dishes/staple/炒意大利面/a.jpg",
+    "images": [
+      "../dishes/staple/炒意大利面/a.jpg"
+    ],
+    "category": "主食",
+    "difficulty": 3,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "意大利面",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 意大利面",
+        "notes": "量未指定"
+      },
+      {
+        "name": "肥牛片",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 肥牛片",
+        "notes": "量未指定"
+      },
+      {
+        "name": "番茄酱 / 黑胡椒酱（选其一即可）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 番茄酱 / 黑胡椒酱（选其一即可）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "菜籽油（其他植物油也可）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 菜籽油（其他植物油也可）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "肥牛",
+        "quantity": 5.0,
+        "unit": "片",
+        "text_quantity": "- 肥牛 5 片 / 人",
+        "notes": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": 5.0,
+        "unit": "ml",
+        "text_quantity": "- 食用油 5ml / 50 克意面",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "加入 250 克水 / 人"
+      },
+      {
+        "step": 2,
+        "description": "待水烧开，下入面条，中火煮 15 - 20 分钟（这个面通常比较硬，捞起来之前最好尝一下，中心如果有一点硬，需要继续煮）"
+      },
+      {
+        "step": 3,
+        "description": "捞出面条，盛入盘中备用"
+      },
+      {
+        "step": 4,
+        "description": "热锅倒入食用油，待油温中热，下入面条翻炒一分钟（如果太干，加入少量水）"
+      },
+      {
+        "step": 5,
+        "description": "放入 10 克番茄酱、肥牛、加入 2g 食盐，继续翻炒一分钟"
+      },
+      {
+        "step": 6,
+        "description": "起锅"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-烙饼-烙饼",
+    "name": "烙饼",
+    "description": "预估烹饪难度：★★★★",
+    "source_path": "../dishes/staple/烙饼/烙饼.md",
+    "image_path": "../dishes/staple/烙饼/成品.jpg",
+    "images": [
+      "../dishes/staple/烙饼/成品.jpg"
+    ],
+    "category": "主食",
+    "difficulty": 4,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 油",
+        "notes": "量未指定"
+      },
+      {
+        "name": "面粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 面粉",
+        "notes": "量未指定"
+      },
+      {
+        "name": "电饼铛",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 电饼铛",
+        "notes": "量未指定"
+      },
+      {
+        "name": "面粉 =",
+        "quantity": 400.0,
+        "unit": "g",
+        "text_quantity": "* 面粉 = 400g",
+        "notes": ""
+      },
+      {
+        "name": "热水 =",
+        "quantity": 130.0,
+        "unit": "ml",
+        "text_quantity": "* 热水 = 130ml（80 度）",
+        "notes": ""
+      },
+      {
+        "name": "冷水 =",
+        "quantity": 130.0,
+        "unit": "ml",
+        "text_quantity": "* 冷水 = 130ml",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "将 400g 面粉倒入盆中，一半用凉水和面，一半用热水和面，搅拌成面絮，用手揉成团。用保鲜膜封起来，醒面 40 分钟"
+      },
+      {
+        "step": 2,
+        "description": "离醒面完成时间还有 10 分钟时，请查看[小技巧](../../condiment/油酥.md)中的油酥做法（热油酥效果更好）"
+      },
+      {
+        "step": 3,
+        "description": "醒好的面不用揉，稍微摁一下，用一横刀一竖刀将其分成四份。"
+      },
+      {
+        "step": 4,
+        "description": "搓圆，擀开，擀成与电饼铛大小差不多的饼，取 1/4 的油酥，将饼表面涂抹均匀"
+      },
+      {
+        "step": 5,
+        "description": "沿饼的半径切开，从外圈将其卷成圆锥形，然后将圆锥尾部捏好，防止油酥外漏。"
+      },
+      {
+        "step": 6,
+        "description": "按压面饼圆锥尖的地方，将其压扁，然后再次擀成与电饼铛大小差不多的面饼（厚度约为 3mm）"
+      },
+      {
+        "step": 7,
+        "description": "将电饼铛预热，涂上凉油（热锅凉油），将擀好的饼放入电饼铛中，将饼的上方也刷点油，涂抹均匀（锁住水分），盖上盖子"
+      },
+      {
+        "step": 8,
+        "description": "大火烙一分钟，打开盖子，将饼翻个面再烙一分钟"
+      },
+      {
+        "step": 9,
+        "description": "重复以上动作，完成饼的烙制"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-烧饼-芝麻烧饼",
+    "name": "芝麻烧饼",
+    "description": "![示例菜成品](./芝麻烧饼.jpg)\n芝麻烧饼，外酥里软，简单易做。\n\n预估烹饪难度：★★★",
+    "source_path": "../dishes/staple/烧饼/芝麻烧饼.md",
+    "image_path": "../dishes/staple/烧饼/芝麻烧饼.jpg",
+    "images": [
+      "../dishes/staple/烧饼/芝麻烧饼.jpg"
+    ],
+    "category": "主食",
+    "difficulty": 3,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "面粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 面粉",
+        "notes": "量未指定"
+      },
+      {
+        "name": "酵母粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 酵母粉",
+        "notes": "量未指定"
+      },
+      {
+        "name": "白糖",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 白糖",
+        "notes": "量未指定"
+      },
+      {
+        "name": "十三香",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 十三香",
+        "notes": "量未指定"
+      },
+      {
+        "name": "食用油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 食用油",
+        "notes": "量未指定"
+      },
+      {
+        "name": "温水( 40℃ )",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 温水( 40℃ )",
+        "notes": "量未指定"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "面团：300 克面粉，3 克酵母粉，3 克白糖，180 克温水，20 克食用油，醒面 10 分钟"
+      },
+      {
+        "step": 2,
+        "description": "油酥：小碗放 30 克面粉，2 克盐，4 克十三香，20 克食用油，拌匀后，静置"
+      },
+      {
+        "step": 3,
+        "description": "做饼：面擀成长方形，抹上调好的油酥，从一头卷起，切成 7 个面剂子，对折，用虎口收拢即可，先沾水再沾白芝麻，擀成小圆饼"
+      },
+      {
+        "step": 4,
+        "description": "烙饼：将电饼铛预热，倒入凉油（锅底铺满油），将擀好的饼放入电饼铛中，将饼的上方也刷点油，涂抹均匀盖上盖子，选大饼档,听到叮的一声出锅即可"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "- 如果没有电饼铛，也可以用平底锅",
+      "- 芝麻如果没有也可不用，一样好吃",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-电饭煲三文鱼炊饭-电饭煲三文鱼炊饭",
+    "name": "电饭煲三文鱼炊饭",
+    "description": "![电饭煲三文鱼炊饭示例菜成品](./电饭煲三文鱼炊饭.webp)\n\n预估烹饪难度：★★",
+    "source_path": "../dishes/staple/电饭煲三文鱼炊饭/电饭煲三文鱼炊饭.md",
+    "image_path": "../dishes/staple/电饭煲三文鱼炊饭/电饭煲三文鱼炊饭.webp",
+    "images": [
+      "../dishes/staple/电饭煲三文鱼炊饭/电饭煲三文鱼炊饭.webp"
+    ],
+    "category": "主食",
+    "difficulty": 2,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "有盐牛油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 有盐牛油",
+        "notes": "量未指定"
+      },
+      {
+        "name": "三文鱼",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 三文鱼",
+        "notes": "量未指定"
+      },
+      {
+        "name": "米",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 米",
+        "notes": "量未指定"
+      },
+      {
+        "name": "粟米（可选）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 粟米（可选）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "金菇（可选）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 金菇（可选）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "冬菇（可选）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 冬菇（可选）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "水",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 水",
+        "notes": "量未指定"
+      },
+      {
+        "name": "牛油一汤匙 / 人",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 牛油一汤匙 / 人",
+        "notes": "量未指定"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "三文鱼去鳞，去骨"
+      },
+      {
+        "step": 2,
+        "description": "金菇、冬菇切碎"
+      },
+      {
+        "step": 3,
+        "description": "洗米三次"
+      },
+      {
+        "step": 4,
+        "description": "把三文鱼、米、牛油放入电饭煲"
+      },
+      {
+        "step": 5,
+        "description": "想口感浓厚一点，可以加多一汤匙牛油"
+      },
+      {
+        "step": 6,
+        "description": "根据电饭煲的刻度放水"
+      },
+      {
+        "step": 7,
+        "description": "把电饭煲調較至煲飯模式，等待大約 30 - 45 分鐘"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-空气炸锅照烧鸡饭-空气炸锅照烧鸡饭",
+    "name": "空气炸锅照烧鸡饭",
+    "description": "![空气炸锅照烧鸡饭成品](./空气炸锅照烧鸡饭.jpg)\n\n空气炸锅照烧鸡饭是一道简单易做的菜。是一道既便利又便宜的美食，而且在品尝美味的同时，新手也能完全掌握！\n\n预估烹饪难度：★★★★",
+    "source_path": "../dishes/staple/空气炸锅照烧鸡饭/空气炸锅照烧鸡饭.md",
+    "image_path": "../dishes/staple/空气炸锅照烧鸡饭/空气炸锅照烧鸡饭.jpg",
+    "images": [
+      "../dishes/staple/空气炸锅照烧鸡饭/空气炸锅照烧鸡饭.jpg"
+    ],
+    "category": "主食",
+    "difficulty": 4,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "丽滋饼干(Ritz crackers)",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 丽滋饼干(Ritz crackers)",
+        "notes": "量未指定"
+      },
+      {
+        "name": "酱油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 酱油",
+        "notes": "量未指定"
+      },
+      {
+        "name": "糖（白沙糖）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 糖（白沙糖）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "鸡肉",
+        "quantity": 900.0,
+        "unit": "g",
+        "text_quantity": "- 鸡肉 900g",
+        "notes": ""
+      },
+      {
+        "name": "糖",
+        "quantity": 62.5,
+        "unit": "g",
+        "text_quantity": "- 糖 60-65g",
+        "notes": ""
+      },
+      {
+        "name": "白醋",
+        "quantity": 32.5,
+        "unit": "ml",
+        "text_quantity": "- 白醋 30-35ml",
+        "notes": ""
+      },
+      {
+        "name": "丽滋饼干（咸味曲奇可替代）",
+        "quantity": 16.0,
+        "unit": "个",
+        "text_quantity": "- 丽滋饼干（咸味曲奇可替代） 16 个(48g)",
+        "notes": ""
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": 2.0,
+        "unit": "个",
+        "text_quantity": "- 鸡蛋 2 个",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "将酱油、糖和醋混合在一起,搅匀料汁备用"
+      },
+      {
+        "step": 2,
+        "description": "另一个碗中加入鸡肉、鸡蛋、1/2 料汁和压碎的丽滋饼干。搅拌均匀"
+      },
+      {
+        "step": 3,
+        "description": "空气炸锅用箔纸碗铺底，加入肉饼混合物，将剩余的料汁均匀的倒在上面"
+      },
+      {
+        "step": 4,
+        "description": "**350°** 炸**40 分钟**。最好在米饭上食用<!-- 在描述过程时不得加入上文或原材料中未提及的食材。 -->"
+      },
+      {
+        "step": 5,
+        "description": "在外观*呈金黄酥脆*后出锅，切块盛盘"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "- 操作时，需要注意温度以免烫伤。",
+      "- 参考资料：[库克美食教程](https://cookpad.com/)",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-米饭-煮锅蒸米饭",
+    "name": "煮锅蒸米饭",
+    "description": "预估烹饪难度：★★",
+    "source_path": "../dishes/staple/米饭/煮锅蒸米饭.md",
+    "image_path": "../dishes/staple/米饭/rice_regularPot.jpeg",
+    "images": [
+      "../dishes/staple/米饭/rice_regularPot.jpeg"
+    ],
+    "category": "主食",
+    "difficulty": 2,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "北方大米",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 北方大米",
+        "notes": "量未指定"
+      },
+      {
+        "name": "水",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 水",
+        "notes": "量未指定"
+      },
+      {
+        "name": "厚底煮锅+严丝合缝的锅盖（制作过程中不会有大量蒸汽泄漏）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 厚底煮锅+严丝合缝的锅盖（制作过程中不会有大量蒸汽泄漏）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "米",
+        "quantity": 100.0,
+        "unit": "ml",
+        "text_quantity": "- 米：100ml-200ml/人",
+        "notes": ""
+      },
+      {
+        "name": "水米的体积的 2 倍",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 水：米的体积的 2 倍",
+        "notes": "量未指定"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "清洗大米"
+      },
+      {
+        "step": 2,
+        "description": "将米和水加入煮锅"
+      },
+      {
+        "step": 3,
+        "description": "大火煮至水沸腾"
+      },
+      {
+        "step": 4,
+        "description": "**搅拌底部防止粘黏**"
+      },
+      {
+        "step": 5,
+        "description": "盖上锅盖，转**小火**加热 10-15 分钟（根据对软糯程度的喜好），中途切勿打开锅盖"
+      },
+      {
+        "step": 6,
+        "description": "关火，静置 5 分钟"
+      },
+      {
+        "step": 7,
+        "description": "Enjoy :)"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "[腐国人研究煮米饭，好想送他们个电饭煲！](https://www.bilibili.com/video/BV1RW411z7r9)",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-米饭-电饭煲蒸米饭",
+    "name": "电饭煲蒸米饭",
+    "description": "预估烹饪难度：★",
+    "source_path": "../dishes/staple/米饭/电饭煲蒸米饭.md",
+    "image_path": null,
+    "images": [],
+    "category": "主食",
+    "difficulty": 1,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "电饭煲",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 电饭煲",
+        "notes": "量未指定"
+      },
+      {
+        "name": "江南米或北方大米",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 江南米或北方大米",
+        "notes": "量未指定"
+      },
+      {
+        "name": "水",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 水",
+        "notes": "量未指定"
+      },
+      {
+        "name": "一般一个人可以食用",
+        "quantity": 100.0,
+        "unit": "ml",
+        "text_quantity": "* 一般一个人可以食用 100ml-200ml 的米。",
+        "notes": ""
+      },
+      {
+        "name": "江南米，米和水放在电饭煲的容器内，食指触及米时，水量能刚好没过食指的第一个指节又第二个指节 1/4 处（即大约 2.6 厘米）。",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 江南米，米和水放在电饭煲的容器内，食指触及米时，水量能刚好没过食指的第一个指节又第二个指节 1/4 处（即大约 2.6 厘米）。",
+        "notes": "量未指定"
+      },
+      {
+        "name": "北方大米，米和水放在电饭煲的容器内，食指触及米，水量能刚好没过食指的第一个指节（即大约 2 厘米处）。",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 北方大米，米和水放在电饭煲的容器内，食指触及米，水量能刚好没过食指的第一个指节（即大约 2 厘米处）。",
+        "notes": "量未指定"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "清洗米"
+      },
+      {
+        "step": 2,
+        "description": "将米和水一起加入电饭煲中。"
+      },
+      {
+        "step": 3,
+        "description": "连接电饭煲电源，进入加热模式。等待大约 30 分钟。"
+      },
+      {
+        "step": 4,
+        "description": "待电饭煲自动进入保温模式后。"
+      },
+      {
+        "step": 5,
+        "description": "将米在电饭煲中闷 10-15 分钟。"
+      },
+      {
+        "step": 6,
+        "description": "盛出米。"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "- 技术总结",
+      "- 不论什么容器，水的量都是可以使用“指尖量水法”煮出好米饭。",
+      "- 水的多少是能够严重影响一碗好米饭的口感。",
+      "- 南方一般食用江南米，北方一般食用北方大米，江南米会比较细长，而北方大米会比较短且圆。",
+      "- 米饭不同品种的米，不同的水量会极度影响口感。",
+      "- 更多信息请参考使用的电饭煲的说明书。",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-老友猪肉粉-老友猪肉粉",
+    "name": "老友猪肉粉",
+    "description": "![示例菜成品](老友猪肉粉.jpg)\n\n预估烹饪难度：★★★",
+    "source_path": "../dishes/staple/老友猪肉粉/老友猪肉粉.md",
+    "image_path": "老友猪肉粉.jpg",
+    "images": [
+      "老友猪肉粉.jpg"
+    ],
+    "category": "主食",
+    "difficulty": 3,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "米粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 米粉",
+        "notes": "量未指定"
+      },
+      {
+        "name": "猪肉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 猪肉",
+        "notes": "量未指定"
+      },
+      {
+        "name": "酸笋",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 酸笋",
+        "notes": "量未指定"
+      },
+      {
+        "name": "剁椒",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 剁椒",
+        "notes": "量未指定"
+      },
+      {
+        "name": "豆豉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 豆豉",
+        "notes": "量未指定"
+      },
+      {
+        "name": "大蒜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 大蒜",
+        "notes": "量未指定"
+      },
+      {
+        "name": "料酒",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 料酒",
+        "notes": "量未指定"
+      },
+      {
+        "name": "生抽",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 生抽",
+        "notes": "量未指定"
+      },
+      {
+        "name": "白糖",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 白糖",
+        "notes": "量未指定"
+      },
+      {
+        "name": "米醋",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 米醋",
+        "notes": "量未指定"
+      },
+      {
+        "name": "盐",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 盐",
+        "notes": "量未指定"
+      },
+      {
+        "name": "油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 油",
+        "notes": "量未指定"
+      },
+      {
+        "name": "生粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 生粉",
+        "notes": "量未指定"
+      },
+      {
+        "name": "胡椒粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 胡椒粉",
+        "notes": "量未指定"
+      },
+      {
+        "name": "米粉（",
+        "quantity": 250.0,
+        "unit": "g",
+        "text_quantity": "- 米粉（250g 记得 50 度的温水泡半小时）",
+        "notes": ""
+      },
+      {
+        "name": "猪肉(",
+        "quantity": 50.0,
+        "unit": "g",
+        "text_quantity": "- 猪肉(50g)",
+        "notes": ""
+      },
+      {
+        "name": "酸笋(",
+        "quantity": 50.0,
+        "unit": "g",
+        "text_quantity": "- 酸笋(50g)",
+        "notes": ""
+      },
+      {
+        "name": "剁椒（",
+        "quantity": 15.0,
+        "unit": "g",
+        "text_quantity": "- 剁椒（15g 辣椒剁完后, 个人需求适当放。 ）",
+        "notes": ""
+      },
+      {
+        "name": "豆豉(",
+        "quantity": 30.0,
+        "unit": "g",
+        "text_quantity": "- 豆豉(30g)",
+        "notes": ""
+      },
+      {
+        "name": "大蒜(",
+        "quantity": 10.0,
+        "unit": "g",
+        "text_quantity": "- 大蒜(10g)",
+        "notes": ""
+      },
+      {
+        "name": "料酒()",
+        "quantity": 15.0,
+        "unit": "ml",
+        "text_quantity": "- 料酒(10-20ml)",
+        "notes": ""
+      },
+      {
+        "name": "生抽(",
+        "quantity": 15.0,
+        "unit": "ml",
+        "text_quantity": "- 生抽(15ml)",
+        "notes": ""
+      },
+      {
+        "name": "白糖（",
+        "quantity": 5.0,
+        "unit": "g",
+        "text_quantity": "- 白糖（5g 如果不喜欢糖，可以考虑不放）",
+        "notes": ""
+      },
+      {
+        "name": "米醋(",
+        "quantity": 5.0,
+        "unit": "ml",
+        "text_quantity": "- 米醋(5ml)",
+        "notes": ""
+      },
+      {
+        "name": "盐(",
+        "quantity": 5.0,
+        "unit": "ml",
+        "text_quantity": "- 盐(5ml)",
+        "notes": ""
+      },
+      {
+        "name": "油(",
+        "quantity": 15.0,
+        "unit": "ml",
+        "text_quantity": "- 油(15ml)",
+        "notes": ""
+      },
+      {
+        "name": "生粉(",
+        "quantity": 15.0,
+        "unit": "ml",
+        "text_quantity": "- 生粉(15ml)",
+        "notes": ""
+      },
+      {
+        "name": "胡椒粉(",
+        "quantity": 10.0,
+        "unit": "ml",
+        "text_quantity": "- 胡椒粉(10ml)",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "全部猪肉用料酒、盐、生抽、生粉、胡椒粉倒在一个碗里调味,备用"
+      },
+      {
+        "step": 2,
+        "description": "热锅不放油,下全部酸笋把水份炒干，炒干的酸笋中间留点空间"
+      },
+      {
+        "step": 3,
+        "description": "放入 10ml - 15ml 食用油与全部大蒜、 剁椒、 豆豉到炒干的酸笋中间到炒干的酸笋中间,全部推到中间炒出香味"
+      },
+      {
+        "step": 4,
+        "description": "放入全部调味好的猪肉,持续放入 10ml 生抽炒一分钟"
+      },
+      {
+        "step": 5,
+        "description": "放入 5ml 米醋、 10ml 生抽、450ml 清水一起煮开"
+      },
+      {
+        "step": 6,
+        "description": "水煮开后,放入温水泡好的米粉,继续煮 3 分钟就可以盛盘"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "- 记得米粉必须是泡过的才好吃,没有泡过的话是很难吃的！",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-茄子肉煎饼-茄子肉煎饼",
+    "name": "茄子肉煎饼",
+    "description": "![茄子肉煎饼成品](./茄子肉煎饼.jpg)\n\n茄子肉煎饼是一道简单易做的饼类主食。\n\n预估烹饪难度：★★★",
+    "source_path": "../dishes/staple/茄子肉煎饼/茄子肉煎饼.md",
+    "image_path": "../dishes/staple/茄子肉煎饼/茄子肉煎饼.jpg",
+    "images": [
+      "../dishes/staple/茄子肉煎饼/茄子肉煎饼.jpg"
+    ],
+    "category": "主食",
+    "difficulty": 3,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "米粉（指用大米研磨成的粉）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 米粉（指用大米研磨成的粉）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "小麦粉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 小麦粉",
+        "notes": "量未指定"
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 鸡蛋",
+        "notes": "量未指定"
+      },
+      {
+        "name": "煮熟的腊肉",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 煮熟的腊肉",
+        "notes": "量未指定"
+      },
+      {
+        "name": "茄子（买长条状的，越圆越好）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 茄子（买长条状的，越圆越好）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "食用油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 食用油",
+        "notes": "量未指定"
+      },
+      {
+        "name": "食盐",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 食盐",
+        "notes": "量未指定"
+      },
+      {
+        "name": "米粉",
+        "quantity": 250.0,
+        "unit": "g",
+        "text_quantity": "* 米粉 250g",
+        "notes": ""
+      },
+      {
+        "name": "面粉",
+        "quantity": 50.0,
+        "unit": "g",
+        "text_quantity": "* 面粉 50g",
+        "notes": ""
+      },
+      {
+        "name": "茄子",
+        "quantity": 1.0,
+        "unit": "根",
+        "text_quantity": "* 茄子 1 根（约 10-15cm 长）",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "将茄子去皮后切成片，将腊肉切成片，备用"
+      },
+      {
+        "step": 2,
+        "description": "依次向盆中加入 250g 米粉（大米研磨成的粉）、50g 面粉和 1 个鸡蛋"
+      },
+      {
+        "step": 3,
+        "description": "边用筷子搅拌，边加入清水（**清水用于调节粘稠度**），使米粉、面粉、鸡蛋混合成面糊,当面糊能够附着在茄片、肉片上而不掉落时停止加水，而后将所有茄片和肉片放入面糊中，用面糊充分包裹"
+      },
+      {
+        "step": 4,
+        "description": "平底锅加入食用油**10-30ml**，开小火"
+      },
+      {
+        "step": 5,
+        "description": "用筷子或勺子把裹了面糊的茄片、肉片放入锅中，先煎至两面金黄，再煎**3-6分钟**（**煎的过程中，食用油会变少，可再添加食用油**）"
+      },
+      {
+        "step": 6,
+        "description": "撒盐，翻炒均匀，起锅装盘"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "* 用小火煎",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-西红柿鸡蛋挂面-西红柿鸡蛋挂面",
+    "name": "西红柿鸡蛋挂面",
+    "description": "挂面太多怎么办？只煮个白水面味道难以下咽怎么办？简单的食材煮个美味的面条怎么操作？\n西红柿鸡蛋挂面只需简单的食材，快速的操作，不多的厨具，解决**不想麻烦**、**挂面太多**、**食材简单**的所有烦恼\n此处更要鸣谢 my mother 的在线指导:v:\n简单好做，开始吧！\n制作时间：20 分钟\n\n预估烹饪难度：★★",
+    "source_path": "../dishes/staple/西红柿鸡蛋挂面/西红柿鸡蛋挂面.md",
+    "image_path": "../dishes/staple/西红柿鸡蛋挂面/food.jpg",
+    "images": [
+      "../dishes/staple/西红柿鸡蛋挂面/food.jpg",
+      "../dishes/staple/西红柿鸡蛋挂面/pretreatFood.jpg",
+      "../dishes/staple/西红柿鸡蛋挂面/fryEgg.jpg",
+      "../dishes/staple/西红柿鸡蛋挂面/tomato.jpg",
+      "../dishes/staple/西红柿鸡蛋挂面/tomatoNoodle.jpg"
+    ],
+    "category": "主食",
+    "difficulty": 2,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "挂面或者鲜面条也行",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 挂面或者鲜面条也行",
+        "notes": "量未指定"
+      },
+      {
+        "name": "西红柿一个",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 西红柿一个",
+        "notes": "量未指定"
+      },
+      {
+        "name": "盐",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 盐",
+        "notes": "量未指定"
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 鸡蛋",
+        "notes": "量未指定"
+      },
+      {
+        "name": "葱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 葱",
+        "notes": "量未指定"
+      },
+      {
+        "name": "酱油、蚝油或者鸡精",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 酱油、蚝油或者鸡精",
+        "notes": "量未指定"
+      },
+      {
+        "name": "白砂糖（中和西红柿的酸味，西红柿如果不酸就不用加）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 白砂糖（中和西红柿的酸味，西红柿如果不酸就不用加）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "青椒（非线椒）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 青椒（非线椒）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "香油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 香油",
+        "notes": "量未指定"
+      },
+      {
+        "name": "挂面 1 把（根据食量来）",
+        "quantity": 75.0,
+        "unit": "g",
+        "text_quantity": "- 挂面 1 把（根据食量来）50-100g",
+        "notes": ""
+      },
+      {
+        "name": "西红柿",
+        "quantity": 1.0,
+        "unit": "个",
+        "text_quantity": "- 西红柿 1 个大概 200g 吧。",
+        "notes": ""
+      },
+      {
+        "name": "鸡蛋 1~",
+        "quantity": 2.0,
+        "unit": "个",
+        "text_quantity": "- 鸡蛋 1~2 个",
+        "notes": ""
+      },
+      {
+        "name": "蚝油",
+        "quantity": 5.0,
+        "unit": "g",
+        "text_quantity": "- 蚝油 5g 或鸡精 3g",
+        "notes": ""
+      },
+      {
+        "name": "白砂糖",
+        "quantity": 2.0,
+        "unit": "g",
+        "text_quantity": "- 白砂糖 2g",
+        "notes": ""
+      },
+      {
+        "name": "酱油",
+        "quantity": 6.5,
+        "unit": "g",
+        "text_quantity": "- 酱油 5-8g",
+        "notes": ""
+      },
+      {
+        "name": "食用油的用量为",
+        "quantity": 20.0,
+        "unit": "g",
+        "text_quantity": "- 食用油的用量为 20g",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "小葱洗净并切成葱花"
+      },
+      {
+        "step": 2,
+        "description": "西红柿切块儿，如果不太会切建议先百度一下~"
+      },
+      {
+        "step": 3,
+        "description": "青椒切成菱形块"
+      },
+      {
+        "step": 4,
+        "description": "生鸡蛋打入一个小碗并打散，如果鸡蛋有点腥味可以加 2g 白醋去腥"
+      },
+      {
+        "step": 5,
+        "description": "起锅烧热，倒入 15~20g 食用油，鸡蛋炒嫩滑就得多一点油，同时为后面煸炒西红柿留一些底油"
+      },
+      {
+        "step": 6,
+        "description": "待油温到七成热时（手掌隔大概 10cm，能感觉到热），倒入蛋液快速划散"
+      },
+      {
+        "step": 7,
+        "description": "鸡蛋滑到凝固后，一点不会有蛋液了后倒入小碗备用，此处留一些底油"
+      },
+      {
+        "step": 8,
+        "description": "锅中留底油后先加入葱白、蒜末炒香"
+      },
+      {
+        "step": 9,
+        "description": "加入西红柿块、青椒，待西红柿炒出一点汁水"
+      },
+      {
+        "step": 10,
+        "description": "此时速速加入 5g 酱油和 2g 白砂糖"
+      },
+      {
+        "step": 11,
+        "description": "翻炒十几秒后加入一碗清水（刚刚好即将没过西红柿即可）"
+      },
+      {
+        "step": 12,
+        "description": "煮沸后加入炒好的鸡蛋，加入蚝油 5g 或者 2g 鸡精用于提鲜"
+      },
+      {
+        "step": 13,
+        "description": "中小火收汁，期间要搅拌防止粘锅，收汁到下图后加一点葱花（剩下的葱绿部分）和香油（不加也可以），臊子制作完成"
+      },
+      {
+        "step": 14,
+        "description": "可以不用洗锅，直接加清水 500ml"
+      },
+      {
+        "step": 15,
+        "description": "煮沸加入挂面，挂面煮软后加入 100ml 清水"
+      },
+      {
+        "step": 16,
+        "description": "再次煮沸后，若面条飘起来了，再加入 100ml 清水"
+      },
+      {
+        "step": 17,
+        "description": "煮沸后看面条两侧是否呈透明状，透明状则熟了"
+      },
+      {
+        "step": 18,
+        "description": "捞面到臊子碗中，拌面即可啦~"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "- 鸡蛋蛋液中可以加入 2g 黑胡椒味道更好",
+      "- 熬臊子过程中加入 2g 白胡椒粉提升香辛口味",
+      "- 煮面条如果一次性煮熟也可以，多次加水是为了让面条口感劲道，面条不粘黏，技巧在于煮沸就加冷水，循环往复两三次即可",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-豆角焖面-豆角焖面",
+    "name": "豆角焖面",
+    "description": "豆角焖面是一道懒人美食，操作简单，方便美味。\n\n预估烹饪难度：★★★",
+    "source_path": "../dishes/staple/豆角焖面/豆角焖面.md",
+    "image_path": null,
+    "images": [],
+    "category": "主食",
+    "difficulty": 3,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "鲜面条（韭叶 or 二细<解释见最下方 关于面条粗细区别一栏）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 鲜面条（韭叶 or 二细<解释见最下方 关于面条粗细区别一栏）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "肉（最好为五花肉）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 肉（最好为五花肉）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "盐",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 盐",
+        "notes": "量未指定"
+      },
+      {
+        "name": "豆角",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 豆角",
+        "notes": "量未指定"
+      },
+      {
+        "name": "鸡精",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 鸡精",
+        "notes": "量未指定"
+      },
+      {
+        "name": "耗油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 耗油",
+        "notes": "量未指定"
+      },
+      {
+        "name": "味精",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 味精",
+        "notes": "量未指定"
+      },
+      {
+        "name": "十三香",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 十三香",
+        "notes": "量未指定"
+      },
+      {
+        "name": "生抽",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 生抽",
+        "notes": "量未指定"
+      },
+      {
+        "name": "老抽",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 老抽",
+        "notes": "量未指定"
+      },
+      {
+        "name": "葱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 葱",
+        "notes": "量未指定"
+      },
+      {
+        "name": "蒜头",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 蒜头",
+        "notes": "量未指定"
+      },
+      {
+        "name": "姜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 姜",
+        "notes": "量未指定"
+      },
+      {
+        "name": "热水",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 热水",
+        "notes": "量未指定"
+      },
+      {
+        "name": "菜刀",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 菜刀",
+        "notes": "量未指定"
+      },
+      {
+        "name": "鲜面条",
+        "quantity": 300.0,
+        "unit": "g",
+        "text_quantity": "* 鲜面条 300g。",
+        "notes": ""
+      },
+      {
+        "name": "肉",
+        "quantity": 100.0,
+        "unit": "g",
+        "text_quantity": "* 肉 100g。",
+        "notes": ""
+      },
+      {
+        "name": "盐的用量为",
+        "quantity": 2.0,
+        "unit": "g",
+        "text_quantity": "* 盐的用量为：2g。",
+        "notes": ""
+      },
+      {
+        "name": "食用油的用量为 。",
+        "quantity": 14.0,
+        "unit": "ml",
+        "text_quantity": "* 食用油的用量为 10 - 18 ml。",
+        "notes": ""
+      },
+      {
+        "name": "鸡精的用量为",
+        "quantity": 2.0,
+        "unit": "g",
+        "text_quantity": "* 鸡精的用量为：2g。",
+        "notes": ""
+      },
+      {
+        "name": "生抽的用量为",
+        "quantity": 10.0,
+        "unit": "ml",
+        "text_quantity": "* 生抽的用量为：10ml。",
+        "notes": ""
+      },
+      {
+        "name": "耗油的用量为",
+        "quantity": 5.0,
+        "unit": "g",
+        "text_quantity": "* 耗油的用量为：5g。",
+        "notes": ""
+      },
+      {
+        "name": "十三香的用量为",
+        "quantity": 1.0,
+        "unit": "g",
+        "text_quantity": "* 十三香的用量为：1g。",
+        "notes": ""
+      },
+      {
+        "name": "老抽的用量为",
+        "quantity": 5.0,
+        "unit": "ml",
+        "text_quantity": "* 老抽的用量为：5ml。",
+        "notes": ""
+      },
+      {
+        "name": "味精的用量为",
+        "quantity": 1.0,
+        "unit": "g",
+        "text_quantity": "* 味精的用量为：1g。",
+        "notes": ""
+      },
+      {
+        "name": "热水的用量为",
+        "quantity": 150.0,
+        "unit": "ml",
+        "text_quantity": "* 热水的用量为：150ml。",
+        "notes": ""
+      },
+      {
+        "name": "蒜",
+        "quantity": 10.0,
+        "unit": "g",
+        "text_quantity": "* 蒜 10g。",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "将豆角切成 5cm - 6cm 的小段。"
+      },
+      {
+        "step": 2,
+        "description": "将葱切成 1cm - 2cm 小段。"
+      },
+      {
+        "step": 3,
+        "description": "将姜切成 1mm x 1mm x 3cm 的长条"
+      },
+      {
+        "step": 4,
+        "description": "将蒜放在砧板上拍碎，切成 1mm 的粒度。"
+      },
+      {
+        "step": 5,
+        "description": "将五花肉切成 2mm 厚度的肉片。"
+      },
+      {
+        "step": 6,
+        "description": "首先将锅烧热，烧去锅内全部水汽，手放过内距离锅底 10cm 处，感觉明显有些许烤手。"
+      },
+      {
+        "step": 7,
+        "description": "加入上述定量的食用油，手持锅柄，离灶 5cm 处，摇晃锅，使食用油充分挂满锅的三分之二（自下而上）。"
+      },
+      {
+        "step": 8,
+        "description": "放入全部的姜和全部的葱段，翻炒爆香 5 秒（注意！此时有油飞溅的危险，建议带上手套或做好防护措施）。"
+      },
+      {
+        "step": 9,
+        "description": "放入全部的肉片，放入以后不着急饭锅，静置 5 秒后，再翻炒，使所有的肉都裹满食用油。"
+      },
+      {
+        "step": 10,
+        "description": "不断翻炒肉片，待到全部肉片都已经变色，沿锅边均匀淋如准备好的生抽，翻炒均匀。"
+      },
+      {
+        "step": 11,
+        "description": "依次加入准备好的盐、老抽、耗油、十三香、鸡精以及全部准备好的豆角，翻炒 2 分钟。"
+      },
+      {
+        "step": 12,
+        "description": "加入准备好的热水。"
+      },
+      {
+        "step": 13,
+        "description": "水开使用勺子舀出锅内 2 分之一菜汤（注意！不要将菜舀出）。"
+      },
+      {
+        "step": 14,
+        "description": "将所有面条平铺在菜的上方。"
+      },
+      {
+        "step": 15,
+        "description": "盖上锅盖，中火焖 5 分钟。"
+      },
+      {
+        "step": 16,
+        "description": "打开锅盖，将舀出的菜汤使用勺子，以每次一勺的量，均匀撒在面条上。"
+      },
+      {
+        "step": 17,
+        "description": "盖上锅盖，中火焖 3 分钟。"
+      },
+      {
+        "step": 18,
+        "description": "打开锅盖，将所有的蒜、味精均匀撒入。"
+      },
+      {
+        "step": 19,
+        "description": "使用筷子不断翻炒，将菜与肉均匀搅拌。"
+      },
+      {
+        "step": 20,
+        "description": "关火"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": []
+  },
+  {
+    "id": "..-dishes-staple-酱拌荞麦面-酱拌荞麦面",
+    "name": "酱拌荞麦面",
+    "description": "酱拌荞麦面营养健康、酸甜可口\n\n预估烹饪难度：★★",
+    "source_path": "../dishes/staple/酱拌荞麦面/酱拌荞麦面.md",
+    "image_path": "../dishes/staple/酱拌荞麦面/1.jpeg",
+    "images": [
+      "../dishes/staple/酱拌荞麦面/1.jpeg",
+      "../dishes/staple/酱拌荞麦面/2.jpeg"
+    ],
+    "category": "主食",
+    "difficulty": 2,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "荞麦面",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 荞麦面",
+        "notes": "量未指定"
+      },
+      {
+        "name": "黄瓜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 黄瓜",
+        "notes": "量未指定"
+      },
+      {
+        "name": "红萝卜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 红萝卜",
+        "notes": "量未指定"
+      },
+      {
+        "name": "老干妈",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "* 老干妈",
+        "notes": "量未指定"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "荞麦面下冷水煮熟，8-10 分钟 后捞出沥干备用"
+      },
+      {
+        "step": 2,
+        "description": "黄瓜、萝卜 切成小条"
+      },
+      {
+        "step": 3,
+        "description": "将荞麦面、黄瓜、萝卜放入盘子，放上老干妈，搅拌"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "* 荞麦面沥干后可以放冰箱冰镇后口感更佳",
+      "* 配料可以根据个人喜好选择其他，例如虾仁、肉沫等",
+      "* 酱料可以根据个人喜欢选择其他，例如花生酱、芝麻酱等",
+      "* 荞麦面跟其他面条热量几乎一致，所以不适合作为减脂的主食",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-陕西油泼面-陕西油泼面",
+    "name": "陕西油泼面",
+    "description": "陕西油泼面是中国西北地区极具代表性的传统面食，以面条筋道、香辣开胃著称。其制作过程简单快捷，核心在于最后热油泼洒在调料上产生的独特香气。\n\nNOTE：本次标准为陕西关中地区传统口味，可根据个人喜好调整辣度和配菜。\n\n预估烹饪难度：★★☆☆",
+    "source_path": "../dishes/staple/陕西油泼面/陕西油泼面.md",
+    "image_path": "../dishes/staple/陕西油泼面/chemian.png",
+    "images": [
+      "../dishes/staple/陕西油泼面/chemian.png",
+      "../dishes/staple/陕西油泼面/成品.png"
+    ],
+    "category": "主食",
+    "difficulty": 2,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "盐",
+        "quantity": 2.0,
+        "unit": "g",
+        "text_quantity": "- 盐 2g",
+        "notes": ""
+      },
+      {
+        "name": "葱",
+        "quantity": 1.0,
+        "unit": "根",
+        "text_quantity": "- 葱 1 根",
+        "notes": ""
+      },
+      {
+        "name": "大蒜",
+        "quantity": 3.0,
+        "unit": "瓣",
+        "text_quantity": "- 大蒜 3 瓣",
+        "notes": ""
+      },
+      {
+        "name": "干辣椒面",
+        "quantity": 15.0,
+        "unit": "g",
+        "text_quantity": "- 干辣椒面 15g",
+        "notes": ""
+      },
+      {
+        "name": "食用油",
+        "quantity": 50.0,
+        "unit": "ml",
+        "text_quantity": "- 食用油 50ml",
+        "notes": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": 10.0,
+        "unit": "ml",
+        "text_quantity": "- 生抽 10ml",
+        "notes": ""
+      },
+      {
+        "name": "香醋",
+        "quantity": 5.0,
+        "unit": "ml",
+        "text_quantity": "- 香醋 5ml",
+        "notes": ""
+      },
+      {
+        "name": "青菜",
+        "quantity": 50.0,
+        "unit": "g",
+        "text_quantity": "- 青菜 50g",
+        "notes": ""
+      },
+      {
+        "name": "豆芽",
+        "quantity": 50.0,
+        "unit": "g",
+        "text_quantity": "- 豆芽 50g（选配）",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "扯面的话, 用擀面杖（没有擀面杖,用手也行）上下两边轻压, 两手拽住左右两端,轻轻拉开"
+      },
+      {
+        "step": 2,
+        "description": "葱切成葱花，蒜切成蒜末备用"
+      },
+      {
+        "step": 3,
+        "description": "青菜洗净，豆芽洗净备用（如使用）"
+      },
+      {
+        "step": 4,
+        "description": "锅中加入足量清水，大火烧开后加入 1g 盐"
+      },
+      {
+        "step": 5,
+        "description": "放入面条，用筷子轻轻搅动防止粘连，煮至面条浮起后再煮 1-2 分钟"
+      },
+      {
+        "step": 6,
+        "description": "在煮面的最后 1 分钟，放入青菜和豆芽焯水"
+      },
+      {
+        "step": 7,
+        "description": "将煮好的面条和青菜、豆芽捞出，沥干水分后放入碗中"
+      },
+      {
+        "step": 8,
+        "description": "在面条上依次加入生抽、香醋、葱花、蒜末和干辣椒面, 也可放点芝麻"
+      },
+      {
+        "step": 9,
+        "description": "炒锅中倒入食用油，同时放入花椒、八角、桂皮、香叶（如使用），小火炸出香味后捞出香料"
+      },
+      {
+        "step": 10,
+        "description": "待油温升至七成热（微微冒烟）时，迅速均匀地泼在碗中的干辣椒面上，听到“滋啦”声即可"
+      },
+      {
+        "step": 11,
+        "description": "用筷子将所有调料和面条充分拌匀即可食用"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "- 技术总结",
+      "- 辣椒面的选择很关键，建议使用陕西秦椒面，香而不辣; 陕西八大怪之一: 油泼辣子一道菜😂",
+      "- 泼油的油温是成败关键，油温过低辣椒不香，油温过高容易糊",
+      "- 喜欢吃肉的可以加入肉末做成肉臊子油泼面",
+      "- 传统陕西油泼面讲究“一青二白三红四绿”，即面条、蒜末、辣椒、葱花的颜色搭配"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-韩式拌饭-韩式拌饭",
+    "name": "韩式拌饭",
+    "description": "![韩式拌饭](./韩式拌饭.png)\n\n预估烹饪难度：★★★",
+    "source_path": "../dishes/staple/韩式拌饭/韩式拌饭.md",
+    "image_path": "../dishes/staple/韩式拌饭/韩式拌饭.png",
+    "images": [
+      "../dishes/staple/韩式拌饭/韩式拌饭.png"
+    ],
+    "category": "主食",
+    "difficulty": 3,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "米饭",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 米饭",
+        "notes": "量未指定"
+      },
+      {
+        "name": "鸡蛋",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 鸡蛋",
+        "notes": "量未指定"
+      },
+      {
+        "name": "火锅牛肉卷",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 火锅牛肉卷",
+        "notes": "量未指定"
+      },
+      {
+        "name": "豆芽",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 豆芽",
+        "notes": "量未指定"
+      },
+      {
+        "name": "蘑菇",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 蘑菇",
+        "notes": "量未指定"
+      },
+      {
+        "name": "胡萝卜",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 胡萝卜",
+        "notes": "量未指定"
+      },
+      {
+        "name": "西葫芦",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 西葫芦",
+        "notes": "量未指定"
+      },
+      {
+        "name": "韩式辣酱",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 韩式辣酱",
+        "notes": "量未指定"
+      },
+      {
+        "name": "雪碧",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 雪碧",
+        "notes": "量未指定"
+      },
+      {
+        "name": "芝麻",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 芝麻",
+        "notes": "量未指定"
+      },
+      {
+        "name": "芝麻油",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 芝麻油",
+        "notes": "量未指定"
+      },
+      {
+        "name": "火锅牛肉卷 6 卷",
+        "quantity": 60.0,
+        "unit": "g",
+        "text_quantity": "- 火锅牛肉卷 6 卷 60g",
+        "notes": ""
+      },
+      {
+        "name": "胡萝卜 1/",
+        "quantity": 4.0,
+        "unit": "根",
+        "text_quantity": "- 胡萝卜 1/4 根",
+        "notes": ""
+      },
+      {
+        "name": "生抽",
+        "quantity": 15.0,
+        "unit": "ml",
+        "text_quantity": "- 生抽 15ml",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "蔬菜清洗 切丝 放锅中翻炒 食材变软 便可称出"
+      },
+      {
+        "step": 2,
+        "description": "煮水 等沸腾时 焯牛肉卷 只需煮熟 大概三分钟即可捞出"
+      },
+      {
+        "step": 3,
+        "description": "煎[溏心蛋](../../breakfast/溏心蛋.md)"
+      },
+      {
+        "step": 4,
+        "description": "将[米饭](../../staple/米饭/电饭煲蒸米饭.md)放在一个碗里 然后倒扣在大碗"
+      },
+      {
+        "step": 5,
+        "description": "将准备好的蔬菜和肉卷依次绕圈放在米饭上面 将煎蛋放中间"
+      },
+      {
+        "step": 6,
+        "description": "备酱汁"
+      },
+      {
+        "step": 7,
+        "description": "10ml 韩式辣酱（甜辣口）+ 5ml 生抽 + 两瓶盖雪碧（减肥的话 可以放无糖雪碧）+ 10g 芝麻 + 5ml 芝麻油"
+      },
+      {
+        "step": 8,
+        "description": "搅拌上述酱汁，可以再加生抽和盐"
+      },
+      {
+        "step": 9,
+        "description": "将备好的酱汁倒在摆好盘的碗中"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "- 这是道非常简单的菜 过程会比较繁琐 但当将菜肉米饭酱汁搅拌起来吃会很满足",
+      "- 如果对外观有一定要求 可以用砂锅代替普通碗",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  },
+  {
+    "id": "..-dishes-staple-鲣鱼海苔玉米饭-鲣鱼海苔玉米饭",
+    "name": "鲣鱼海苔玉米饭",
+    "description": "![示例菜成品](./米饭.jpg)\n\n空气炸锅羊排超级懒人版，味道尚可，主要看羊排的品质。\n\n- 烹饪总时长：40 分钟（准备 3 分钟+煮饭 40 分钟+拌饭 2 分钟）\n- 实际操作时间：5 分钟\n\n预估烹饪难度：★★",
+    "source_path": "../dishes/staple/鲣鱼海苔玉米饭/鲣鱼海苔玉米饭.md",
+    "image_path": "../dishes/staple/鲣鱼海苔玉米饭/米饭.jpg",
+    "images": [
+      "../dishes/staple/鲣鱼海苔玉米饭/米饭.jpg"
+    ],
+    "category": "主食",
+    "difficulty": 2,
+    "tags": [
+      "主食"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "必备东北米（金龙鱼 30 元",
+        "quantity": 5.0,
+        "unit": "kg",
+        "text_quantity": "- 必备：东北米（金龙鱼 30 元 5kg 的就行，推荐使用米家 IH 电饭煲煮，教程用的是米家小饭煲，**不推荐使用高压锅煮饭**）",
+        "notes": ""
+      },
+      {
+        "name": "必备鲣鱼海苔碎（JD 和淘宝都有，可以搜索日式拌饭料）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 必备：鲣鱼海苔碎（JD 和淘宝都有，可以搜索：日式拌饭料）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "必备玉米粒（淘宝搜索玉米粒 即食）",
+        "quantity": null,
+        "unit": null,
+        "text_quantity": "- 必备：玉米粒（淘宝搜索：玉米粒 即食）",
+        "notes": "量未指定"
+      },
+      {
+        "name": "鲣鱼海苔碎",
+        "quantity": 20.0,
+        "unit": "g",
+        "text_quantity": "- 鲣鱼海苔碎 20g",
+        "notes": ""
+      },
+      {
+        "name": "玉米粒",
+        "quantity": 80.0,
+        "unit": "g",
+        "text_quantity": "- 玉米粒 80g/袋",
+        "notes": ""
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "盛好米饭，放入玉米粒拌好"
+      },
+      {
+        "step": 2,
+        "description": "放入鲣鱼海苔碎"
+      }
+    ],
+    "prep_time_minutes": null,
+    "cook_time_minutes": null,
+    "total_time_minutes": null,
+    "additional_notes": [
+      "- 使用米家小饭煲煮东北米的话，水没过米 3 毫米就行，太多水煮出来不是一粒一粒的饭",
+      "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+    ]
+  }
+]

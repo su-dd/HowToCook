@@ -3,6 +3,19 @@ import json
 import re
 from typing import List, Dict, Any, Tuple
 
+# 尝试加载UUID映射
+UUID_MAPPING = {}
+try:
+    UUID_MAPPING_FILE = os.path.join(os.path.dirname(__file__), 'uuid', 'Uuid.json')
+    with open(UUID_MAPPING_FILE, 'r', encoding='utf-8') as f:
+        uuid_mapping_data = json.load(f)
+        # 创建反向映射，将文件路径作为键，UUID作为值
+        UUID_MAPPING = {value: key for key, value in uuid_mapping_data.items()}
+except FileNotFoundError:
+    print("警告: 找不到 uuid/Uuid.json 文件，将使用默认ID生成方式")
+except json.JSONDecodeError:
+    print("警告: uuid/Uuid.json 文件格式错误，将使用默认ID生成方式")
+
 def parse_ingredient_text(text: str) -> Tuple[str, float, str]:
     """
     解析原料文本，提取名称、数量和单位
@@ -94,7 +107,6 @@ def parse_markdown_file(file_path: str) -> Dict[str, Any]:
         'dessert': '甜品',
         'drink': '饮品',
         'meat_dish': '肉食',
-        'noodle': '汤面',
         'semi-finished': '半成品',
         'soup': '汤类',
         'staple': '主食',
@@ -109,13 +121,13 @@ def parse_markdown_file(file_path: str) -> Dict[str, Any]:
     
     # 提取必需原料和工具（支持-和*两种列表标记，包括嵌套列表）
     ingredients = []
+    processed_ingredients = set()  # 用于跟踪已处理的原料，避免重复
     ingredients_section = re.search(r'## 必备原料和工具\n(.*?)\n##', content, re.DOTALL)
     if ingredients_section:
         ingredients_text = ingredients_section.group(1)
         # 查找所有以列表标记开头的行，包括缩进的列表项
         lines = ingredients_text.split('\n')
         i = 0
-        processed_ingredients = set()  # 用于跟踪已处理的原料，避免重复
         
         while i < len(lines):
             line = lines[i]
@@ -275,18 +287,24 @@ def parse_markdown_file(file_path: str) -> Dict[str, Any]:
     # 设置主图路径
     image_path = images[0] if images else None
     
-    # 构建ID（基于文件路径和标题）
-    # 使用当前工作目录作为基准路径
-    base_path = os.getcwd()
-    relative_path = os.path.relpath(file_path, base_path)
-    path_parts = relative_path.replace('\\', '/').split('/')
+    # 使用UUID作为ID
+    relative_path = os.path.relpath(file_path, os.getcwd()).replace('\\', '/')
+    dish_id = UUID_MAPPING.get(relative_path)
     
-    # 移除文件扩展名获取文件名部分
-    if path_parts[-1].endswith('.md'):
-        path_parts[-1] = path_parts[-1][:-3]  # 移除 .md 扩展名
-    
-    # 构建完整的ID
-    dish_id = '-'.join(path_parts)
+    # 如果没有找到UUID，则使用原来的构建方式
+    if not dish_id:
+        # 构建ID（基于文件路径和标题）
+        # 使用当前工作目录作为基准路径
+        base_path = os.getcwd()
+        relative_path_for_id = os.path.relpath(file_path, base_path).replace('\\', '/')
+        path_parts = relative_path_for_id.split('/')
+        
+        # 移除文件扩展名获取文件名部分
+        if path_parts[-1].endswith('.md'):
+            path_parts[-1] = path_parts[-1][:-3]  # 移除 .md 扩展名
+        
+        # 构建完整的ID
+        dish_id = '-'.join(path_parts)
     
     # 构建源路径
     source_path = os.path.relpath(file_path, base_path).replace('\\', '/')
@@ -316,21 +334,34 @@ def scan_dishes_directory(directory: str) -> Dict[str, List[Dict[str, Any]]]:
     """
     recipes_by_category = {}
     
-    # 获取所有分类目录
-    category_dirs = [d for d in os.listdir(directory) if os.path.isdir(os.path.join(directory, d))]
-    
     # 初始化所有分类
-    for category_dir in category_dirs:
+    category_map = {
+        'aquatic': '水产',
+        'breakfast': '早餐',
+        'condiment': '佐料',
+        'dessert': '甜品',
+        'drink': '饮品',
+        'meat_dish': '肉食',
+        'semi-finished': '半成品',
+        'soup': '汤类',
+        'staple': '主食',
+        'vegetable_dish': '素菜'
+    }
+    
+    for category_dir in category_map.keys():
         recipes_by_category[category_dir] = []
     
     for root, dirs, files in os.walk(directory):
         # 获取当前目录的分类名称
         relative_root = os.path.relpath(root, directory)
-        path_parts = relative_root.split(os.sep)
+        # 统一使用正斜杠处理路径
+        relative_root = relative_root.replace('\\', '/')
+        path_parts = relative_root.split('/')
         category = path_parts[0] if path_parts and path_parts[0] else 'unknown'
         
         # 如果分类不在预定义列表中，则跳过
         if category not in recipes_by_category:
+            print(f"跳过分类: {category}")
             continue
         
         for file in files:
@@ -345,8 +376,12 @@ def scan_dishes_directory(directory: str) -> Dict[str, List[Dict[str, Any]]]:
     return recipes_by_category
 
 def main():
-    dishes_directory = './dishes'
+    # 调整路径以正确指向项目根目录下的dishes文件夹
+    dishes_directory = '../dishes'
     recipes_directory = './recipes'
+    
+    # 确保recipes目录存在
+    os.makedirs(recipes_directory, exist_ok=True)
     
     print("开始解析菜谱文件...")
     recipes_by_category = scan_dishes_directory(dishes_directory)
@@ -372,6 +407,5 @@ def main():
         json.dump(all_recipes, f, ensure_ascii=False, indent=2)
     
     print(f"所有菜谱数据已保存到 {all_recipes_file}")
-
 if __name__ == "__main__":
     main()

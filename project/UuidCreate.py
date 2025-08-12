@@ -11,7 +11,7 @@ def generate_uuid_for_md_files(path : str):
     ]
     
     # UUID 文件路径
-    uuid_file_path = '.\\recipes\\Uuid.json'
+    uuid_file_path = '.\\uuid\\Uuid.json'
     
     # 读取现有的 UUID 映射
     if os.path.exists(uuid_file_path):
