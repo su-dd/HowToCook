@@ -1,7 +1,55 @@
 import os
 import json
 import re
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Tuple
+
+def parse_ingredient_text(text: str) -> Tuple[str, float, str]:
+    """
+    解析原料文本，提取名称、数量和单位
+    例如："鸡蛋 2个" -> ("鸡蛋", 2.0, "个")
+    """
+    # 常见单位列表
+    units = ['克', 'g', 'kg', '毫升', 'ml', '升', 'l', '个', '只', '块', '片', '根', '条', '把', '朵', '粒', '颗', '瓣', '滴', '勺', '杯', '碗', '包', '袋', '瓶', '罐', '盒', '斤', '两']
+    
+    # 移除特殊字符
+    text = text.strip().replace('：', '').replace(':', '')
+    
+    # 尝试匹配范围值，如"70-230g"
+    range_pattern = r'(\d+(?:\.\d+)?)\s*-\s*(\d+(?:\.\d+)?)\s*(' + '|'.join(units) + ')'
+    range_match = re.search(range_pattern, text)
+    
+    if range_match:
+        # 取范围的平均值作为数量
+        min_val = float(range_match.group(1))
+        max_val = float(range_match.group(2))
+        quantity = (min_val + max_val) / 2
+        unit = range_match.group(3)
+        # 移除范围部分，获取名称
+        name = re.sub(range_pattern, '', text).strip()
+        return name, quantity, unit
+    
+    # 尝试匹配数量和单位
+    # 匹配模式：数字+单位 或 数字+空格+单位
+    pattern = r'^(.*?)(\d+(?:\.\d+)?)\s*(' + '|'.join(units) + ')'
+    match = re.search(pattern, text)
+    
+    if match:
+        name = match.group(1).strip()
+        quantity = float(match.group(2))
+        unit = match.group(3)
+        return name, quantity, unit
+    
+    # 如果没有匹配到，尝试匹配只有数字的情况
+    pattern = r'^(.*?)(\d+(?:\.\d+)?)$'
+    match = re.search(pattern, text)
+    
+    if match:
+        name = match.group(1).strip()
+        quantity = float(match.group(2))
+        return name, quantity, None
+    
+    # 如果都没有匹配到，返回原始文本作为名称
+    return text, None, None
 
 def parse_markdown_file(file_path: str) -> Dict[str, Any]:
     """
@@ -46,6 +94,7 @@ def parse_markdown_file(file_path: str) -> Dict[str, Any]:
         'dessert': '甜品',
         'drink': '饮品',
         'meat_dish': '肉食',
+        'noodle': '汤面',
         'semi-finished': '半成品',
         'soup': '汤类',
         'staple': '主食',
@@ -66,6 +115,8 @@ def parse_markdown_file(file_path: str) -> Dict[str, Any]:
         # 查找所有以列表标记开头的行，包括缩进的列表项
         lines = ingredients_text.split('\n')
         i = 0
+        processed_ingredients = set()  # 用于跟踪已处理的原料，避免重复
+        
         while i < len(lines):
             line = lines[i]
             # 检查是否为列表项，但排除引用行（>）和子标题（###）
@@ -75,52 +126,61 @@ def parse_markdown_file(file_path: str) -> Dict[str, Any]:
                 # 去掉前缀获取原料名称
                 stripped_line = line.strip()
                 if stripped_line.startswith('- ') or stripped_line.startswith('* '):
-                    ingredient_name = stripped_line[2:].strip()
+                    ingredient_text = stripped_line[2:].strip()
                 elif stripped_line.startswith('  - ') or stripped_line.startswith('  * '):
-                    ingredient_name = stripped_line[4:].strip()
+                    ingredient_text = stripped_line[4:].strip()
+                
+                # 解析原料文本，提取名称、数量和单位
+                ingredient_name, quantity, unit = parse_ingredient_text(ingredient_text)
                 
                 # 特殊处理：如果原料名称包含子列表，则需要提取子列表项
                 if ingredient_name and (ingredient_name.endswith("：") or "包含" in ingredient_name):
                     # 这是一个带子列表的项，如"袋装螺蛳粉一包，其中应该包含："
-                    ingredients.append({
-                        "name": ingredient_name,
-                        "quantity": None,
-                        "unit": None,
-                        "text_quantity": stripped_line,
-                        "notes": "量未指定"
-                    })
+                    if ingredient_name not in processed_ingredients:
+                        ingredients.append({
+                            "name": ingredient_name,
+                            "quantity": quantity,
+                            "unit": unit,
+                            "text_quantity": stripped_line,
+                            "notes": "量未指定" if quantity is None else ""
+                        })
+                        processed_ingredients.add(ingredient_name)
                     
                     # 查找接下来的子列表项
                     j = i + 1
                     while j < len(lines) and (lines[j].startswith('  - ') or lines[j].startswith('  * ') or 
                                               lines[j].startswith('    - ') or lines[j].startswith('    * ')):
                         sub_line = lines[j].strip()
-                        sub_ingredient = ""
+                        sub_ingredient_text = ""
                         if sub_line.startswith('  - ') or sub_line.startswith('  * '):
-                            sub_ingredient = sub_line[4:].strip()
+                            sub_ingredient_text = sub_line[4:].strip()
                         elif sub_line.startswith('    - ') or sub_line.startswith('    * '):
-                            sub_ingredient = sub_line[6:].strip()
+                            sub_ingredient_text = sub_line[6:].strip()
                         
-                        if sub_ingredient:
-                            ingredients.append({
-                                "name": sub_ingredient,
-                                "quantity": None,
-                                "unit": None,
-                                "text_quantity": sub_line,
-                                "notes": "量未指定"
-                            })
+                        if sub_ingredient_text:
+                            sub_ingredient_name, sub_quantity, sub_unit = parse_ingredient_text(sub_ingredient_text)
+                            if sub_ingredient_name and sub_ingredient_name not in processed_ingredients:
+                                ingredients.append({
+                                    "name": sub_ingredient_name,
+                                    "quantity": sub_quantity,
+                                    "unit": sub_unit,
+                                    "text_quantity": sub_line,
+                                    "notes": "量未指定" if sub_quantity is None else ""
+                                })
+                                processed_ingredients.add(sub_ingredient_name)
                         j += 1
                     i = j  # 跳过已处理的子项
                     continue
-                elif ingredient_name:
+                elif ingredient_name and ingredient_name not in processed_ingredients:
                     # 普通的原料项
                     ingredients.append({
                         "name": ingredient_name,
-                        "quantity": None,
-                        "unit": None,
+                        "quantity": quantity,
+                        "unit": unit,
                         "text_quantity": stripped_line,
-                        "notes": "量未指定"
+                        "notes": "量未指定" if quantity is None else ""
                     })
+                    processed_ingredients.add(ingredient_name)
             i += 1
     
     # 提取计算部分（支持-和*两种列表标记）
@@ -130,18 +190,18 @@ def parse_markdown_file(file_path: str) -> Dict[str, Any]:
         # 支持-和*两种列表标记
         calculation_lines = [line.strip() for line in calculation_text.split('\n') if line.strip().startswith(('- ', '* '))]
         for line in calculation_lines:
-            ingredient = line[2:]  # 去掉 "- " 或 "* " 前缀
-            # 提取原料名称（第一个词）
-            name_parts = ingredient.split()
-            if name_parts:
-                name = name_parts[0]
+            ingredient_text = line[2:]  # 去掉 "- " 或 "* " 前缀
+            # 解析原料文本，提取名称、数量和单位
+            name, quantity, unit = parse_ingredient_text(ingredient_text)
+            if name and name not in processed_ingredients:
                 ingredients.append({
                     "name": name,
-                    "quantity": None,
-                    "unit": None,
+                    "quantity": quantity,
+                    "unit": unit,
                     "text_quantity": line,
-                    "notes": "量未指定"
+                    "notes": "量未指定" if quantity is None else ""
                 })
+                processed_ingredients.add(name)
     
     # 提取操作步骤（支持-和*两种列表标记）
     steps = []
@@ -156,6 +216,9 @@ def parse_markdown_file(file_path: str) -> Dict[str, Any]:
                 "step": i,
                 "description": step_text
             })
+    # 如果没有找到步骤，使用默认值
+    if not steps:
+        steps = [{"step": 1, "description": "暂无详细步骤说明"}]
     
     # 提取参考资料作为additional_notes
     additional_notes = []
@@ -213,7 +276,9 @@ def parse_markdown_file(file_path: str) -> Dict[str, Any]:
     image_path = images[0] if images else None
     
     # 构建ID（基于文件路径和标题）
-    relative_path = os.path.relpath(file_path, 'e:/HowToCookPython')
+    # 使用当前工作目录作为基准路径
+    base_path = os.getcwd()
+    relative_path = os.path.relpath(file_path, base_path)
     path_parts = relative_path.replace('\\', '/').split('/')
     
     # 移除文件扩展名获取文件名部分
@@ -224,7 +289,7 @@ def parse_markdown_file(file_path: str) -> Dict[str, Any]:
     dish_id = '-'.join(path_parts)
     
     # 构建源路径
-    source_path = os.path.relpath(file_path, 'e:/HowToCookPython').replace('\\', '/')
+    source_path = os.path.relpath(file_path, base_path).replace('\\', '/')
     
     return {
         "id": dish_id,
@@ -245,38 +310,68 @@ def parse_markdown_file(file_path: str) -> Dict[str, Any]:
         "additional_notes": additional_notes
     }
 
-def scan_dishes_directory(directory: str) -> List[Dict[str, Any]]:
+def scan_dishes_directory(directory: str) -> Dict[str, List[Dict[str, Any]]]:
     """
-    扫描菜谱目录并解析所有.md文件
+    扫描菜谱目录并按分类解析所有.md文件
     """
-    recipes = []
+    recipes_by_category = {}
+    
+    # 获取所有分类目录
+    category_dirs = [d for d in os.listdir(directory) if os.path.isdir(os.path.join(directory, d))]
+    
+    # 初始化所有分类
+    for category_dir in category_dirs:
+        recipes_by_category[category_dir] = []
     
     for root, dirs, files in os.walk(directory):
+        # 获取当前目录的分类名称
+        relative_root = os.path.relpath(root, directory)
+        path_parts = relative_root.split(os.sep)
+        category = path_parts[0] if path_parts and path_parts[0] else 'unknown'
+        
+        # 如果分类不在预定义列表中，则跳过
+        if category not in recipes_by_category:
+            continue
+        
         for file in files:
             if file.endswith('.md'):
                 file_path = os.path.join(root, file)
                 try:
                     recipe_data = parse_markdown_file(file_path)
-                    recipes.append(recipe_data)
+                    recipes_by_category[category].append(recipe_data)
                 except Exception as e:
                     print(f"解析文件 {file_path} 时出错: {e}")
     
-    return recipes
+    return recipes_by_category
 
 def main():
     dishes_directory = './dishes'
-    output_file = './recipes/all_recipes.json'
+    recipes_directory = './recipes'
     
     print("开始解析菜谱文件...")
-    recipes = scan_dishes_directory(dishes_directory)
+    recipes_by_category = scan_dishes_directory(dishes_directory)
     
-    print(f"共解析 {len(recipes)} 个菜谱")
+    # 为每个分类创建单独的JSON文件
+    for category, recipes in recipes_by_category.items():
+        output_file = os.path.join(recipes_directory, f"{category}_recipes.json")
+        print(f"正在生成 {category} 分类的菜谱数据，共 {len(recipes)} 个菜谱...")
+        
+        # 写入JSON文件
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(recipes, f, ensure_ascii=False, indent=2)
+        
+        print(f"{category} 分类的菜谱数据已保存到 {output_file}")
     
-    # 写入JSON文件
-    with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(recipes, f, ensure_ascii=False, indent=2)
+    # 生成一个包含所有菜谱的文件以保持向后兼容
+    all_recipes = []
+    for recipes in recipes_by_category.values():
+        all_recipes.extend(recipes)
     
-    print(f"菜谱数据已保存到 {output_file}")
+    all_recipes_file = os.path.join(recipes_directory, 'all_recipes.json')
+    with open(all_recipes_file, 'w', encoding='utf-8') as f:
+        json.dump(all_recipes, f, ensure_ascii=False, indent=2)
+    
+    print(f"所有菜谱数据已保存到 {all_recipes_file}")
 
 if __name__ == "__main__":
     main()
