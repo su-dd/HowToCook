@@ -3,6 +3,7 @@ import json
 import re
 from typing import List, Dict, Any, Tuple
 
+from image_handler import copy_image_to_recipes, generate_image_mapping
 
 def parse_ingredient_text(text: str) -> Tuple[str, float, str]:
     """
@@ -52,9 +53,7 @@ def parse_ingredient_text(text: str) -> Tuple[str, float, str]:
     # 如果都没有匹配到，返回原始文本作为名称
     return text, None, None
 
-def parse_markdown_file(file_path: str, category: str, uuid_mapping: dict, base_path : str) -> Dict[str, Any]:
-
-
+def parse_markdown_file(file_path: str, category: str, uuid_mapping: dict, image_mapping: dict, base_path : str) -> Dict[str, Any]:
     """
     解析菜谱Markdown文件并提取信息
     """
@@ -267,6 +266,13 @@ def parse_markdown_file(file_path: str, category: str, uuid_mapping: dict, base_
     if not dish_id:
         raise ValueError(f"未找到文件 {relative_path} 的UUID映射")
     
+    # 复制图片到recipes文件夹并更新路径
+    if image_path:
+        image_path = copy_image_to_recipes(image_path, image_mapping)
+    
+    if images:
+        images = [copy_image_to_recipes(img, image_mapping) for img in images]
+    
     # 构建源路径
     source_path = os.path.relpath(file_path, base_path).replace('\\', '/')
     
@@ -289,7 +295,8 @@ def parse_markdown_file(file_path: str, category: str, uuid_mapping: dict, base_
         "additional_notes": additional_notes
     }
 
-def scan_dishes_directory(directory: str, uuid_mapping: dict, base_path : str) -> Dict[str, List[Dict[str, Any]]]:
+def scan_dishes_directory(directory: str, uuid_mapping: dict, image_mapping: dict, base_path : str) -> Dict[str, List[Dict[str, Any]]]:
+
 
     """
     扫描菜谱目录并按分类解析所有.md文件
@@ -330,7 +337,7 @@ def scan_dishes_directory(directory: str, uuid_mapping: dict, base_path : str) -
             if file.endswith('.md'):
                 file_path = os.path.join(root, file).replace('\\', '/')
                 try:
-                    recipe_data = parse_markdown_file(file_path, category_map[category], uuid_mapping, base_path)
+                    recipe_data = parse_markdown_file(file_path, category_map[category], uuid_mapping, image_mapping, base_path)
                     recipes_by_category[category].append(recipe_data)
                 except Exception as e:
                     print(f"解析文件 {file_path} 时出错: {e}")

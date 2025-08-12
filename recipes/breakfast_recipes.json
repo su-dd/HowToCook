@@ -2102,9 +2102,9 @@
     "name": "苏格兰蛋",
     "description": "<!-- 标题必须是 `菜名` + `的做法`。和文件名一致。 -->\n\n<!-- 如果有图片更好。 -->\n\n![简易版苏格兰蛋](./egg1.png)\n\n苏格兰蛋是一种用新鲜肉糜裹住鸡蛋，放入油中炸至金黄制成，这个版本比较费事，所以在此就给大家带来简易版,苏格兰蛋复杂版大家就自行查找。\n\n简易版苏格兰蛋是利用手抓饼皮包裹住芝士培根糖心蛋放入油中炸至金黄制成，大约耗时 20-30 分钟。\n\n预估烹饪难度：★★★",
     "source_path": "dishes/breakfast/苏格兰蛋/苏格兰蛋.md",
-    "image_path": "d:/workspace/HowToCook/dishes/breakfast/苏格兰蛋/egg1.png",
+    "image_path": "recipes/images/24fe174b-cbaf-4028-82c9-12cb7c542cbe.png",
     "images": [
-      "d:/workspace/HowToCook/dishes/breakfast/苏格兰蛋/egg1.png"
+      "recipes/images/24fe174b-cbaf-4028-82c9-12cb7c542cbe.png"
     ],
     "category": "早餐",
     "difficulty": 3,

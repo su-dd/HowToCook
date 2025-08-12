@@ -5967,9 +5967,9 @@
     "name": "农家一碗香",
     "description": "![农家一碗香](./农家一碗香成品.jpg)\n\n农家一碗香，是一道地道的湖南菜，里面主要食材有青椒、鸡蛋和猪肉。味道咸香下饭，而且这道菜烹饪简单，不需要特别的处理。\n\n农家一碗香是一道中等难度的菜品。预计备菜 7 分钟，烹饪 10 分钟，总计 17 分钟。\n\n预估烹饪难度：★★★",
     "source_path": "dishes/meat_dish/农家一碗香/农家一碗香.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/农家一碗香/农家一碗香成品.jpg",
+    "image_path": "recipes/images/01953f68-8de3-4e42-8a67-07e17e3ef8e1.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/农家一碗香/农家一碗香成品.jpg"
+      "recipes/images/01953f68-8de3-4e42-8a67-07e17e3ef8e1.jpg"
     ],
     "category": "肉食",
     "difficulty": 3,
@@ -5998,9 +5998,9 @@
     "name": "冬瓜酿肉",
     "description": "![冬瓜酿肉成品](./冬瓜酿肉成品.jpg)\n\n荤素搭配，鲜嫩爽滑,做法简单。一般 30 分钟。\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/meat_dish/冬瓜酿肉/冬瓜酿肉.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/冬瓜酿肉/冬瓜酿肉成品.jpg",
+    "image_path": "recipes/images/3eca94d5-aabe-4229-9c20-2da4911dc8d5.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/冬瓜酿肉/冬瓜酿肉成品.jpg"
+      "recipes/images/3eca94d5-aabe-4229-9c20-2da4911dc8d5.jpg"
     ],
     "category": "肉食",
     "difficulty": 4,
@@ -6158,9 +6158,9 @@
     "name": "凉拌鸡丝",
     "description": "![凉拌鸡丝成品](./凉拌鸡丝.jpg)\n隔离期间的一道快手菜，少油低卡，制作简单，预计制作时间 30 分钟\n\n预估烹饪难度：★★★",
     "source_path": "dishes/meat_dish/凉拌鸡丝/凉拌鸡丝.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/凉拌鸡丝/凉拌鸡丝.jpg",
+    "image_path": "recipes/images/6fd2b02d-bcb0-41cf-bb5c-ffc21861c86c.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/凉拌鸡丝/凉拌鸡丝.jpg"
+      "recipes/images/6fd2b02d-bcb0-41cf-bb5c-ffc21861c86c.jpg"
     ],
     "category": "肉食",
     "difficulty": 3,
@@ -6318,9 +6318,9 @@
     "name": "卤菜",
     "description": "卤菜是一道经典的中式卤味料理，富含蛋白质和多种维生素。肉质鲜嫩多汁，香气四溢，入味程度可根据浸泡时间自行调整。这道菜适合作为凉菜、下酒菜或搭配主食食用，卤水还可多次使用，越陈越香。\n本教程以卤牛肉为例，其他肉类同理。\n\n![卤牛肉](./卤牛肉.jpeg)\n\n预估烹饪难度：★★★",
     "source_path": "dishes/meat_dish/卤菜/卤菜.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/卤菜/卤牛肉.jpeg",
+    "image_path": "recipes/images/8736958f-98d0-44ad-8654-b73f32887206.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/卤菜/卤牛肉.jpeg"
+      "recipes/images/8736958f-98d0-44ad-8654-b73f32887206.jpeg"
     ],
     "category": "肉食",
     "difficulty": 3,
@@ -6582,9 +6582,9 @@
     "name": "口水鸡",
     "description": "![口水鸡](./口水鸡.jpg)\n\n口水鸡（凉菜），炎炎夏日里，热菜难以入口，但又嗜肉如命，\n除了口水鸡，实在想不出更好的适合在夏天吃的肉菜了。\n被红油包裹的鸡肉，红艳鲜亮，冰爽 Q 弹，鲜美而不腻。夏日米饭杀手当之无愧!\n（注：口水鸡做法多样，欢迎补充）\n\n预估烹饪难度：★★★",
     "source_path": "dishes/meat_dish/口水鸡/口水鸡.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/口水鸡/口水鸡.jpg",
+    "image_path": "recipes/images/067ddaec-a8e6-4e44-bd3c-7ce397d0edd6.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/口水鸡/口水鸡.jpg"
+      "recipes/images/067ddaec-a8e6-4e44-bd3c-7ce397d0edd6.jpg"
     ],
     "category": "肉食",
     "difficulty": 3,
@@ -6770,9 +6770,9 @@
     "name": "台式卤肉饭",
     "description": "糖和脂肪是人类快乐的源泉，富含这二者的台式卤肉饭每一口都能带来直击灵魂的满足感。\n\n本文提供一种操作简单但风味不减的台式卤肉饭做法，预计制作时间 1.5 小时（0.5 小时操作，1 小时炖煮）。\n\n厨房小白可上手。\n\n预估烹饪难度：★★★★★",
     "source_path": "dishes/meat_dish/台式卤肉饭/台式卤肉饭.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/台式卤肉饭/1.jpg",
+    "image_path": "recipes/images/112d5f8d-33b1-4564-9d61-17dd88769172.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/台式卤肉饭/1.jpg"
+      "recipes/images/112d5f8d-33b1-4564-9d61-17dd88769172.jpg"
     ],
     "category": "肉食",
     "difficulty": 5,
@@ -6998,9 +6998,9 @@
     "name": "咖喱肥牛",
     "description": "![咖喱肥牛成品](./咖喱肥牛.jpg)\n\n咖喱肥牛美味营养并且下饭，吃多了炒炸菜后再吃个咖喱肥牛相当美滋滋。\n\n适合在家吃或者做成便当带去公司吃（微波炉加热也不会有太大味道~）。\n\n并且所需材料少，容易购买，新手一般 40 分钟即可出锅。\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/meat_dish/咖喱肥牛/咖喱肥牛.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/咖喱肥牛/咖喱肥牛.jpg",
+    "image_path": "recipes/images/5fec4598-7167-44f2-af08-2e54dbf0f734.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/咖喱肥牛/咖喱肥牛.jpg"
+      "recipes/images/5fec4598-7167-44f2-af08-2e54dbf0f734.jpg"
     ],
     "category": "肉食",
     "difficulty": 4,
@@ -7114,9 +7114,9 @@
     "name": "啤酒鸭",
     "description": "![啤酒鸭成品](./啤酒鸭.jpg)\n\n啤酒鸭不仅入口鲜香,还带有一股啤酒清香。肉久吃不腻,汤久涮而不淡。风味独特,具有热而不浮,香而不腻的独特口味让人赞口不绝。一般初学者需要 1 小时即可完成。\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/meat_dish/啤酒鸭/啤酒鸭.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/啤酒鸭/啤酒鸭.jpg",
+    "image_path": "recipes/images/90c17831-6305-4460-9de6-39e183ec5057.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/啤酒鸭/啤酒鸭.jpg"
+      "recipes/images/90c17831-6305-4460-9de6-39e183ec5057.jpg"
     ],
     "category": "肉食",
     "difficulty": 4,
@@ -7284,10 +7284,10 @@
     "name": "回锅肉",
     "description": "预估烹饪难度：★★★★",
     "source_path": "dishes/meat_dish/回锅肉/回锅肉.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/回锅肉/1.jpeg",
+    "image_path": "recipes/images/5f752df2-cc95-4424-8056-06d785722578.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/回锅肉/1.jpeg",
-      "d:/workspace/HowToCook/dishes/meat_dish/回锅肉/2.jpeg"
+      "recipes/images/5f752df2-cc95-4424-8056-06d785722578.jpeg",
+      "recipes/images/5f752df2-cc95-4424-8056-06d785722578.jpeg"
     ],
     "category": "肉食",
     "difficulty": 4,
@@ -7480,10 +7480,10 @@
     "name": "土豆炖排骨",
     "description": "预估烹饪难度：★★★",
     "source_path": "dishes/meat_dish/土豆炖排骨/土豆炖排骨.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/土豆炖排骨/排骨1.jpg",
+    "image_path": "recipes/images/d872f9b2-cabe-43e7-83b5-21c8f4f3f0e6.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/土豆炖排骨/排骨1.jpg",
-      "d:/workspace/HowToCook/dishes/meat_dish/土豆炖排骨/排骨2.jpg"
+      "recipes/images/d872f9b2-cabe-43e7-83b5-21c8f4f3f0e6.jpg",
+      "recipes/images/d872f9b2-cabe-43e7-83b5-21c8f4f3f0e6.jpg"
     ],
     "category": "肉食",
     "difficulty": 3,
@@ -7740,10 +7740,10 @@
     "name": "奶酪培根通心粉",
     "description": "![烘烤成品](./oven.jpg)\n![非烘烤成品](./onepot.png)\n\n这是一道美味的奶酪培根通心粉(Mac and Cheese)，适合四人享用。它结合了浓郁的奶酪和香脆的培根，简单易做，是一道受欢迎的美式家常菜。\n\n预估烹饪难度：★★★",
     "source_path": "dishes/meat_dish/奶酪培根通心粉/奶酪培根通心粉.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/奶酪培根通心粉/oven.jpg",
+    "image_path": "recipes/images/435116fc-c508-4e8a-8500-7f3e4059d450.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/奶酪培根通心粉/oven.jpg",
-      "d:/workspace/HowToCook/dishes/meat_dish/奶酪培根通心粉/onepot.png"
+      "recipes/images/435116fc-c508-4e8a-8500-7f3e4059d450.jpg",
+      "recipes/images/435116fc-c508-4e8a-8500-7f3e4059d450.png"
     ],
     "category": "肉食",
     "difficulty": 3,
@@ -7921,9 +7921,9 @@
     "name": "姜炒鸡",
     "description": "![姜炒鸡](./姜炒鸡.jpg)\n\n姜炒鸡是一道湖南口味菜，下饭五颗星，食材平平无奇又十分容易烹制，一学就会。\n\n预估烹饪难度：★★★",
     "source_path": "dishes/meat_dish/姜炒鸡/姜炒鸡.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/姜炒鸡/姜炒鸡.jpg",
+    "image_path": "recipes/images/1da7fe2f-1e51-47ea-b596-701e0988b4a8.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/姜炒鸡/姜炒鸡.jpg"
+      "recipes/images/1da7fe2f-1e51-47ea-b596-701e0988b4a8.jpg"
     ],
     "category": "肉食",
     "difficulty": 3,
@@ -8254,9 +8254,9 @@
     "name": "宫保鸡丁",
     "description": "老派川菜的简单做法分享\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/meat_dish/宫保鸡丁/宫保鸡丁.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/宫保鸡丁/宫保鸡丁.jpg",
+    "image_path": "recipes/images/49f7fde9-92a0-41cf-acbe-87fda502e1d3.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/宫保鸡丁/宫保鸡丁.jpg"
+      "recipes/images/49f7fde9-92a0-41cf-acbe-87fda502e1d3.jpg"
     ],
     "category": "肉食",
     "difficulty": 4,
@@ -8617,9 +8617,9 @@
     "name": "小炒鸡肝",
     "description": "![小炒鸡肝](./成品.jpg)\n\n一道稍微麻烦的菜。\n\n适合喜欢吃肝的人，也可以用其他的动物的肝，但是鸡肝会更好吃。\n\n需要初学者具有一定的焯水技巧。\n\n预估烹饪难度：★★★",
     "source_path": "dishes/meat_dish/小炒鸡肝/小炒鸡肝.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/小炒鸡肝/成品.jpg",
+    "image_path": "recipes/images/453ed19b-53c7-497a-8976-e004d6372a5c.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/小炒鸡肝/成品.jpg"
+      "recipes/images/453ed19b-53c7-497a-8976-e004d6372a5c.jpg"
     ],
     "category": "肉食",
     "difficulty": 3,
@@ -8852,9 +8852,9 @@
     "name": "小炒黄牛肉",
     "description": "![小炒黄牛肉成品](./小炒黄牛肉.jpg)\n\n小炒黄牛肉是一道简单易做的湘菜。口味十分劲爆爽口。一般初学者只需要 1 小时即可完成\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/meat_dish/小炒黄牛肉/小炒黄牛肉.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/小炒黄牛肉/小炒黄牛肉.jpg",
+    "image_path": "recipes/images/788cbb39-52c0-4527-a395-33ba8d797b14.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/小炒黄牛肉/小炒黄牛肉.jpg"
+      "recipes/images/788cbb39-52c0-4527-a395-33ba8d797b14.jpg"
     ],
     "category": "肉食",
     "difficulty": 4,
@@ -8964,9 +8964,9 @@
     "name": "尖叫牛蛙",
     "description": "![示例菜成品](./尖叫牛蛙.jpg)\n\n尖叫牛蛙是一道容易完成的菜。一般初学者只需要 1-2 小时即可完成。该菜品味道鲜美之外，还具有开胃功效，非常适宜食欲不佳的时候做，老少皆宜。（能吃辣最好）\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/meat_dish/尖叫牛蛙/尖叫牛蛙.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/尖叫牛蛙/尖叫牛蛙.jpg",
+    "image_path": "recipes/images/5bb360f6-8797-448a-88bc-e934726ccfeb.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/尖叫牛蛙/尖叫牛蛙.jpg"
+      "recipes/images/5bb360f6-8797-448a-88bc-e934726ccfeb.jpg"
     ],
     "category": "肉食",
     "difficulty": 4,
@@ -9214,9 +9214,9 @@
     "name": "巴基斯坦牛肉咖喱",
     "description": "![巴基斯坦牛肉咖喱成品](./巴基斯坦牛肉咖喱.png)\n\nAchar gosht（巴基斯坦牛肉咖喱）是一道来自巴基斯坦的特色咖喱菜品。这道菜融合了咖喱的香浓和牛肉的软糯口感，风味独特，偏辣口。它富含优质蛋白质和多种维生素，营养价值丰富。制作过程需要 2.5 小时，步骤并不复杂，是一道适合在周末慢慢烹饪的美味佳肴。\n\n预估烹饪难度：★★★★★",
     "source_path": "dishes/meat_dish/巴基斯坦牛肉咖喱/巴基斯坦牛肉咖喱.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/巴基斯坦牛肉咖喱/巴基斯坦牛肉咖喱.png",
+    "image_path": "recipes/images/7283d385-a221-4669-b0fd-e9a0ebc29ac2.png",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/巴基斯坦牛肉咖喱/巴基斯坦牛肉咖喱.png"
+      "recipes/images/7283d385-a221-4669-b0fd-e9a0ebc29ac2.png"
     ],
     "category": "肉食",
     "difficulty": 5,
@@ -9360,9 +9360,9 @@
     "name": "干煸仔鸡",
     "description": "![干煸仔鸡成品](./干煸仔鸡成品.jpg)\n\n干煸仔鸡是一道甜辣口味的川菜，是北京大学食堂赵春月厨师长研发的美食，广受师生喜爱。赵厨师长已将菜谱公开，方便大家自己动手制作，疫情居家下饭必备！\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/meat_dish/干煸仔鸡/干煸仔鸡.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/干煸仔鸡/干煸仔鸡成品.jpg",
+    "image_path": "recipes/images/8345e848-92d9-4e15-b81a-bcda3c925bd0.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/干煸仔鸡/干煸仔鸡成品.jpg"
+      "recipes/images/8345e848-92d9-4e15-b81a-bcda3c925bd0.jpg"
     ],
     "category": "肉食",
     "difficulty": 4,
@@ -9547,9 +9547,9 @@
     "name": "广式萝卜牛腩",
     "description": "![广式萝卜牛腩](./广式萝卜牛腩.webp)\n\n广式萝卜牛腩营养丰富，味道鲜美，汤汁浓郁、孩子食欲好了，成绩也好了。\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/meat_dish/广式萝卜牛腩/广式萝卜牛腩.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/广式萝卜牛腩/广式萝卜牛腩.webp",
+    "image_path": "recipes/images/c5629f75-b729-4c39-8fc1-61c984743094.webp",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/广式萝卜牛腩/广式萝卜牛腩.webp"
+      "recipes/images/c5629f75-b729-4c39-8fc1-61c984743094.webp"
     ],
     "category": "肉食",
     "difficulty": 4,
@@ -9735,10 +9735,10 @@
     "name": "徽派红烧肉",
     "description": "徽式红烧肉是一道由五花肉等食材制成的菜肴。\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/meat_dish/徽派红烧肉/徽派红烧肉.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/徽派红烧肉/1.jpeg",
+    "image_path": "recipes/images/808638eb-1178-44b7-afc6-50b95cf026a0.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/徽派红烧肉/1.jpeg",
-      "d:/workspace/HowToCook/dishes/meat_dish/徽派红烧肉/2.jpeg"
+      "recipes/images/808638eb-1178-44b7-afc6-50b95cf026a0.jpeg",
+      "recipes/images/808638eb-1178-44b7-afc6-50b95cf026a0.jpeg"
     ],
     "category": "肉食",
     "difficulty": 4,
@@ -9877,9 +9877,9 @@
     "name": "新疆大盘鸡",
     "description": "![大盘鸡](./大盘鸡.jpeg)\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/meat_dish/新疆大盘鸡/新疆大盘鸡.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/新疆大盘鸡/大盘鸡.jpeg",
+    "image_path": "recipes/images/c85d1a54-f3d5-4ca3-9bb4-534163c905be.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/新疆大盘鸡/大盘鸡.jpeg"
+      "recipes/images/c85d1a54-f3d5-4ca3-9bb4-534163c905be.jpeg"
     ],
     "category": "肉食",
     "difficulty": 4,
@@ -10020,9 +10020,9 @@
     "name": "无骨鸡爪",
     "description": "![无骨鸡爪成品](./无骨鸡爪.jpg)\n**图片里的颜色比较浅，家里人爱吃酱油少的**\n\n这是一道做法简单但消耗体力和耐力的无骨鸡爪，酸辣开胃，Q 弹爽口，第一次做的话总耗时 8 个小时 15 分钟。\n\n预估烹饪难度：★★★★★",
     "source_path": "dishes/meat_dish/无骨鸡爪/无骨鸡爪.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/无骨鸡爪/无骨鸡爪.jpg",
+    "image_path": "recipes/images/8d1e82aa-7113-4b6f-9de9-d2ea03f06ef8.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/无骨鸡爪/无骨鸡爪.jpg"
+      "recipes/images/8d1e82aa-7113-4b6f-9de9-d2ea03f06ef8.jpg"
     ],
     "category": "肉食",
     "difficulty": 5,
@@ -10525,10 +10525,10 @@
     "name": "柱候牛腩",
     "description": "![柱候牛腩成品](./柱候牛腩.jpeg)\n![柱候牛腩搭配米饭](./柱候牛腩配米饭.jpeg)\n\n肉香味美，色泽诱人，滋补强壮，口感甚佳，令人垂涎的广式菜肴。有高压锅只需 1 个小时，否则需要炖煮 3 个小时。\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/meat_dish/柱候牛腩/柱候牛腩.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/柱候牛腩/柱候牛腩.jpeg",
+    "image_path": "recipes/images/1b337035-3d25-4404-8a09-845e6a714da8.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/柱候牛腩/柱候牛腩.jpeg",
-      "d:/workspace/HowToCook/dishes/meat_dish/柱候牛腩/柱候牛腩配米饭.jpeg"
+      "recipes/images/1b337035-3d25-4404-8a09-845e6a714da8.jpeg",
+      "recipes/images/1b337035-3d25-4404-8a09-845e6a714da8.jpeg"
     ],
     "category": "肉食",
     "difficulty": 4,
@@ -10837,12 +10837,12 @@
     "name": "梅菜扣肉",
     "description": "梅菜扣肉造型别致、大方得体，颜色酱红油亮，汤汁黏稠鲜美，扣肉肥而不腻，食之软烂醇香。\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/meat_dish/梅菜扣肉/梅菜扣肉.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/梅菜扣肉/1.jpeg",
+    "image_path": "recipes/images/aa3858a0-06b2-435e-a002-d61a2acdf90f.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/梅菜扣肉/1.jpeg",
-      "d:/workspace/HowToCook/dishes/meat_dish/梅菜扣肉/2.jpeg",
-      "d:/workspace/HowToCook/dishes/meat_dish/梅菜扣肉/3.jpeg",
-      "d:/workspace/HowToCook/dishes/meat_dish/梅菜扣肉/4.jpeg"
+      "recipes/images/aa3858a0-06b2-435e-a002-d61a2acdf90f.jpeg",
+      "recipes/images/aa3858a0-06b2-435e-a002-d61a2acdf90f.jpeg",
+      "recipes/images/aa3858a0-06b2-435e-a002-d61a2acdf90f.jpeg",
+      "recipes/images/aa3858a0-06b2-435e-a002-d61a2acdf90f.jpeg"
     ],
     "category": "肉食",
     "difficulty": 4,
@@ -10983,9 +10983,9 @@
     "name": "水煮牛肉",
     "description": "![shuizhuniurou](./sznr1.jpg)\n\n麻辣鲜香\n\n预估烹饪难度：★★★",
     "source_path": "dishes/meat_dish/水煮牛肉/水煮牛肉.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/水煮牛肉/sznr1.jpg",
+    "image_path": "recipes/images/a8c10176-bd69-42c2-86e0-f3969f3575cc.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/水煮牛肉/sznr1.jpg"
+      "recipes/images/a8c10176-bd69-42c2-86e0-f3969f3575cc.jpg"
     ],
     "category": "肉食",
     "difficulty": 3,
@@ -11138,9 +11138,9 @@
     "name": "清蒸鳜鱼",
     "description": "![清蒸鳜鱼成品图](./清蒸鳜鱼成品图.jpg)\n\n鳜鱼可以称的上淡水鱼之王，味道鲜美，所谓高端的食材只需要最简单的烹饪方式，清蒸最能体现鳜鱼的鲜美。\n\n预估烹饪难度：★★★",
     "source_path": "dishes/meat_dish/清蒸鳜鱼/清蒸鳜鱼.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/清蒸鳜鱼/清蒸鳜鱼成品图.jpg",
+    "image_path": "recipes/images/aab7b843-4528-4544-99fa-51cf232955ae.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/清蒸鳜鱼/清蒸鳜鱼成品图.jpg"
+      "recipes/images/aab7b843-4528-4544-99fa-51cf232955ae.jpg"
     ],
     "category": "肉食",
     "difficulty": 3,
@@ -11263,9 +11263,9 @@
     "name": "湖南家常红烧肉",
     "description": "![湖南家常红烧肉](./湖南家常红烧肉.jpeg)\n\n湖南家常红烧肉，入口软糯，肥而不腻\n\n预估烹饪难度：★★★",
     "source_path": "dishes/meat_dish/湖南家常红烧肉/湖南家常红烧肉.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/湖南家常红烧肉/湖南家常红烧肉.jpeg",
+    "image_path": "recipes/images/fb72c01d-2bc4-42e5-b0a4-38216c319498.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/湖南家常红烧肉/湖南家常红烧肉.jpeg"
+      "recipes/images/fb72c01d-2bc4-42e5-b0a4-38216c319498.jpeg"
     ],
     "category": "肉食",
     "difficulty": 3,
@@ -11425,9 +11425,9 @@
     "name": "湘祁米夫鸭",
     "description": "![湘祁米夫鸭](./湘祁米夫鸭.jpg)\n\n湖南两祁地区特色菜品，逢年过节家家桌上有。鸭肉被米粉子包裹，入口咸香回味悠长可解乡愁。\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/meat_dish/湘祁米夫鸭/湘祁米夫鸭.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/湘祁米夫鸭/湘祁米夫鸭.jpg",
+    "image_path": "recipes/images/fb7a5a62-e134-448a-b44d-34f5e91b1427.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/湘祁米夫鸭/湘祁米夫鸭.jpg"
+      "recipes/images/fb7a5a62-e134-448a-b44d-34f5e91b1427.jpg"
     ],
     "category": "肉食",
     "difficulty": 4,
@@ -11586,9 +11586,9 @@
     "name": "牛排",
     "description": "![牛排成品](./牛排.jpg)\n\n牛排是一种广受欢迎的西式肉类料理，富含蛋白质、油脂和铁、锌等矿物质。牛排的烹饪过程通过灵活的烹饪手法（如煎、烤、慢煮、熟成）控制牛排的熟度，从三分熟（中心为粉红色）到全熟（完全熟透）可选。高温烹饪能形成焦香外壳，搭配盐、大蒜、黄油、香料可以得到丰富的风味。牛排烹饪的入门较为简单，但精通困难。本文主要介绍最简单的煎牛排，全部烹饪过程耗时 15-30 分钟。图示为 5 分熟的牛小排(short ribs)。\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/meat_dish/牛排/牛排.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/牛排/牛排.jpg",
+    "image_path": "recipes/images/462db997-d844-4e4e-943b-041ecf9e3b0f.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/牛排/牛排.jpg"
+      "recipes/images/462db997-d844-4e4e-943b-041ecf9e3b0f.jpg"
     ],
     "category": "肉食",
     "difficulty": 4,
@@ -11800,9 +11800,9 @@
     "name": "猪皮冻",
     "description": "![无骨鸡爪成品](./猪皮冻.jpg)\n\n猪皮冻是一道简单易做的菜。北方人年夜饭餐桌上的“常青树”，晶莹剔透的外表，滑嫩 Q 弹的口感，是不折不扣的超级下酒菜。\n\n猪皮美容养颜，难度稍高，预计制作时长 24 小时。\n\n预估烹饪难度：★★★★★",
     "source_path": "dishes/meat_dish/猪皮冻/猪皮冻.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/猪皮冻/猪皮冻.jpg",
+    "image_path": "recipes/images/a99691f3-5446-4594-bf31-5a9a60b4b527.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/猪皮冻/猪皮冻.jpg"
+      "recipes/images/a99691f3-5446-4594-bf31-5a9a60b4b527.jpg"
     ],
     "category": "肉食",
     "difficulty": 5,
@@ -11887,9 +11887,9 @@
     "name": "瘦肉土豆片",
     "description": "![示例菜成品](./瘦肉土豆片.jpg)\n\n瘦肉土豆片是一道简单易做的菜。小炒家常菜，方便快速，适合上班族用于带饭必备小炒菜。一般初学者只需要 1 小时即可完成。\n\n预估烹饪难度：★★★",
     "source_path": "dishes/meat_dish/瘦肉土豆片/瘦肉土豆片.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/瘦肉土豆片/瘦肉土豆片.jpg",
+    "image_path": "recipes/images/557067e5-24e0-4994-917a-e5a0ad9fd922.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/瘦肉土豆片/瘦肉土豆片.jpg"
+      "recipes/images/557067e5-24e0-4994-917a-e5a0ad9fd922.jpg"
     ],
     "category": "肉食",
     "difficulty": 3,
@@ -12003,10 +12003,10 @@
     "name": "糖醋排骨",
     "description": "糖醋排骨是一道具有代表性的传统名菜，以其独特的酸甜口味深受大众喜爱。本菜谱在保留原有风味的基础上，对用料绑定、火候控制以及操作细节作了优化，旨在提高菜谱的可迁移性和可执行性。\n\n![示例菜成品](./1.jpeg)\n![示例菜成品](./2.jpeg)\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/meat_dish/糖醋排骨/糖醋排骨.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/糖醋排骨/1.jpeg",
+    "image_path": "recipes/images/91b5d5eb-1c4a-4c55-b52b-8cea9c85fafb.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/糖醋排骨/1.jpeg",
-      "d:/workspace/HowToCook/dishes/meat_dish/糖醋排骨/2.jpeg"
+      "recipes/images/91b5d5eb-1c4a-4c55-b52b-8cea9c85fafb.jpeg",
+      "recipes/images/91b5d5eb-1c4a-4c55-b52b-8cea9c85fafb.jpeg"
     ],
     "category": "肉食",
     "difficulty": 4,
@@ -12153,9 +12153,9 @@
     "name": "红烧猪蹄",
     "description": "![红烧猪蹄](./红烧猪蹄.jpg)\n\n红烧猪蹄营养丰富，味道香，汤汁浓郁、下饭强。\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/meat_dish/红烧猪蹄/红烧猪蹄.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/红烧猪蹄/红烧猪蹄.jpg",
+    "image_path": "recipes/images/9de8923e-0768-406e-9640-13b3fa1377f1.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/红烧猪蹄/红烧猪蹄.jpg"
+      "recipes/images/9de8923e-0768-406e-9640-13b3fa1377f1.jpg"
     ],
     "category": "肉食",
     "difficulty": 4,
@@ -12512,10 +12512,10 @@
     "name": "简易红烧肉",
     "description": "这份红烧肉教程是一道新手不败的菜谱。配着米饭好吃的停不下来，香糯无敌棒色泽诱人肥而不腻。建议搭配米饭食用。\n\n![红烧肉成品](./000.jpg)\n\n![红烧肉成品](./001.jpg)\n\n预估烹饪难度：★★★",
     "source_path": "dishes/meat_dish/红烧肉/简易红烧肉.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/红烧肉/000.jpg",
+    "image_path": "recipes/images/bc369abd-05e7-4f6b-adba-b98f30419c98.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/红烧肉/000.jpg",
-      "d:/workspace/HowToCook/dishes/meat_dish/红烧肉/001.jpg"
+      "recipes/images/bc369abd-05e7-4f6b-adba-b98f30419c98.jpg",
+      "recipes/images/bc369abd-05e7-4f6b-adba-b98f30419c98.jpg"
     ],
     "category": "肉食",
     "difficulty": 3,
@@ -12732,9 +12732,9 @@
     "name": "羊排焖面",
     "description": "![羊排焖面](./羊排焖面.jpg)\n羊排焖面是一道硬菜，适合聚会时候大展身手。缺点就是有点花时间，优点就是好吃，而且一道菜补齐人体所需的三大营养物质。\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/meat_dish/羊排焖面/羊排焖面.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/羊排焖面/羊排焖面.jpg",
+    "image_path": "recipes/images/c3b2d9c0-015d-429c-97a7-b4e93aab0c45.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/羊排焖面/羊排焖面.jpg"
+      "recipes/images/c3b2d9c0-015d-429c-97a7-b4e93aab0c45.jpg"
     ],
     "category": "肉食",
     "difficulty": 4,
@@ -12884,9 +12884,9 @@
     "name": "老妈蹄花",
     "description": "![result 3](./result3.jpg)\n\n红烧猪蹄营养丰富，口感细腻，软烂脱骨，配上酸辣汁简直太香！\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/meat_dish/老妈蹄花/老妈蹄花.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/老妈蹄花/result3.jpg",
+    "image_path": "recipes/images/c7ac889f-1df8-4767-adcd-a75943732959.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/老妈蹄花/result3.jpg"
+      "recipes/images/c7ac889f-1df8-4767-adcd-a75943732959.jpg"
     ],
     "category": "肉食",
     "difficulty": 4,
@@ -13375,9 +13375,9 @@
     "name": "芥末罗氏虾",
     "description": "![芥末罗氏虾成品](./芥末罗氏虾成品.jpg)\n\n本菜品可替换成任意虾种类，包括但不限于基围虾、花虾、黑虎虾等。鲜香入味、芥末风味十足、吃完吮指，且操作十分简单。\n\n预估烹饪难度：★★★",
     "source_path": "dishes/meat_dish/芥末罗氏虾/芥末罗氏虾.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/芥末罗氏虾/芥末罗氏虾成品.jpg",
+    "image_path": "recipes/images/ec8d329c-4d79-48ee-968b-03d3882a61cb.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/芥末罗氏虾/芥末罗氏虾成品.jpg"
+      "recipes/images/ec8d329c-4d79-48ee-968b-03d3882a61cb.jpg"
     ],
     "category": "肉食",
     "difficulty": 3,
@@ -13534,10 +13534,10 @@
     "name": "茭白炒肉",
     "description": "茭白味道鲜美，有一定营养价值\n\n预估烹饪难度：★★★",
     "source_path": "dishes/meat_dish/茭白炒肉/茭白炒肉.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/茭白炒肉/1.jpeg",
+    "image_path": "recipes/images/2ba3cd85-115e-4ab5-a84c-9ccba54b61bd.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/茭白炒肉/1.jpeg",
-      "d:/workspace/HowToCook/dishes/meat_dish/茭白炒肉/2.jpeg"
+      "recipes/images/2ba3cd85-115e-4ab5-a84c-9ccba54b61bd.jpeg",
+      "recipes/images/2ba3cd85-115e-4ab5-a84c-9ccba54b61bd.jpeg"
     ],
     "category": "肉食",
     "difficulty": 3,
@@ -13653,15 +13653,15 @@
     "name": "荔枝肉",
     "description": "荔枝肉独具闽菜特点，味道酸甜可口。是福州地区比较常见的一道菜肴\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/meat_dish/荔枝肉/荔枝肉.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/荔枝肉/1.jpeg",
+    "image_path": "recipes/images/b41b0540-d027-4c77-8bd9-2caf243631f1.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/荔枝肉/1.jpeg",
-      "d:/workspace/HowToCook/dishes/meat_dish/荔枝肉/2.jpeg",
-      "d:/workspace/HowToCook/dishes/meat_dish/荔枝肉/3.jpeg",
-      "d:/workspace/HowToCook/dishes/meat_dish/荔枝肉/4.jpeg",
-      "d:/workspace/HowToCook/dishes/meat_dish/荔枝肉/5.jpeg",
-      "d:/workspace/HowToCook/dishes/meat_dish/荔枝肉/6.jpeg",
-      "d:/workspace/HowToCook/dishes/meat_dish/荔枝肉/7.jpeg"
+      "recipes/images/b41b0540-d027-4c77-8bd9-2caf243631f1.jpeg",
+      "recipes/images/b41b0540-d027-4c77-8bd9-2caf243631f1.jpeg",
+      "recipes/images/b41b0540-d027-4c77-8bd9-2caf243631f1.jpeg",
+      "recipes/images/b41b0540-d027-4c77-8bd9-2caf243631f1.jpeg",
+      "recipes/images/b41b0540-d027-4c77-8bd9-2caf243631f1.jpeg",
+      "recipes/images/b41b0540-d027-4c77-8bd9-2caf243631f1.jpeg",
+      "recipes/images/b41b0540-d027-4c77-8bd9-2caf243631f1.jpeg"
     ],
     "category": "肉食",
     "difficulty": 4,
@@ -13826,9 +13826,9 @@
     "name": "荷兰豆炒腊肠",
     "description": "![荷兰豆炒腊肠](./1.png)\n\n荷兰豆炒腊肠是一道营养丰富，口感清爽，有利于开胃助食，增进食欲的美味菜肴。荷兰豆中富含人体所需的各种营养物质，尤其是含有优质蛋白质，可以提高机体的抗病能力和康复能力。\n\n预估烹饪难度：★★",
     "source_path": "dishes/meat_dish/荷兰豆炒腊肠/荷兰豆炒腊肠.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/荷兰豆炒腊肠/1.png",
+    "image_path": "recipes/images/3b75cfc7-db35-420b-8613-c6ef1cb14a17.png",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/荷兰豆炒腊肠/1.png"
+      "recipes/images/3b75cfc7-db35-420b-8613-c6ef1cb14a17.png"
     ],
     "category": "肉食",
     "difficulty": 2,
@@ -14110,9 +14110,9 @@
     "name": "西红柿土豆炖牛肉",
     "description": "![效果图](./abaaba_1.png)\n\n西红柿土豆炖牛肉（腩）的特点就是还挺好吃，牛肉是优质蛋白，换成牛腩更好吃。\n\n难度基本没有，90 岁老奶奶拄拐杖都能做。\n\n预计制作总时常 1～1.5h。炖的时间:做的时间≈3:1\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/meat_dish/西红柿土豆炖牛肉/西红柿土豆炖牛肉.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/西红柿土豆炖牛肉/abaaba_1.png",
+    "image_path": "recipes/images/5d15bd35-9fb9-47f7-9234-7a733369cebb.png",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/西红柿土豆炖牛肉/abaaba_1.png"
+      "recipes/images/5d15bd35-9fb9-47f7-9234-7a733369cebb.png"
     ],
     "category": "肉食",
     "difficulty": 4,
@@ -14520,9 +14520,9 @@
     "name": "豆豉鲮鱼油麦菜",
     "description": "![豆豉鲮鱼油麦菜](./豆豉鲮鱼油麦菜成品.jpg)\n\n豆豉鲮鱼油麦菜是一到十分常见的菜，材料简单，操作方便，鲮鱼咸香，非常下饭。\n\n预估烹饪难度：★★",
     "source_path": "dishes/meat_dish/豆豉鲮鱼油麦菜/豆豉鲮鱼油麦菜.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/豆豉鲮鱼油麦菜/豆豉鲮鱼油麦菜成品.jpg",
+    "image_path": "recipes/images/28e8aa6c-d47a-4fb0-bb57-02958215a81c.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/豆豉鲮鱼油麦菜/豆豉鲮鱼油麦菜成品.jpg"
+      "recipes/images/28e8aa6c-d47a-4fb0-bb57-02958215a81c.jpg"
     ],
     "category": "肉食",
     "difficulty": 2,
@@ -14629,9 +14629,9 @@
     "name": "豉汁蒸白鱔",
     "description": "![豉汁蒸白鱔示例菜成品](./豉汁蒸白鱔.jpeg)\n\n预估烹饪难度：★★★",
     "source_path": "dishes/meat_dish/豉汁蒸白鱔/豉汁蒸白鱔食谱.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/豉汁蒸白鱔/豉汁蒸白鱔.jpeg",
+    "image_path": "recipes/images/f4ba86a1-2cee-4cbe-91bf-a9fd0d9eb213.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/豉汁蒸白鱔/豉汁蒸白鱔.jpeg"
+      "recipes/images/f4ba86a1-2cee-4cbe-91bf-a9fd0d9eb213.jpeg"
     ],
     "category": "肉食",
     "difficulty": 3,
@@ -14858,9 +14858,9 @@
     "name": "贵州辣子鸡",
     "description": "![贵州辣子鸡](./贵州辣子鸡.jpg)\n\n贵州人对吃鸡的执恋\n\n* 过节日，吃鸡\n* 过生日，吃鸡\n* 生病，吃鸡\n* 有客人，吃鸡\n* 家人团聚，吃鸡\n* 不知道吃什么，那就吃鸡\n\n贵州辣子鸡多种配菜，香辣可口，香糯软烂\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/meat_dish/贵州辣子鸡/贵州辣子鸡.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/贵州辣子鸡/贵州辣子鸡.jpg",
+    "image_path": "recipes/images/ef229193-b56e-4eb1-9c81-8e77c6d32140.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/贵州辣子鸡/贵州辣子鸡.jpg"
+      "recipes/images/ef229193-b56e-4eb1-9c81-8e77c6d32140.jpg"
     ],
     "category": "肉食",
     "difficulty": 4,
@@ -15060,10 +15060,10 @@
     "name": "酱排骨",
     "description": "酱排骨其色泽酱红，肉质酥烂，骨香浓郁，汁浓味鲜，咸中带甜。\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/meat_dish/酱排骨/酱排骨.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/酱排骨/1.jpeg",
+    "image_path": "recipes/images/289b50aa-1665-4114-bf9b-cfb37974c8bb.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/酱排骨/1.jpeg",
-      "d:/workspace/HowToCook/dishes/meat_dish/酱排骨/2.jpeg"
+      "recipes/images/289b50aa-1665-4114-bf9b-cfb37974c8bb.jpeg",
+      "recipes/images/289b50aa-1665-4114-bf9b-cfb37974c8bb.jpeg"
     ],
     "category": "肉食",
     "difficulty": 4,
@@ -15191,9 +15191,9 @@
     "name": "酱牛肉",
     "description": "![酱牛肉](./酱牛肉.jpg)\n\n家常酱牛肉营养丰富，味道香，不论是当作主食还是佐餐都很棒。一般初学者只需要 10 小时即可完成。\n\n预估烹饪难度：★★★★★",
     "source_path": "dishes/meat_dish/酱牛肉/酱牛肉.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/酱牛肉/酱牛肉.jpg",
+    "image_path": "recipes/images/f52755a1-135b-4e81-8011-e5233378199e.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/酱牛肉/酱牛肉.jpg"
+      "recipes/images/f52755a1-135b-4e81-8011-e5233378199e.jpg"
     ],
     "category": "肉食",
     "difficulty": 5,
@@ -15352,9 +15352,9 @@
     "name": "醉排骨",
     "description": "醉排骨是福建省福州市特色传统名菜\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/meat_dish/醉排骨/醉排骨.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/醉排骨/1.jpeg",
+    "image_path": "recipes/images/90cb93df-9127-4568-80bc-e9630eead255.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/醉排骨/1.jpeg"
+      "recipes/images/90cb93df-9127-4568-80bc-e9630eead255.jpeg"
     ],
     "category": "肉食",
     "difficulty": 4,
@@ -15615,9 +15615,9 @@
     "name": "香干芹菜炒肉",
     "description": "![香干芹菜炒肉](./香干芹菜炒肉.jpg)\n\n香干芹菜炒肉是一道非常简单的家常菜小炒，据说多吃芹菜对于高血压有很好的缓解作用，加上香干和猪肉一起翻炒，还是很美味的。一般初学者只需要 30 分钟（含配菜时间）即可完成。\n\n预估烹饪难度：★★★",
     "source_path": "dishes/meat_dish/香干芹菜炒肉/香干芹菜炒肉.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/香干芹菜炒肉/香干芹菜炒肉.jpg",
+    "image_path": "recipes/images/1ae9d5fa-ca34-4f2f-8b91-aaccbd299416.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/香干芹菜炒肉/香干芹菜炒肉.jpg"
+      "recipes/images/1ae9d5fa-ca34-4f2f-8b91-aaccbd299416.jpg"
     ],
     "category": "肉食",
     "difficulty": 3,
@@ -15800,9 +15800,9 @@
     "name": "香煎五花肉",
     "description": "![香煎五花肉](./香煎五花肉.jpg)\n\n香煎五花肉一道简单易上手的菜。五花肉肥而不腻，生菜叶脆爽健康。稍微有下厨经验的人半小时便可制作完毕。\n\n预估烹饪难度：★★★",
     "source_path": "dishes/meat_dish/香煎五花肉/香煎五花肉.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/香煎五花肉/香煎五花肉.jpg",
+    "image_path": "recipes/images/1fb88d78-93eb-400c-be10-3a76a3ed0ff2.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/香煎五花肉/香煎五花肉.jpg"
+      "recipes/images/1fb88d78-93eb-400c-be10-3a76a3ed0ff2.jpg"
     ],
     "category": "肉食",
     "difficulty": 3,
@@ -15886,9 +15886,9 @@
     "name": "香菇滑鸡",
     "description": "![香菇滑鸡](./香菇滑鸡.jpg)\n\n预估烹饪难度：★★★",
     "source_path": "dishes/meat_dish/香菇滑鸡/香菇滑鸡.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/香菇滑鸡/香菇滑鸡.jpg",
+    "image_path": "recipes/images/a9efdbc1-b607-4173-a0c9-ffc1f8f1b85e.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/香菇滑鸡/香菇滑鸡.jpg"
+      "recipes/images/a9efdbc1-b607-4173-a0c9-ffc1f8f1b85e.jpg"
     ],
     "category": "肉食",
     "difficulty": 3,
@@ -16042,9 +16042,9 @@
     "name": "香辣鸡爪煲",
     "description": "![香辣鸡爪煲](./result2.jpg)\n\n香辣鸡爪煲口感 Q 弹，香辣浓郁，回味无穷。\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/meat_dish/香辣鸡爪煲/香辣鸡爪煲.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/香辣鸡爪煲/result2.jpg",
+    "image_path": "recipes/images/27faee2d-e0f5-48a7-9374-3e5b523bc788.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/香辣鸡爪煲/result2.jpg"
+      "recipes/images/27faee2d-e0f5-48a7-9374-3e5b523bc788.jpg"
     ],
     "category": "肉食",
     "difficulty": 4,
@@ -16236,9 +16236,9 @@
     "name": "鱼香茄子",
     "description": "![yuxiangqiezi](./yxqz1.jpg)\n\n这个菜真的超级下饭，当个干饭王吧。\n\n预估烹饪难度：★★★",
     "source_path": "dishes/meat_dish/鱼香茄子/鱼香茄子.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/鱼香茄子/yxqz1.jpg",
+    "image_path": "recipes/images/820f0562-d2c1-4d24-83c1-7f321dc9ac4b.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/鱼香茄子/yxqz1.jpg"
+      "recipes/images/820f0562-d2c1-4d24-83c1-7f321dc9ac4b.jpg"
     ],
     "category": "肉食",
     "difficulty": 3,
@@ -16369,9 +16369,9 @@
     "name": "麻婆豆腐",
     "description": "![成品](./1.jpeg)\n\n这是参考麻婆豆腐创作的一道菜。富含有铁、钙、磷、镁等人体必需的多种微量元素，最重要的是非常下饭哦～\n\n预估烹饪难度：★★★",
     "source_path": "dishes/meat_dish/麻婆豆腐/麻婆豆腐.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/麻婆豆腐/1.jpeg",
+    "image_path": "recipes/images/9b9fd7f7-160c-4006-81a0-7178baf7b5f6.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/麻婆豆腐/1.jpeg"
+      "recipes/images/9b9fd7f7-160c-4006-81a0-7178baf7b5f6.jpeg"
     ],
     "category": "肉食",
     "difficulty": 3,
@@ -16546,9 +16546,9 @@
     "name": "黑椒牛柳",
     "description": "![黑椒牛柳成品](./黑椒牛柳.jpg)\n\n黑椒牛柳是一道简单易做的菜。蔬菜与肉类均衡，富含蛋白质，口味适合大多数人。一般初学者只需要 1 小时以内即可完成。\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/meat_dish/黑椒牛柳/黑椒牛柳.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/黑椒牛柳/黑椒牛柳.jpg",
+    "image_path": "recipes/images/73ae671e-720b-4a83-8a6e-065fafa1d458.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/黑椒牛柳/黑椒牛柳.jpg"
+      "recipes/images/73ae671e-720b-4a83-8a6e-065fafa1d458.jpg"
     ],
     "category": "肉食",
     "difficulty": 4,
@@ -16720,9 +16720,9 @@
     "name": "黔式腊肠娃娃菜",
     "description": "![黔式腊肠娃娃菜](./黔式腊肠娃娃菜.jpg)\n\n黔式腊肠娃娃菜不需要掌握火候，也无需调料，非常适合懒癌的菜。制作时间 15 分钟，口味近似于川菜、湘菜，却是西南菜系中鲜见的不辣菜式，咸鲜可口、南北皆宜。\n\n预估烹饪难度：★",
     "source_path": "dishes/meat_dish/黔式腊肠娃娃菜/黔式腊肠娃娃菜.md",
-    "image_path": "d:/workspace/HowToCook/dishes/meat_dish/黔式腊肠娃娃菜/黔式腊肠娃娃菜.jpg",
+    "image_path": "recipes/images/0d1fc7d7-8d03-462a-8f17-7f81749763e3.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/meat_dish/黔式腊肠娃娃菜/黔式腊肠娃娃菜.jpg"
+      "recipes/images/0d1fc7d7-8d03-462a-8f17-7f81749763e3.jpg"
     ],
     "category": "肉食",
     "difficulty": 1,

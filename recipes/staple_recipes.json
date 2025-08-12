@@ -3278,9 +3278,9 @@
     "name": "凉粉",
     "description": "![liangfen](./lf1.jpg)\n\n伤心凉粉吃了不会让人伤心的哦！\n\n预估烹饪难度：★★★",
     "source_path": "dishes/staple/凉粉/凉粉.md",
-    "image_path": "d:/workspace/HowToCook/dishes/staple/凉粉/lf1.jpg",
+    "image_path": "recipes/images/367513ca-2dd1-48a7-85b1-061ccaacbc85.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/staple/凉粉/lf1.jpg"
+      "recipes/images/367513ca-2dd1-48a7-85b1-061ccaacbc85.jpg"
     ],
     "category": "主食",
     "difficulty": 3,
@@ -3422,9 +3422,9 @@
     "name": "基础牛奶面包",
     "description": "![牛奶面包成品](./1-1成品.jpg)\n\n面包是常见的主食。普通面包需要经过长时间的发酵及和面。但本食谱尽量简化了制作步骤，方便新手上手，并尽量保证其风味。当然，要求更高的也可以查阅其的面包食谱。\n\n本食谱**需要的额外的工具较多**，会在后面的章节详细介绍。\n\n本食谱面向**烘焙新手**，难度**中**，预计制作制作时长 **200 分钟**。\n\n预估烹饪难度：★★★★★",
     "source_path": "dishes/staple/基础牛奶面包/基础牛奶面包.md",
-    "image_path": "d:/workspace/HowToCook/dishes/staple/基础牛奶面包/1-1成品.jpg",
+    "image_path": "recipes/images/2e56f4f7-f5d7-4a7d-a1b2-da27dd0c835a.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/staple/基础牛奶面包/1-1成品.jpg"
+      "recipes/images/2e56f4f7-f5d7-4a7d-a1b2-da27dd0c835a.jpg"
     ],
     "category": "主食",
     "difficulty": 5,
@@ -3731,9 +3731,9 @@
     "name": "意式肉酱面",
     "description": "![示例菜成品](./final.jpg)\n\n意式肉酱面是一道非常容易做的菜，做得熟练的话，可以在 15 分钟内完成，从此告别方便面\n\n预估烹饪难度：★",
     "source_path": "dishes/staple/意式肉酱面/意式肉酱面.md",
-    "image_path": "d:/workspace/HowToCook/dishes/staple/意式肉酱面/final.jpg",
+    "image_path": "recipes/images/8c960f76-3194-4964-82ee-7cdf1a7cd1fa.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/staple/意式肉酱面/final.jpg"
+      "recipes/images/8c960f76-3194-4964-82ee-7cdf1a7cd1fa.jpg"
     ],
     "category": "主食",
     "difficulty": 1,
@@ -3835,9 +3835,9 @@
     "name": "扬州炒饭",
     "description": "扬州炒饭是蛋炒饭的升级版，制作时间较长，但是制作步骤简单\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/staple/扬州炒饭/扬州炒饭.md",
-    "image_path": "d:/workspace/HowToCook/dishes/staple/扬州炒饭/veg.png",
+    "image_path": "recipes/images/996be83e-917c-4d83-978b-6f2f083bec4f.png",
     "images": [
-      "d:/workspace/HowToCook/dishes/staple/扬州炒饭/veg.png"
+      "recipes/images/996be83e-917c-4d83-978b-6f2f083bec4f.png"
     ],
     "category": "主食",
     "difficulty": 4,
@@ -4027,9 +4027,9 @@
     "name": "披萨饼皮",
     "description": "![示例是青红椒火腿披萨](./001.jpeg)\n\n披萨制作总体来说比较简单，稍微有点麻烦也是争议最多的就是披萨饼皮，做好了披萨饼皮喜欢吃什么口味的披萨，直接把准备好的食材放上去烤熟就好，所以这里重点说一下披萨饼皮如何制作。\n\n本教程中的饼皮是属于软面团低温隔夜发酵\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/staple/披萨饼皮/披萨饼皮.md",
-    "image_path": "d:/workspace/HowToCook/dishes/staple/披萨饼皮/001.jpeg",
+    "image_path": "recipes/images/bf33b551-39ec-42d8-b5d9-6325fed5b76b.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/staple/披萨饼皮/001.jpeg"
+      "recipes/images/bf33b551-39ec-42d8-b5d9-6325fed5b76b.jpeg"
     ],
     "category": "主食",
     "difficulty": 4,
@@ -4225,9 +4225,9 @@
     "name": "日式咖喱饭",
     "description": "预估烹饪难度：★★★★",
     "source_path": "dishes/staple/日式咖喱饭/日式咖喱饭.md",
-    "image_path": "d:/workspace/HowToCook/dishes/staple/日式咖喱饭/成品.jpg",
+    "image_path": "recipes/images/d223b553-9b37-444f-96f1-1bad5fab5f7f.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/staple/日式咖喱饭/成品.jpg"
+      "recipes/images/d223b553-9b37-444f-96f1-1bad5fab5f7f.jpg"
     ],
     "category": "主食",
     "difficulty": 4,
@@ -4352,9 +4352,9 @@
     "name": "日式肥牛丼饭",
     "description": "预估烹饪难度：★★★★",
     "source_path": "dishes/staple/日式肥牛丼饭/日式肥牛丼饭.md",
-    "image_path": "d:/workspace/HowToCook/dishes/staple/日式肥牛丼饭/成品.png",
+    "image_path": "recipes/images/db081b37-9fd9-450d-b454-9b8dd9923efc.png",
     "images": [
-      "d:/workspace/HowToCook/dishes/staple/日式肥牛丼饭/成品.png"
+      "recipes/images/db081b37-9fd9-450d-b454-9b8dd9923efc.png"
     ],
     "category": "主食",
     "difficulty": 4,
@@ -4465,9 +4465,9 @@
     "name": "河南蒸面条",
     "description": "![示例菜成品](./河南蒸面条.png)\n\n河南蒸面条是一道在河南坊间流行的小吃，也可以用家里的挂面制作。\n\n简单来讲，是先将挂面裹油放入蒸笼蒸熟，再加蔬菜配以调料炒，最后二次蒸制，以达到入味劲道的效果。\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/staple/河南蒸面条/河南蒸面条.md",
-    "image_path": "d:/workspace/HowToCook/dishes/staple/河南蒸面条/河南蒸面条.png",
+    "image_path": "recipes/images/94d0c530-bc6a-4d48-b09f-30429c5c7d10.png",
     "images": [
-      "d:/workspace/HowToCook/dishes/staple/河南蒸面条/河南蒸面条.png"
+      "recipes/images/94d0c530-bc6a-4d48-b09f-30429c5c7d10.png"
     ],
     "category": "主食",
     "difficulty": 4,
@@ -4728,9 +4728,9 @@
     "name": "火腿饭团",
     "description": "![火腿饭团](./饭团.png)\n好吃！富含碳水和蛋白质还有维生素。有手就行的制作难度，预计制作时间 1 h 。\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/staple/火腿饭团/火腿饭团.md",
-    "image_path": "d:/workspace/HowToCook/dishes/staple/火腿饭团/饭团.png",
+    "image_path": "recipes/images/21c93801-2aa8-4e0e-8c6a-40cbcf78f901.png",
     "images": [
-      "d:/workspace/HowToCook/dishes/staple/火腿饭团/饭团.png"
+      "recipes/images/21c93801-2aa8-4e0e-8c6a-40cbcf78f901.png"
     ],
     "category": "主食",
     "difficulty": 4,
@@ -4886,9 +4886,9 @@
     "name": "炒凉粉",
     "description": "![炒凉粉成品](./chaoliangfen.jpg)\n\n炒凉粉是一道流行于山西、陕西地区的一道特色小吃，入口滑嫩，老少皆宜。\n\n预估烹饪难度：★★★",
     "source_path": "dishes/staple/炒凉粉/炒凉粉.md",
-    "image_path": "d:/workspace/HowToCook/dishes/staple/炒凉粉/chaoliangfen.jpg",
+    "image_path": "recipes/images/d647a35d-1e8f-4a6c-b14b-4930f3ed9848.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/staple/炒凉粉/chaoliangfen.jpg"
+      "recipes/images/d647a35d-1e8f-4a6c-b14b-4930f3ed9848.jpg"
     ],
     "category": "主食",
     "difficulty": 3,
@@ -5025,9 +5025,9 @@
     "name": "炒意大利面",
     "description": "![意大利面](./a.jpg)\n\n这是一道软糯爽口的意大利面的做法，非常简单，用时大概 30 分钟。\n\n预估烹饪难度：★★★",
     "source_path": "dishes/staple/炒意大利面/炒意大利面.md",
-    "image_path": "d:/workspace/HowToCook/dishes/staple/炒意大利面/a.jpg",
+    "image_path": "recipes/images/23405370-bf67-4ccb-8d41-ed4cb2fe4c2e.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/staple/炒意大利面/a.jpg"
+      "recipes/images/23405370-bf67-4ccb-8d41-ed4cb2fe4c2e.jpg"
     ],
     "category": "主食",
     "difficulty": 3,
@@ -5117,9 +5117,9 @@
     "name": "烙饼",
     "description": "预估烹饪难度：★★★★",
     "source_path": "dishes/staple/烙饼/烙饼.md",
-    "image_path": "d:/workspace/HowToCook/dishes/staple/烙饼/成品.jpg",
+    "image_path": "recipes/images/5209936f-6404-4025-af47-7fe1f496738b.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/staple/烙饼/成品.jpg"
+      "recipes/images/5209936f-6404-4025-af47-7fe1f496738b.jpg"
     ],
     "category": "主食",
     "difficulty": 4,
@@ -5221,9 +5221,9 @@
     "name": "芝麻烧饼",
     "description": "![示例菜成品](./芝麻烧饼.jpg)\n芝麻烧饼，外酥里软，简单易做。\n\n预估烹饪难度：★★★",
     "source_path": "dishes/staple/烧饼/芝麻烧饼.md",
-    "image_path": "d:/workspace/HowToCook/dishes/staple/烧饼/芝麻烧饼.jpg",
+    "image_path": "recipes/images/3142b475-68ee-4711-981a-b4d78998659a.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/staple/烧饼/芝麻烧饼.jpg"
+      "recipes/images/3142b475-68ee-4711-981a-b4d78998659a.jpg"
     ],
     "category": "主食",
     "difficulty": 3,
@@ -5307,9 +5307,9 @@
     "name": "电饭煲三文鱼炊饭",
     "description": "![电饭煲三文鱼炊饭示例菜成品](./电饭煲三文鱼炊饭.webp)\n\n预估烹饪难度：★★",
     "source_path": "dishes/staple/电饭煲三文鱼炊饭/电饭煲三文鱼炊饭.md",
-    "image_path": "d:/workspace/HowToCook/dishes/staple/电饭煲三文鱼炊饭/电饭煲三文鱼炊饭.webp",
+    "image_path": "recipes/images/b684611e-5913-4b28-a4dd-519f241b0c22.webp",
     "images": [
-      "d:/workspace/HowToCook/dishes/staple/电饭煲三文鱼炊饭/电饭煲三文鱼炊饭.webp"
+      "recipes/images/b684611e-5913-4b28-a4dd-519f241b0c22.webp"
     ],
     "category": "主食",
     "difficulty": 2,
@@ -5417,9 +5417,9 @@
     "name": "空气炸锅照烧鸡饭",
     "description": "![空气炸锅照烧鸡饭成品](./空气炸锅照烧鸡饭.jpg)\n\n空气炸锅照烧鸡饭是一道简单易做的菜。是一道既便利又便宜的美食，而且在品尝美味的同时，新手也能完全掌握！\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/staple/空气炸锅照烧鸡饭/空气炸锅照烧鸡饭.md",
-    "image_path": "d:/workspace/HowToCook/dishes/staple/空气炸锅照烧鸡饭/空气炸锅照烧鸡饭.jpg",
+    "image_path": "recipes/images/c0bc29e8-9302-4f61-b0f8-d0ca9a481ebe.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/staple/空气炸锅照烧鸡饭/空气炸锅照烧鸡饭.jpg"
+      "recipes/images/c0bc29e8-9302-4f61-b0f8-d0ca9a481ebe.jpg"
     ],
     "category": "主食",
     "difficulty": 4,
@@ -5521,9 +5521,9 @@
     "name": "煮锅蒸米饭",
     "description": "预估烹饪难度：★★",
     "source_path": "dishes/staple/米饭/煮锅蒸米饭.md",
-    "image_path": "d:/workspace/HowToCook/dishes/staple/米饭/rice_regularPot.jpeg",
+    "image_path": "recipes/images/42612b0d-58b5-4e39-88f5-24c7bdea4561.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/staple/米饭/rice_regularPot.jpeg"
+      "recipes/images/42612b0d-58b5-4e39-88f5-24c7bdea4561.jpeg"
     ],
     "category": "主食",
     "difficulty": 2,
@@ -5954,9 +5954,9 @@
     "name": "茄子肉煎饼",
     "description": "![茄子肉煎饼成品](./茄子肉煎饼.jpg)\n\n茄子肉煎饼是一道简单易做的饼类主食。\n\n预估烹饪难度：★★★",
     "source_path": "dishes/staple/茄子肉煎饼/茄子肉煎饼.md",
-    "image_path": "d:/workspace/HowToCook/dishes/staple/茄子肉煎饼/茄子肉煎饼.jpg",
+    "image_path": "recipes/images/0c4c6702-cc5f-4101-b564-e3529faafe9c.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/staple/茄子肉煎饼/茄子肉煎饼.jpg"
+      "recipes/images/0c4c6702-cc5f-4101-b564-e3529faafe9c.jpg"
     ],
     "category": "主食",
     "difficulty": 3,
@@ -6075,13 +6075,13 @@
     "name": "西红柿鸡蛋挂面",
     "description": "挂面太多怎么办？只煮个白水面味道难以下咽怎么办？简单的食材煮个美味的面条怎么操作？\n西红柿鸡蛋挂面只需简单的食材，快速的操作，不多的厨具，解决**不想麻烦**、**挂面太多**、**食材简单**的所有烦恼\n此处更要鸣谢 my mother 的在线指导:v:\n简单好做，开始吧！\n制作时间：20 分钟\n\n预估烹饪难度：★★",
     "source_path": "dishes/staple/西红柿鸡蛋挂面/西红柿鸡蛋挂面.md",
-    "image_path": "d:/workspace/HowToCook/dishes/staple/西红柿鸡蛋挂面/food.jpg",
+    "image_path": "recipes/images/2d24bffd-6613-48d2-9678-6ae3b27b86c3.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/staple/西红柿鸡蛋挂面/food.jpg",
-      "d:/workspace/HowToCook/dishes/staple/西红柿鸡蛋挂面/pretreatFood.jpg",
-      "d:/workspace/HowToCook/dishes/staple/西红柿鸡蛋挂面/fryEgg.jpg",
-      "d:/workspace/HowToCook/dishes/staple/西红柿鸡蛋挂面/tomato.jpg",
-      "d:/workspace/HowToCook/dishes/staple/西红柿鸡蛋挂面/tomatoNoodle.jpg"
+      "recipes/images/2d24bffd-6613-48d2-9678-6ae3b27b86c3.jpg",
+      "recipes/images/2d24bffd-6613-48d2-9678-6ae3b27b86c3.jpg",
+      "recipes/images/2d24bffd-6613-48d2-9678-6ae3b27b86c3.jpg",
+      "recipes/images/2d24bffd-6613-48d2-9678-6ae3b27b86c3.jpg",
+      "recipes/images/2d24bffd-6613-48d2-9678-6ae3b27b86c3.jpg"
     ],
     "category": "主食",
     "difficulty": 2,
@@ -6583,10 +6583,10 @@
     "name": "酱拌荞麦面",
     "description": "酱拌荞麦面营养健康、酸甜可口\n\n预估烹饪难度：★★",
     "source_path": "dishes/staple/酱拌荞麦面/酱拌荞麦面.md",
-    "image_path": "d:/workspace/HowToCook/dishes/staple/酱拌荞麦面/1.jpeg",
+    "image_path": "recipes/images/e086bd6a-e985-4689-a454-30d0fbba3d69.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/staple/酱拌荞麦面/1.jpeg",
-      "d:/workspace/HowToCook/dishes/staple/酱拌荞麦面/2.jpeg"
+      "recipes/images/e086bd6a-e985-4689-a454-30d0fbba3d69.jpeg",
+      "recipes/images/e086bd6a-e985-4689-a454-30d0fbba3d69.jpeg"
     ],
     "category": "主食",
     "difficulty": 2,
@@ -6654,10 +6654,10 @@
     "name": "陕西油泼面",
     "description": "陕西油泼面是中国西北地区极具代表性的传统面食，以面条筋道、香辣开胃著称。其制作过程简单快捷，核心在于最后热油泼洒在调料上产生的独特香气。\n\nNOTE：本次标准为陕西关中地区传统口味，可根据个人喜好调整辣度和配菜。\n\n预估烹饪难度：★★☆☆",
     "source_path": "dishes/staple/陕西油泼面/陕西油泼面.md",
-    "image_path": "d:/workspace/HowToCook/dishes/staple/陕西油泼面/chemian.png",
+    "image_path": "recipes/images/e204fcf9-f2dd-4786-8b58-48323b2dab95.png",
     "images": [
-      "d:/workspace/HowToCook/dishes/staple/陕西油泼面/chemian.png",
-      "d:/workspace/HowToCook/dishes/staple/陕西油泼面/成品.png"
+      "recipes/images/e204fcf9-f2dd-4786-8b58-48323b2dab95.png",
+      "recipes/images/e204fcf9-f2dd-4786-8b58-48323b2dab95.png"
     ],
     "category": "主食",
     "difficulty": 2,
@@ -6792,9 +6792,9 @@
     "name": "韩式拌饭",
     "description": "![韩式拌饭](./韩式拌饭.png)\n\n预估烹饪难度：★★★",
     "source_path": "dishes/staple/韩式拌饭/韩式拌饭.md",
-    "image_path": "d:/workspace/HowToCook/dishes/staple/韩式拌饭/韩式拌饭.png",
+    "image_path": "recipes/images/d83d8374-ff9c-4f85-ba7b-7c4c9b6c7123.png",
     "images": [
-      "d:/workspace/HowToCook/dishes/staple/韩式拌饭/韩式拌饭.png"
+      "recipes/images/d83d8374-ff9c-4f85-ba7b-7c4c9b6c7123.png"
     ],
     "category": "主食",
     "difficulty": 3,
@@ -6954,9 +6954,9 @@
     "name": "鲣鱼海苔玉米饭",
     "description": "![示例菜成品](./米饭.jpg)\n\n空气炸锅羊排超级懒人版，味道尚可，主要看羊排的品质。\n\n- 烹饪总时长：40 分钟（准备 3 分钟+煮饭 40 分钟+拌饭 2 分钟）\n- 实际操作时间：5 分钟\n\n预估烹饪难度：★★",
     "source_path": "dishes/staple/鲣鱼海苔玉米饭/鲣鱼海苔玉米饭.md",
-    "image_path": "d:/workspace/HowToCook/dishes/staple/鲣鱼海苔玉米饭/米饭.jpg",
+    "image_path": "recipes/images/1aa58d2f-936d-4fd1-950f-9ef66a38ce82.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/staple/鲣鱼海苔玉米饭/米饭.jpg"
+      "recipes/images/1aa58d2f-936d-4fd1-950f-9ef66a38ce82.jpg"
     ],
     "category": "主食",
     "difficulty": 2,

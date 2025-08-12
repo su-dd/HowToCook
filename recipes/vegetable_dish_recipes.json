@@ -3397,9 +3397,9 @@
     "name": "上汤娃娃菜",
     "description": "上汤娃娃菜的做法 （素菜、减肥餐）\n\n预估烹饪难度：★★★",
     "source_path": "dishes/vegetable_dish/上汤娃娃菜/上汤娃娃菜.md",
-    "image_path": "d:/workspace/HowToCook/dishes/vegetable_dish/上汤娃娃菜/上汤娃娃菜.png",
+    "image_path": "recipes/images/aeb1f686-1df3-412c-ae5b-cde03b3e95b5.png",
     "images": [
-      "d:/workspace/HowToCook/dishes/vegetable_dish/上汤娃娃菜/上汤娃娃菜.png"
+      "recipes/images/aeb1f686-1df3-412c-ae5b-cde03b3e95b5.png"
     ],
     "category": "素菜",
     "difficulty": 3,
@@ -3696,9 +3696,9 @@
     "name": "凉拌莴笋",
     "description": "凉拌莴笋，开胃小菜\n\n预估烹饪难度：★★",
     "source_path": "dishes/vegetable_dish/凉拌莴笋/凉拌莴笋.md",
-    "image_path": "d:/workspace/HowToCook/dishes/vegetable_dish/凉拌莴笋/1.jpeg",
+    "image_path": "recipes/images/dc14cfe2-dcca-4bae-bcc4-d6c09c4f32d2.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/vegetable_dish/凉拌莴笋/1.jpeg"
+      "recipes/images/dc14cfe2-dcca-4bae-bcc4-d6c09c4f32d2.jpeg"
     ],
     "category": "素菜",
     "difficulty": 2,
@@ -3795,9 +3795,9 @@
     "name": "包菜炒鸡蛋粉丝",
     "description": "包菜炒鸡蛋粉丝，是中国的一道日常生活中所熟知的菜品\n\n预估烹饪难度：★★★",
     "source_path": "dishes/vegetable_dish/包菜炒鸡蛋粉丝/包菜炒鸡蛋粉丝.md",
-    "image_path": "d:/workspace/HowToCook/dishes/vegetable_dish/包菜炒鸡蛋粉丝/1.jpg",
+    "image_path": "recipes/images/58a4f3bf-e1df-4478-baf5-d60ecd73a0b3.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/vegetable_dish/包菜炒鸡蛋粉丝/1.jpg"
+      "recipes/images/58a4f3bf-e1df-4478-baf5-d60ecd73a0b3.jpg"
     ],
     "category": "素菜",
     "difficulty": 3,
@@ -3942,9 +3942,9 @@
     "name": "小炒藕丁",
     "description": "![小炒藕丁成品](./小炒藕丁.jpg)\n\n小炒藕丁是一道简单易做的菜，莲藕营养丰富，非常适合素食。预计制作时长 20 分钟\n\n预估烹饪难度：★★★",
     "source_path": "dishes/vegetable_dish/小炒藕丁/小炒藕丁.md",
-    "image_path": "d:/workspace/HowToCook/dishes/vegetable_dish/小炒藕丁/小炒藕丁.jpg",
+    "image_path": "recipes/images/4c4cac2e-7e03-4cdb-9d0a-4a45968e9787.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/vegetable_dish/小炒藕丁/小炒藕丁.jpg"
+      "recipes/images/4c4cac2e-7e03-4cdb-9d0a-4a45968e9787.jpg"
     ],
     "category": "素菜",
     "difficulty": 3,
@@ -4083,9 +4083,9 @@
     "name": "干锅花菜",
     "description": "![干锅花菜成品](./干锅花菜.jpg)\n\n干锅花菜是湘菜常见的一道菜。\n\n预估烹饪难度：★★★",
     "source_path": "dishes/vegetable_dish/干锅花菜/干锅花菜.md",
-    "image_path": "d:/workspace/HowToCook/dishes/vegetable_dish/干锅花菜/干锅花菜.jpg",
+    "image_path": "recipes/images/7e2606cf-a2b7-4533-9e2a-c4366b7d8715.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/vegetable_dish/干锅花菜/干锅花菜.jpg"
+      "recipes/images/7e2606cf-a2b7-4533-9e2a-c4366b7d8715.jpg"
     ],
     "category": "素菜",
     "difficulty": 3,
@@ -4208,12 +4208,12 @@
     "name": "手撕包菜",
     "description": "手撕包菜是一道色香味俱全的汉族名菜，属于湘菜系\n\n预估烹饪难度：★★★",
     "source_path": "dishes/vegetable_dish/手撕包菜/手撕包菜.md",
-    "image_path": "d:/workspace/HowToCook/dishes/vegetable_dish/手撕包菜/1.jpeg",
+    "image_path": "recipes/images/a597b8a3-55dc-4fc7-9277-35eff7b25219.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/vegetable_dish/手撕包菜/1.jpeg",
-      "d:/workspace/HowToCook/dishes/vegetable_dish/手撕包菜/2.jpeg",
-      "d:/workspace/HowToCook/dishes/vegetable_dish/手撕包菜/3.jpeg",
-      "d:/workspace/HowToCook/dishes/vegetable_dish/手撕包菜/4.jpeg"
+      "recipes/images/a597b8a3-55dc-4fc7-9277-35eff7b25219.jpeg",
+      "recipes/images/a597b8a3-55dc-4fc7-9277-35eff7b25219.jpeg",
+      "recipes/images/a597b8a3-55dc-4fc7-9277-35eff7b25219.jpeg",
+      "recipes/images/a597b8a3-55dc-4fc7-9277-35eff7b25219.jpeg"
     ],
     "category": "素菜",
     "difficulty": 3,
@@ -4356,12 +4356,12 @@
     "name": "拔丝土豆",
     "description": "拔丝土豆是一道色香味俱全的特色名菜，属于鲁菜系\n\n预估烹饪难度：★★★",
     "source_path": "dishes/vegetable_dish/拔丝土豆/拔丝土豆.md",
-    "image_path": "d:/workspace/HowToCook/dishes/vegetable_dish/拔丝土豆/1.jpeg",
+    "image_path": "recipes/images/506fc220-c352-4e6b-b1d0-fa9ec04863b3.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/vegetable_dish/拔丝土豆/1.jpeg",
-      "d:/workspace/HowToCook/dishes/vegetable_dish/拔丝土豆/2.jpeg",
-      "d:/workspace/HowToCook/dishes/vegetable_dish/拔丝土豆/3.jpeg",
-      "d:/workspace/HowToCook/dishes/vegetable_dish/拔丝土豆/4.jpeg"
+      "recipes/images/506fc220-c352-4e6b-b1d0-fa9ec04863b3.jpeg",
+      "recipes/images/506fc220-c352-4e6b-b1d0-fa9ec04863b3.jpeg",
+      "recipes/images/506fc220-c352-4e6b-b1d0-fa9ec04863b3.jpeg",
+      "recipes/images/506fc220-c352-4e6b-b1d0-fa9ec04863b3.jpeg"
     ],
     "category": "素菜",
     "difficulty": 3,
@@ -4453,9 +4453,9 @@
     "name": "椒盐玉米",
     "description": "预估烹饪难度：★★★",
     "source_path": "dishes/vegetable_dish/椒盐玉米/椒盐玉米.md",
-    "image_path": "d:/workspace/HowToCook/dishes/vegetable_dish/椒盐玉米/椒盐玉米.jpeg",
+    "image_path": "recipes/images/61b83d22-632a-4ddb-91ff-ddafea885599.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/vegetable_dish/椒盐玉米/椒盐玉米.jpeg"
+      "recipes/images/61b83d22-632a-4ddb-91ff-ddafea885599.jpeg"
     ],
     "category": "素菜",
     "difficulty": 3,
@@ -4608,9 +4608,9 @@
     "name": "榄菜肉末四季豆",
     "description": "![榄菜肉末四季豆成品](./榄菜肉末四季豆.JPG)\n\n预估烹饪难度：★★★",
     "source_path": "dishes/vegetable_dish/榄菜肉末四季豆/榄菜肉末四季豆.md",
-    "image_path": "d:/workspace/HowToCook/dishes/vegetable_dish/榄菜肉末四季豆/榄菜肉末四季豆.JPG",
+    "image_path": "recipes/images/92b45eed-7363-4c55-9c44-c2fbd7b9d03d.JPG",
     "images": [
-      "d:/workspace/HowToCook/dishes/vegetable_dish/榄菜肉末四季豆/榄菜肉末四季豆.JPG"
+      "recipes/images/92b45eed-7363-4c55-9c44-c2fbd7b9d03d.JPG"
     ],
     "category": "素菜",
     "difficulty": 3,
@@ -4720,9 +4720,9 @@
     "name": "洋葱炒鸡蛋",
     "description": "洋葱炒鸡蛋，是中国的一道日常生活中所熟知的菜品\n\n预估烹饪难度：★★",
     "source_path": "dishes/vegetable_dish/洋葱炒鸡蛋/洋葱炒鸡蛋.md",
-    "image_path": "d:/workspace/HowToCook/dishes/vegetable_dish/洋葱炒鸡蛋/1.jpeg",
+    "image_path": "recipes/images/2ee8d899-7b52-439a-a158-9ed3061c562a.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/vegetable_dish/洋葱炒鸡蛋/1.jpeg"
+      "recipes/images/2ee8d899-7b52-439a-a158-9ed3061c562a.jpeg"
     ],
     "category": "素菜",
     "difficulty": 2,
@@ -4807,9 +4807,9 @@
     "name": "炒滑蛋",
     "description": "![炒滑蛋成品](./炒滑蛋.jpg)\n\n炒滑蛋是一道简单易做的菜。一般初学者只需要 5 分钟即可完成。\n\n预估烹饪难度：★",
     "source_path": "dishes/vegetable_dish/炒滑蛋/炒滑蛋.md",
-    "image_path": "d:/workspace/HowToCook/dishes/vegetable_dish/炒滑蛋/炒滑蛋.jpg",
+    "image_path": "recipes/images/4d260397-cb2a-46e3-83aa-9009b1edb542.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/vegetable_dish/炒滑蛋/炒滑蛋.jpg"
+      "recipes/images/4d260397-cb2a-46e3-83aa-9009b1edb542.jpg"
     ],
     "category": "素菜",
     "difficulty": 1,
@@ -4884,9 +4884,9 @@
     "name": "烤茄子",
     "description": "非常简单方便，而且香极了\n\n预估烹饪难度：★★★",
     "source_path": "dishes/vegetable_dish/烤茄子/烤茄子.md",
-    "image_path": "d:/workspace/HowToCook/dishes/vegetable_dish/烤茄子/烤茄子.jpg",
+    "image_path": "recipes/images/d5035577-5df8-4ce1-b110-ee35162ed0e4.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/vegetable_dish/烤茄子/烤茄子.jpg"
+      "recipes/images/d5035577-5df8-4ce1-b110-ee35162ed0e4.jpg"
     ],
     "category": "素菜",
     "difficulty": 3,
@@ -5023,9 +5023,9 @@
     "name": "白灼菜心",
     "description": "<!-- 标题必须是 `菜名` + `的做法`。和文件名一致。 -->\n\n![白灼菜心](./白灼菜心.jpg)\n\n> 没有拍照，上图是网图，不过做出来都差不多啦\n\n白灼菜心是经典粤菜，白灼是粤菜的一种烹饪技法，用煮沸的水或汤将生的食物烫熟，称为白灼。这种烹饪手法能保持原有的鲜味，粤菜常用此法烹制虾和蔬菜。\n\n总之吧，减肥或者是**快速解决绿叶菜的绝佳方式**。\n\n预估烹饪难度：★★",
     "source_path": "dishes/vegetable_dish/白灼菜心/白灼菜心.md",
-    "image_path": "d:/workspace/HowToCook/dishes/vegetable_dish/白灼菜心/白灼菜心.jpg",
+    "image_path": "recipes/images/a08375b3-183a-4969-aef2-94f89c6f9de6.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/vegetable_dish/白灼菜心/白灼菜心.jpg"
+      "recipes/images/a08375b3-183a-4969-aef2-94f89c6f9de6.jpg"
     ],
     "category": "素菜",
     "difficulty": 2,
@@ -5118,9 +5118,9 @@
     "name": "糖拌西红柿",
     "description": "![示例菜成品](./火山飘雪.jpg)\n\n新鲜可口，制作简便，营养价值高，适合夏季食用，家庭餐桌上的一道美味凉菜。西红柿含有大量的维生素 C, 做法简单 几分钟就可完成。\n\n预估烹饪难度：★★",
     "source_path": "dishes/vegetable_dish/糖拌西红柿/糖拌西红柿.md",
-    "image_path": "d:/workspace/HowToCook/dishes/vegetable_dish/糖拌西红柿/火山飘雪.jpg",
+    "image_path": "recipes/images/f4dd345f-651d-4cf8-befd-ae2d340e7491.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/vegetable_dish/糖拌西红柿/火山飘雪.jpg"
+      "recipes/images/f4dd345f-651d-4cf8-befd-ae2d340e7491.jpg"
     ],
     "category": "素菜",
     "difficulty": 2,
@@ -5198,10 +5198,10 @@
     "name": "红烧冬瓜",
     "description": "红烧冬瓜是一道具有色泽红亮，香鲜味美、营养价值丰富的家常菜\n\n预估烹饪难度：★★★",
     "source_path": "dishes/vegetable_dish/红烧冬瓜/红烧冬瓜.md",
-    "image_path": "d:/workspace/HowToCook/dishes/vegetable_dish/红烧冬瓜/1.jpeg",
+    "image_path": "recipes/images/9dbc881c-8015-486b-8945-9a786ced9084.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/vegetable_dish/红烧冬瓜/1.jpeg",
-      "d:/workspace/HowToCook/dishes/vegetable_dish/红烧冬瓜/2.jpeg"
+      "recipes/images/9dbc881c-8015-486b-8945-9a786ced9084.jpeg",
+      "recipes/images/9dbc881c-8015-486b-8945-9a786ced9084.jpeg"
     ],
     "category": "素菜",
     "difficulty": 3,
@@ -5327,10 +5327,10 @@
     "name": "芹菜拌茶树菇",
     "description": "![芹菜拌茶树菇成品](./芹菜拌茶树菇.jpg)\n![闽星茶树菇](./闽星茶树菇.jpg)\n\n芹菜拌茶树菇是一道简单易做的凉拌菜。富含多种人体所需的维生素和矿物质。一般初学者只需要 30 分钟即可完成。\n\n预估烹饪难度：★★",
     "source_path": "dishes/vegetable_dish/芹菜拌茶树菇/芹菜拌茶树菇.md",
-    "image_path": "d:/workspace/HowToCook/dishes/vegetable_dish/芹菜拌茶树菇/芹菜拌茶树菇.jpg",
+    "image_path": "recipes/images/e7345492-d620-4f1b-b80d-cdbfa63e20ab.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/vegetable_dish/芹菜拌茶树菇/芹菜拌茶树菇.jpg",
-      "d:/workspace/HowToCook/dishes/vegetable_dish/芹菜拌茶树菇/闽星茶树菇.jpg"
+      "recipes/images/e7345492-d620-4f1b-b80d-cdbfa63e20ab.jpg",
+      "recipes/images/e7345492-d620-4f1b-b80d-cdbfa63e20ab.jpg"
     ],
     "category": "素菜",
     "difficulty": 2,
@@ -5459,11 +5459,11 @@
     "name": "莴笋叶煎饼",
     "description": "莴笋叶煎饼营养、好吃\n\n预估烹饪难度：★★",
     "source_path": "dishes/vegetable_dish/莴笋叶煎饼/莴笋叶煎饼.md",
-    "image_path": "d:/workspace/HowToCook/dishes/vegetable_dish/莴笋叶煎饼/1.jpeg",
+    "image_path": "recipes/images/d13c90db-8c5e-4927-a6a2-eb57b213687e.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/vegetable_dish/莴笋叶煎饼/1.jpeg",
-      "d:/workspace/HowToCook/dishes/vegetable_dish/莴笋叶煎饼/2.jpeg",
-      "d:/workspace/HowToCook/dishes/vegetable_dish/莴笋叶煎饼/3.jpeg"
+      "recipes/images/d13c90db-8c5e-4927-a6a2-eb57b213687e.jpeg",
+      "recipes/images/d13c90db-8c5e-4927-a6a2-eb57b213687e.jpeg",
+      "recipes/images/d13c90db-8c5e-4927-a6a2-eb57b213687e.jpeg"
     ],
     "category": "素菜",
     "difficulty": 2,
@@ -5543,9 +5543,9 @@
     "name": "菠菜炒鸡蛋",
     "description": "这道菜难度系数简单，营养丰富。\n\n![示例菜成品](./菠菜炒鸡蛋.jpg)\n\n预估烹饪难度：★★",
     "source_path": "dishes/vegetable_dish/菠菜炒鸡蛋/菠菜炒鸡蛋.md",
-    "image_path": "d:/workspace/HowToCook/dishes/vegetable_dish/菠菜炒鸡蛋/菠菜炒鸡蛋.jpg",
+    "image_path": "recipes/images/e2ce6497-0e78-46d6-8d2e-bb4fa462383d.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/vegetable_dish/菠菜炒鸡蛋/菠菜炒鸡蛋.jpg"
+      "recipes/images/e2ce6497-0e78-46d6-8d2e-bb4fa462383d.jpg"
     ],
     "category": "素菜",
     "difficulty": 2,
@@ -5629,9 +5629,9 @@
     "name": "蒜蓉空心菜",
     "description": "背景：\n\n曾经去学校附近的川菜馆吃过蒜蓉空心菜，之后就一直很喜欢吃。\n\n预估烹饪难度：★★",
     "source_path": "dishes/vegetable_dish/蒜蓉空心菜/蒜蓉空心菜.md",
-    "image_path": "d:/workspace/HowToCook/dishes/vegetable_dish/蒜蓉空心菜/1.JPG",
+    "image_path": "recipes/images/1d783f05-b837-4d5b-a5e2-ef3f12937d4b.JPG",
     "images": [
-      "d:/workspace/HowToCook/dishes/vegetable_dish/蒜蓉空心菜/1.JPG"
+      "recipes/images/1d783f05-b837-4d5b-a5e2-ef3f12937d4b.JPG"
     ],
     "category": "素菜",
     "difficulty": 2,
@@ -5752,9 +5752,9 @@
     "name": "虎皮青椒",
     "description": "预估烹饪难度：★★★",
     "source_path": "dishes/vegetable_dish/虎皮青椒/虎皮青椒.md",
-    "image_path": "d:/workspace/HowToCook/dishes/vegetable_dish/虎皮青椒/虎皮青椒.jpg",
+    "image_path": "recipes/images/e66b287a-eaca-46de-be3a-c1f91f0fd329.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/vegetable_dish/虎皮青椒/虎皮青椒.jpg"
+      "recipes/images/e66b287a-eaca-46de-be3a-c1f91f0fd329.jpg"
     ],
     "category": "素菜",
     "difficulty": 3,
@@ -5885,10 +5885,10 @@
     "name": "蚝油三鲜菇",
     "description": "几分钟就能做出的蚝油蘑菇，滑嫩入味鲜美可口，别提多好吃了。\n\n预估烹饪难度：★★★",
     "source_path": "dishes/vegetable_dish/蚝油三鲜菇/蚝油三鲜菇.md",
-    "image_path": "d:/workspace/HowToCook/dishes/vegetable_dish/蚝油三鲜菇/1.jpeg",
+    "image_path": "recipes/images/4c247801-0bda-4640-98b4-fb82db3c801b.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/vegetable_dish/蚝油三鲜菇/1.jpeg",
-      "d:/workspace/HowToCook/dishes/vegetable_dish/蚝油三鲜菇/2.jpeg"
+      "recipes/images/4c247801-0bda-4640-98b4-fb82db3c801b.jpeg",
+      "recipes/images/4c247801-0bda-4640-98b4-fb82db3c801b.jpeg"
     ],
     "category": "素菜",
     "difficulty": 3,
@@ -6078,9 +6078,9 @@
     "name": "西红柿豆腐汤羹",
     "description": "西红柿豆腐汤羹是一道很清淡美味的汤羹\n\n预估烹饪难度：★★",
     "source_path": "dishes/vegetable_dish/西红柿豆腐汤羹/西红柿豆腐汤羹.md",
-    "image_path": "d:/workspace/HowToCook/dishes/vegetable_dish/西红柿豆腐汤羹/1.jpeg",
+    "image_path": "recipes/images/54bf1a6f-3b21-4645-a9f3-ef9c110bba2a.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/vegetable_dish/西红柿豆腐汤羹/1.jpeg"
+      "recipes/images/54bf1a6f-3b21-4645-a9f3-ef9c110bba2a.jpeg"
     ],
     "category": "素菜",
     "difficulty": 2,
@@ -6194,9 +6194,9 @@
     "name": "西葫芦炒鸡蛋",
     "description": "![西葫芦炒鸡蛋](./西葫芦炒鸡蛋.jpeg)\n\n西葫芦炒鸡蛋是一道简单易做的家常菜。简单易购的食材，好吃又下饭。\n\n预估烹饪难度：★★",
     "source_path": "dishes/vegetable_dish/西葫芦炒鸡蛋/西葫芦炒鸡蛋.md",
-    "image_path": "d:/workspace/HowToCook/dishes/vegetable_dish/西葫芦炒鸡蛋/西葫芦炒鸡蛋.jpeg",
+    "image_path": "recipes/images/45f8c9c0-f65d-48c0-8423-065d4b5529bb.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/vegetable_dish/西葫芦炒鸡蛋/西葫芦炒鸡蛋.jpeg"
+      "recipes/images/45f8c9c0-f65d-48c0-8423-065d4b5529bb.jpeg"
     ],
     "category": "素菜",
     "difficulty": 2,
@@ -6298,9 +6298,9 @@
     "name": "话梅煮毛豆",
     "description": "酸甜可口、营养价值高的一种简易美食\n\n预估烹饪难度：★★",
     "source_path": "dishes/vegetable_dish/话梅煮毛豆/话梅煮毛豆.md",
-    "image_path": "d:/workspace/HowToCook/dishes/vegetable_dish/话梅煮毛豆/1.jpeg",
+    "image_path": "recipes/images/53f473cd-c66d-4113-ad55-d5da89b6f625.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/vegetable_dish/话梅煮毛豆/1.jpeg"
+      "recipes/images/53f473cd-c66d-4113-ad55-d5da89b6f625.jpeg"
     ],
     "category": "素菜",
     "difficulty": 2,
@@ -6357,9 +6357,9 @@
     "name": "微波炉鸡蛋羹",
     "description": "![微波炉鸡蛋羹](./微波炉鸡蛋羹.jpg)\n微波炉鸡蛋羹是一个简单易制作的菜。非常适合夜间突然饿了的时候充当夜宵，快捷简单。\n\n预估烹饪难度：★★",
     "source_path": "dishes/vegetable_dish/鸡蛋羹/微波炉鸡蛋羹.md",
-    "image_path": "d:/workspace/HowToCook/dishes/vegetable_dish/鸡蛋羹/微波炉鸡蛋羹.jpg",
+    "image_path": "recipes/images/bc73a02e-62ec-49b2-8d96-2216f540c3ea.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/vegetable_dish/鸡蛋羹/微波炉鸡蛋羹.jpg"
+      "recipes/images/bc73a02e-62ec-49b2-8d96-2216f540c3ea.jpg"
     ],
     "category": "素菜",
     "difficulty": 2,
@@ -6601,9 +6601,9 @@
     "name": "鸡蛋羹",
     "description": "![鸡蛋羹成品](./鸡蛋羹.jpg)\n\n鸡蛋羹，又称水蒸蛋，不需要准备复杂的食材，是一道简单快捷易做的菜，当早餐或是正餐都可，制作时长约为 15 分钟。\n\n预估烹饪难度：★★",
     "source_path": "dishes/vegetable_dish/鸡蛋羹/鸡蛋羹.md",
-    "image_path": "d:/workspace/HowToCook/dishes/vegetable_dish/鸡蛋羹/鸡蛋羹.jpg",
+    "image_path": "recipes/images/a024d481-e463-4ab2-83cc-f60d5872b8dd.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/vegetable_dish/鸡蛋羹/鸡蛋羹.jpg"
+      "recipes/images/a024d481-e463-4ab2-83cc-f60d5872b8dd.jpg"
     ],
     "category": "素菜",
     "difficulty": 2,

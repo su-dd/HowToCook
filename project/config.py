@@ -1,0 +1,7 @@
+BasePath = 'd:/workspace/HowToCook'
+RecipesPath = BasePath + '/recipes'
+DishesPath = BasePath + '/dishes'
+TipsPath = BasePath + '/tips'
+UuidPath = RecipesPath + '/uuid'
+RecipesUuidFile = UuidPath + '/uuid.json'
+ImageMappingFile = UuidPath + '/image.json'

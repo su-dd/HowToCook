@@ -1,14 +1,10 @@
+import re
 import parse_dishes
 import uuid_create
 import os
 import json
+import config
 
-BasePath = 'd:/workspace/HowToCook'
-RecipesPath = BasePath + '/recipes'
-DishesPath = BasePath + '/dishes'
-TipsPath = BasePath + '/tips'
-UuidPath = RecipesPath + '/uuid'
-RecipesUuidFile = UuidPath + '/uuid.json'
 
 def count_md_files(directory : str) -> int:
     """
@@ -21,26 +17,41 @@ def count_md_files(directory : str) -> int:
                 count += 1
     return count
 
+def generate_image_mapping() -> dict:
+    """
+    生成图片路径映射关系
+    """
+    # 读取现有的映射文件（如果存在）
+    if os.path.exists(config.ImageMappingFile):
+        with open(config.ImageMappingFile, 'r', encoding='utf-8') as f:
+            image_mapping = json.load(f)
+    else:
+        image_mapping = {}
+    return image_mapping
+
 
 if __name__ == '__main__':
 
     # 刷新UUid
-    UUID_MAPPING = uuid_create.generate_uuid_for_md_files(BasePath, [DishesPath, TipsPath], RecipesUuidFile)
+    UUID_MAPPING = uuid_create.generate_uuid_for_md_files(config.BasePath, [config.DishesPath, config.TipsPath], config.RecipesUuidFile)
+
+    image_mapping = generate_image_mapping()
 
     # 调整路径以正确指向项目根目录下的dishes文件夹
-    dishes_directory = DishesPath
-    recipes_directory = RecipesPath
+    dishes_directory = config.DishesPath
+    recipes_directory = config.RecipesPath
     
     # 确保recipes目录存在
-    os.makedirs(RecipesPath, exist_ok=True)
+    os.makedirs(config.RecipesPath, exist_ok=True)
     
     print("开始解析菜谱文件...")
-    recipes_by_category = parse_dishes.scan_dishes_directory(DishesPath, UUID_MAPPING, BasePath)
+    recipes_by_category = parse_dishes.scan_dishes_directory(config.DishesPath, UUID_MAPPING, image_mapping, config.BasePath)
 
     recipesCount = 0
     # 为每个分类创建单独的JSON文件
     for category, recipes in recipes_by_category.items():
-        output_file = os.path.join(RecipesPath, f"{category}_recipes.json")
+        output_file = os.path.join(config.RecipesPath, f"{category}_recipes.json")
+
         recipesCount += len(recipes)
 
         print(f"正在生成 {category} 分类的菜谱数据，共 {len(recipes)} 个菜谱...")

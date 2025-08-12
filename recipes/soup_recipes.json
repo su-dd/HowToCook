@@ -1593,11 +1593,11 @@
     "name": "勾芡香菇汤",
     "description": "鲜香菇除了拿来和肉炒外，其实拿来做浓浓的勾芡汤也是非常可口的。\n\n预估烹饪难度：★★★",
     "source_path": "dishes/soup/勾芡香菇汤/勾芡香菇汤.md",
-    "image_path": "d:/workspace/HowToCook/dishes/soup/勾芡香菇汤/1.jpeg",
+    "image_path": "recipes/images/e98c9160-db42-4569-89b3-b60cf4ac55ab.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/soup/勾芡香菇汤/1.jpeg",
-      "d:/workspace/HowToCook/dishes/soup/勾芡香菇汤/2.jpeg",
-      "d:/workspace/HowToCook/dishes/soup/勾芡香菇汤/3.jpeg"
+      "recipes/images/e98c9160-db42-4569-89b3-b60cf4ac55ab.jpeg",
+      "recipes/images/e98c9160-db42-4569-89b3-b60cf4ac55ab.jpeg",
+      "recipes/images/e98c9160-db42-4569-89b3-b60cf4ac55ab.jpeg"
     ],
     "category": "汤类",
     "difficulty": 3,
@@ -1804,11 +1804,11 @@
     "name": "昂刺鱼豆腐汤",
     "description": "- 昂刺鱼/沙光鱼 豆腐汤 刺少 肉嫩 营养丰盛、适合任何年龄的小伙伴\n\n预估烹饪难度：★★★",
     "source_path": "dishes/soup/昂刺鱼豆腐汤/昂刺鱼豆腐汤.md",
-    "image_path": "d:/workspace/HowToCook/dishes/soup/昂刺鱼豆腐汤/沙光鱼豆腐汤.jpg",
+    "image_path": "recipes/images/ac86eb4c-6f78-4e67-b64e-4708ec6c62a2.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/soup/昂刺鱼豆腐汤/沙光鱼豆腐汤.jpg",
-      "d:/workspace/HowToCook/dishes/soup/昂刺鱼豆腐汤/昂刺鱼豆腐汤01.jpg",
-      "d:/workspace/HowToCook/dishes/soup/昂刺鱼豆腐汤/昂刺鱼豆腐汤02.jpg"
+      "recipes/images/ac86eb4c-6f78-4e67-b64e-4708ec6c62a2.jpg",
+      "recipes/images/ac86eb4c-6f78-4e67-b64e-4708ec6c62a2.jpg",
+      "recipes/images/ac86eb4c-6f78-4e67-b64e-4708ec6c62a2.jpg"
     ],
     "category": "汤类",
     "difficulty": 3,
@@ -1936,9 +1936,9 @@
     "name": "朱雀汤",
     "description": "预估烹饪难度：★",
     "source_path": "dishes/soup/朱雀汤/朱雀汤.md",
-    "image_path": "d:/workspace/HowToCook/dishes/soup/朱雀汤/朱雀汤.jpg",
+    "image_path": "recipes/images/22c32861-e2ec-44f1-8c38-1105e1b6a120.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/soup/朱雀汤/朱雀汤.jpg"
+      "recipes/images/22c32861-e2ec-44f1-8c38-1105e1b6a120.jpg"
     ],
     "category": "汤类",
     "difficulty": 1,
@@ -2012,9 +2012,9 @@
     "name": "玉米排骨汤",
     "description": "新鲜的排骨除了拿来烧或者炖之外，还可以用来煲汤，搭配玉米和胡萝卜煲出来的汤非常鲜美。\n\n预估烹饪难度：★★★",
     "source_path": "dishes/soup/玉米排骨汤/玉米排骨汤.md",
-    "image_path": "d:/workspace/HowToCook/dishes/soup/玉米排骨汤/玉米排骨汤.jpeg",
+    "image_path": "recipes/images/96b36a85-7742-4c23-a2f9-dd9a99623105.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/soup/玉米排骨汤/玉米排骨汤.jpeg"
+      "recipes/images/96b36a85-7742-4c23-a2f9-dd9a99623105.jpeg"
     ],
     "category": "汤类",
     "difficulty": 3,
@@ -2198,9 +2198,9 @@
     "name": "羊肉汤",
     "description": "![羊杂汤](./羊肉汤.jpg)\n\n羊肉汤/羊肉汤简单易，有抵御寒冷、温润养胃、开胃健脾的功效，富含钙、铁、蛋白质等营养物质。\n\n预估烹饪难度：★★★",
     "source_path": "dishes/soup/羊肉汤/羊肉汤.md",
-    "image_path": "d:/workspace/HowToCook/dishes/soup/羊肉汤/羊肉汤.jpg",
+    "image_path": "recipes/images/a7640d68-4020-4b9a-86e3-cbf147caf427.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/soup/羊肉汤/羊肉汤.jpg"
+      "recipes/images/a7640d68-4020-4b9a-86e3-cbf147caf427.jpg"
     ],
     "category": "汤类",
     "difficulty": 3,
@@ -2341,9 +2341,9 @@
     "name": "菌菇炖乳鸽",
     "description": "- 菌菇炖乳鸽 汤鲜、肉嫩、营养丰富\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/soup/菌菇炖乳鸽/菌菇炖乳鸽.md",
-    "image_path": "d:/workspace/HowToCook/dishes/soup/菌菇炖乳鸽/菌菇炖乳鸽.jpg",
+    "image_path": "recipes/images/ce800d4a-015d-4b0e-9f9b-2def829b2789.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/soup/菌菇炖乳鸽/菌菇炖乳鸽.jpg"
+      "recipes/images/ce800d4a-015d-4b0e-9f9b-2def829b2789.jpg"
     ],
     "category": "汤类",
     "difficulty": 4,
@@ -2432,9 +2432,9 @@
     "name": "银耳莲子粥",
     "description": "![银耳莲子粥](./银耳莲子粥.png)\n\n银耳莲子粥是一道营养非常丰富的粥。口味偏甜，具有养心安神的功效。\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/soup/银耳莲子粥/银耳莲子粥.md",
-    "image_path": "d:/workspace/HowToCook/dishes/soup/银耳莲子粥/银耳莲子粥.png",
+    "image_path": "recipes/images/18f1e675-5868-489f-b126-d65f0b9eb308.png",
     "images": [
-      "d:/workspace/HowToCook/dishes/soup/银耳莲子粥/银耳莲子粥.png"
+      "recipes/images/18f1e675-5868-489f-b126-d65f0b9eb308.png"
     ],
     "category": "汤类",
     "difficulty": 4,
@@ -2529,9 +2529,9 @@
     "name": "陈皮排骨汤",
     "description": "新鲜的排骨除了拿来烧或者炖之外，还可以用来煲汤，搭配广东陈皮煲出来的汤非常养生，对脾胃、肺及咽喉都有一定的滋补功效，熬夜党必备。\n\n![陈皮排骨汤](./陈皮排骨汤.jpg)\n\n预估烹饪难度：★★★",
     "source_path": "dishes/soup/陈皮排骨汤/陈皮排骨汤.md",
-    "image_path": "d:/workspace/HowToCook/dishes/soup/陈皮排骨汤/陈皮排骨汤.jpg",
+    "image_path": "recipes/images/a2e8535d-852d-4923-b965-b3661e1fddad.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/soup/陈皮排骨汤/陈皮排骨汤.jpg"
+      "recipes/images/a2e8535d-852d-4923-b965-b3661e1fddad.jpg"
     ],
     "category": "汤类",
     "difficulty": 3,

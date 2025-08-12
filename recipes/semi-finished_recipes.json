@@ -538,9 +538,9 @@
     "name": "懒人蛋挞",
     "description": "![蛋挞成品](./懒人蛋挞.png)\n\n蛋挞是一道常见的可口甜品，通常而言制作蛋挞是需要调和蛋挞液和制作蛋挞皮的，这个过程比较复杂和耗时，但是网购半成品恰恰解决解决以上的难题，初学者只需大约 40 分就可以完成。从今往后只要家里有烤箱，就可以化身烘焙达人，帮家人烤蛋挞！\n\n预估烹饪难度：★★★",
     "source_path": "dishes/semi-finished/懒人蛋挞/懒人蛋挞.md",
-    "image_path": "d:/workspace/HowToCook/dishes/semi-finished/懒人蛋挞/懒人蛋挞.png",
+    "image_path": "recipes/images/31a1ba3b-3f5d-486c-933d-1d5045f9e784.png",
     "images": [
-      "d:/workspace/HowToCook/dishes/semi-finished/懒人蛋挞/懒人蛋挞.png"
+      "recipes/images/31a1ba3b-3f5d-486c-933d-1d5045f9e784.png"
     ],
     "category": "半成品",
     "difficulty": 3,
@@ -617,9 +617,9 @@
     "name": "炸薯条",
     "description": "![炸薯条](./炸薯条.jpg)\n\n薯条🍟是一种土豆🥔\\马铃薯🥔\\洋芋🥔切成条状之后再油炸而成的快餐食物（在有的国家可能不算快餐），非常适合。相较于油炸，空气炸锅可能会更加易于避免崩溃和实现异步非阻塞。相较于自己动手切土豆再洗去淀粉并喷上油，使用半成品薯条可能会显著减少热量摄入前的热量消耗，四舍五入就是会显著减少热量摄入~~前的热量消耗~~。\n\n预估烹饪难度：★★",
     "source_path": "dishes/semi-finished/炸薯条/炸薯条.md",
-    "image_path": "d:/workspace/HowToCook/dishes/semi-finished/炸薯条/炸薯条.jpg",
+    "image_path": "recipes/images/b9c2c886-3bd5-4148-bb1c-3e92e4b6aabe.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/semi-finished/炸薯条/炸薯条.jpg"
+      "recipes/images/b9c2c886-3bd5-4148-bb1c-3e92e4b6aabe.jpg"
     ],
     "category": "半成品",
     "difficulty": 2,
@@ -694,9 +694,9 @@
     "name": "空气炸锅羊排",
     "description": "![示例菜成品](./羊排.jpg)\n\n空气炸锅羊排超级懒人版，味道尚可，主要看羊排的品质。\n\n- 烹饪总时长：40 分钟（准备 5 分钟+腌制 20 分钟+下锅 15 分钟）\n- 实际操作时间：10 分钟\n\n预估烹饪难度：★★★",
     "source_path": "dishes/semi-finished/空气炸锅羊排/空气炸锅羊排.md",
-    "image_path": "d:/workspace/HowToCook/dishes/semi-finished/空气炸锅羊排/羊排.jpg",
+    "image_path": "recipes/images/29dfac15-f9e4-4bb2-9a43-692e0858390b.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/semi-finished/空气炸锅羊排/羊排.jpg"
+      "recipes/images/29dfac15-f9e4-4bb2-9a43-692e0858390b.jpg"
     ],
     "category": "半成品",
     "difficulty": 3,
@@ -821,10 +821,10 @@
     "name": "空气炸锅鸡翅中",
     "description": "![鸡翅中](./鸡翅中_0.jpg)\n![鸡翅中](./鸡翅中_1.jpg)\n\n空气炸锅做鸡翅中方便，这样自带油脂的食物味道很好，比 KFC 的好吃，吃完不**用洗碗洗锅**。\n\n- 烹饪时长：40 分钟（准备 3 分钟+解冻 20 分钟+下锅 17 分钟）\n- 实际操作时间：5 分钟\n\n预估烹饪难度：★★",
     "source_path": "dishes/semi-finished/空气炸锅鸡翅中/空气炸锅鸡翅中.md",
-    "image_path": "d:/workspace/HowToCook/dishes/semi-finished/空气炸锅鸡翅中/鸡翅中_0.jpg",
+    "image_path": "recipes/images/8cd60943-7cac-4eb9-8db3-2443036dc191.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/semi-finished/空气炸锅鸡翅中/鸡翅中_0.jpg",
-      "d:/workspace/HowToCook/dishes/semi-finished/空气炸锅鸡翅中/鸡翅中_1.jpg"
+      "recipes/images/8cd60943-7cac-4eb9-8db3-2443036dc191.jpg",
+      "recipes/images/8cd60943-7cac-4eb9-8db3-2443036dc191.jpg"
     ],
     "category": "半成品",
     "difficulty": 2,
@@ -889,9 +889,9 @@
     "name": "速冻汤圆",
     "description": "![速冻汤圆](./速冻汤圆.jpg)\n\n速冻汤圆是一道简单易做的菜。一般初学者只需要 6 分钟即可完成。\n\n预估烹饪难度：★",
     "source_path": "dishes/semi-finished/速冻汤圆/速冻汤圆.md",
-    "image_path": "d:/workspace/HowToCook/dishes/semi-finished/速冻汤圆/速冻汤圆.jpg",
+    "image_path": "recipes/images/69f4e375-d41b-4ff3-ab8a-e781222a2ed6.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/semi-finished/速冻汤圆/速冻汤圆.jpg"
+      "recipes/images/69f4e375-d41b-4ff3-ab8a-e781222a2ed6.jpg"
     ],
     "category": "半成品",
     "difficulty": 1,

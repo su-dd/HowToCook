@@ -1216,9 +1216,9 @@
     "name": "小龙虾",
     "description": "![成品](./成品.jpg)\n\n在家里做的小龙虾，肉质细嫩，鲜嫩多汁，干净卫生。\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/aquatic/小龙虾/小龙虾.md",
-    "image_path": "d:/workspace/HowToCook/dishes/aquatic/小龙虾/成品.jpg",
+    "image_path": "recipes/images/0b305335-0fb5-4286-96f1-3c6b5cc5bd94.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/aquatic/小龙虾/成品.jpg"
+      "recipes/images/0b305335-0fb5-4286-96f1-3c6b5cc5bd94.jpg"
     ],
     "category": "水产",
     "difficulty": 4,
@@ -1482,9 +1482,9 @@
     "name": "干煎阿根廷红虾",
     "description": "![示例菜成品](./干煎阿根廷红虾.jpg)\n\n平常所见到虾，只有赴“汤”蹈“火”后，才能红！阿根廷虾很任性，一红就红一辈子！跟它住在北极的亲戚，北极虾一样，天生红。\n\n阿根廷红虾，之所以这么红，是因为它生活在深海中，使得它体内含有丰富的碘、磷及珍贵的虾青素等微量元素，能够增强人体免疫力，还对心脏活动具有重要调节作用，可以减少血液中的胆固醇含量。\n\n阿根廷红虾，不仅个大肥美，虾肉白如凝脂，细腻腴滑，口感鲜嫩，味道甜香浓郁，是虾类料理界的宠儿，看着真让人垂(chao)涎(ji)欲(xiang)滴(chi)，快享受这大快朵颐的欢愉吧！\n\n预估烹饪难度：★★★",
     "source_path": "dishes/aquatic/干煎阿根廷红虾/干煎阿根廷红虾.md",
-    "image_path": "d:/workspace/HowToCook/dishes/aquatic/干煎阿根廷红虾/干煎阿根廷红虾.jpg",
+    "image_path": "recipes/images/6eed7b4a-3ede-4e8c-be27-d829a2d926a7.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/aquatic/干煎阿根廷红虾/干煎阿根廷红虾.jpg"
+      "recipes/images/6eed7b4a-3ede-4e8c-be27-d829a2d926a7.jpg"
     ],
     "category": "水产",
     "difficulty": 3,
@@ -1642,9 +1642,9 @@
     "name": "油焖大虾",
     "description": "预估烹饪难度：★★★★",
     "source_path": "dishes/aquatic/油焖大虾/油焖大虾.md",
-    "image_path": "d:/workspace/HowToCook/dishes/aquatic/油焖大虾/油焖大虾.jpg",
+    "image_path": "recipes/images/a39eab33-2779-4a12-ab5e-603e620e3bb2.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/aquatic/油焖大虾/油焖大虾.jpg"
+      "recipes/images/a39eab33-2779-4a12-ab5e-603e620e3bb2.jpg"
     ],
     "category": "水产",
     "difficulty": 4,
@@ -1810,9 +1810,9 @@
     "name": "烤鱼",
     "description": "预估烹饪难度：★★★★",
     "source_path": "dishes/aquatic/混合烤鱼/烤鱼.md",
-    "image_path": "d:/workspace/HowToCook/dishes/aquatic/混合烤鱼/烤鱼.jpg",
+    "image_path": "recipes/images/03b8c045-2c3e-4263-8644-cb954c46e080.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/aquatic/混合烤鱼/烤鱼.jpg"
+      "recipes/images/03b8c045-2c3e-4263-8644-cb954c46e080.jpg"
     ],
     "category": "水产",
     "difficulty": 4,
@@ -2142,11 +2142,11 @@
     "name": "清蒸鲈鱼",
     "description": "预估烹饪难度：★★★",
     "source_path": "dishes/aquatic/清蒸鲈鱼/清蒸鲈鱼.md",
-    "image_path": "d:/workspace/HowToCook/dishes/aquatic/清蒸鲈鱼/改刀.jpg",
+    "image_path": "recipes/images/15bab60d-aee0-4422-853b-c8f42462bbf6.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/aquatic/清蒸鲈鱼/改刀.jpg",
-      "d:/workspace/HowToCook/dishes/aquatic/清蒸鲈鱼/摆盘.jpg",
-      "d:/workspace/HowToCook/dishes/aquatic/清蒸鲈鱼/清蒸鲈鱼.jpg"
+      "recipes/images/15bab60d-aee0-4422-853b-c8f42462bbf6.jpg",
+      "recipes/images/15bab60d-aee0-4422-853b-c8f42462bbf6.jpg",
+      "recipes/images/15bab60d-aee0-4422-853b-c8f42462bbf6.jpg"
     ],
     "category": "水产",
     "difficulty": 3,
@@ -2290,9 +2290,9 @@
     "name": "白灼虾",
     "description": "白灼虾非常适合程序员在沿海地区做，类似于清蒸鱼：简单容错、有营养、有满足感，甚至很好看。\n\n预估烹饪难度：★★",
     "source_path": "dishes/aquatic/白灼虾/白灼虾.md",
-    "image_path": "d:/workspace/HowToCook/dishes/aquatic/白灼虾/白灼虾.webp",
+    "image_path": "recipes/images/3136fe29-7a11-4621-8718-e6aaff71057d.webp",
     "images": [
-      "d:/workspace/HowToCook/dishes/aquatic/白灼虾/白灼虾.webp"
+      "recipes/images/3136fe29-7a11-4621-8718-e6aaff71057d.webp"
     ],
     "category": "水产",
     "difficulty": 2,
@@ -2460,10 +2460,10 @@
     "name": "糖醋鲤鱼",
     "description": "预估烹饪难度：★★★★",
     "source_path": "dishes/aquatic/糖醋鲤鱼/糖醋鲤鱼.md",
-    "image_path": "d:/workspace/HowToCook/dishes/aquatic/糖醋鲤鱼/腌制.jpg",
+    "image_path": "recipes/images/d03f4df3-4669-4487-a730-8b97f5d87224.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/aquatic/糖醋鲤鱼/腌制.jpg",
-      "d:/workspace/HowToCook/dishes/aquatic/糖醋鲤鱼/成品.jpg"
+      "recipes/images/d03f4df3-4669-4487-a730-8b97f5d87224.jpg",
+      "recipes/images/d03f4df3-4669-4487-a730-8b97f5d87224.jpg"
     ],
     "category": "水产",
     "difficulty": 4,
@@ -2733,9 +2733,9 @@
     "name": "芥末黄油罗氏虾",
     "description": "![芥末黄油罗氏虾](./芥末黄油罗氏虾.jpg)\n这是一道做法简单，味道美味，具有新意的海鲜菜。\n\n预估烹饪难度：★★★",
     "source_path": "dishes/aquatic/芥末黄油罗氏虾/芥末黄油罗氏虾.md",
-    "image_path": "d:/workspace/HowToCook/dishes/aquatic/芥末黄油罗氏虾/芥末黄油罗氏虾.jpg",
+    "image_path": "recipes/images/900baad3-f4b3-4a13-9982-664fcd7c7f58.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/aquatic/芥末黄油罗氏虾/芥末黄油罗氏虾.jpg"
+      "recipes/images/900baad3-f4b3-4a13-9982-664fcd7c7f58.jpg"
     ],
     "category": "水产",
     "difficulty": 3,
@@ -3164,9 +3164,9 @@
     "name": "葱烧海参",
     "description": "![示例菜成品](./葱烧海参.jpeg)\n\n这道菜的做法并不难，就是海参泡发是需要时间的。疫情隔离在家，干海参是过年前存的年货，正好拿出来尝试一下。\n\n预估烹饪难度：★★★",
     "source_path": "dishes/aquatic/葱烧海参/葱烧海参.md",
-    "image_path": "d:/workspace/HowToCook/dishes/aquatic/葱烧海参/葱烧海参.jpeg",
+    "image_path": "recipes/images/72a003e7-bbfd-4d1f-bf7f-9951a359b092.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/aquatic/葱烧海参/葱烧海参.jpeg"
+      "recipes/images/72a003e7-bbfd-4d1f-bf7f-9951a359b092.jpeg"
     ],
     "category": "水产",
     "difficulty": 3,
@@ -3295,10 +3295,10 @@
     "name": "蒜蓉虾",
     "description": "蒜蓉虾是广东省地方传统名菜，色香味俱全。\n\n预估烹饪难度：★★",
     "source_path": "dishes/aquatic/蒜蓉虾/蒜蓉虾.md",
-    "image_path": "d:/workspace/HowToCook/dishes/aquatic/蒜蓉虾/1.jpeg",
+    "image_path": "recipes/images/35189f64-e8f1-4892-8346-dc8379407927.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/aquatic/蒜蓉虾/1.jpeg",
-      "d:/workspace/HowToCook/dishes/aquatic/蒜蓉虾/2.jpeg"
+      "recipes/images/35189f64-e8f1-4892-8346-dc8379407927.jpeg",
+      "recipes/images/35189f64-e8f1-4892-8346-dc8379407927.jpeg"
     ],
     "category": "水产",
     "difficulty": 2,
@@ -3366,9 +3366,9 @@
     "name": "蒜香黄油虾",
     "description": "蒜香黄油虾是一道经典的西式海鲜料理，以鲜虾为主料，配以蒜末和黄油烹制而成。口感鲜嫩，蒜香浓郁。制作简单，适合家庭日常烹饪。\n\n![蒜香黄油虾](./1.jpg)\n\n预估烹饪难度：★★",
     "source_path": "dishes/aquatic/蒜香黄油虾/蒜香黄油虾.md",
-    "image_path": "d:/workspace/HowToCook/dishes/aquatic/蒜香黄油虾/1.jpg",
+    "image_path": "recipes/images/d8dac3f9-020b-4588-bf6c-f5e18b4dcf73.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/aquatic/蒜香黄油虾/1.jpg"
+      "recipes/images/d8dac3f9-020b-4588-bf6c-f5e18b4dcf73.jpg"
     ],
     "category": "水产",
     "difficulty": 2,
@@ -3513,11 +3513,11 @@
     "name": "蛏抱蛋",
     "description": "蛏抱蛋，是流行于福建省福州地区的传统家常菜\n\n预估烹饪难度：★★★",
     "source_path": "dishes/aquatic/蛏抱蛋/蛏抱蛋.md",
-    "image_path": "d:/workspace/HowToCook/dishes/aquatic/蛏抱蛋/1.jpeg",
+    "image_path": "recipes/images/a345c17d-b003-499f-96a6-cb5ddf91959e.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/aquatic/蛏抱蛋/1.jpeg",
-      "d:/workspace/HowToCook/dishes/aquatic/蛏抱蛋/2.jpeg",
-      "d:/workspace/HowToCook/dishes/aquatic/蛏抱蛋/3.jpeg"
+      "recipes/images/a345c17d-b003-499f-96a6-cb5ddf91959e.jpeg",
+      "recipes/images/a345c17d-b003-499f-96a6-cb5ddf91959e.jpeg",
+      "recipes/images/a345c17d-b003-499f-96a6-cb5ddf91959e.jpeg"
     ],
     "category": "水产",
     "difficulty": 3,
@@ -3616,9 +3616,9 @@
     "name": "香煎翘嘴鱼",
     "description": "![香煎翘嘴鱼](./香煎翘嘴鱼.jpeg)\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/aquatic/香煎翘嘴鱼/香煎翘嘴鱼.md",
-    "image_path": "d:/workspace/HowToCook/dishes/aquatic/香煎翘嘴鱼/香煎翘嘴鱼.jpeg",
+    "image_path": "recipes/images/e8bd4d75-22fe-40fc-bade-7dbca4e476d1.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/aquatic/香煎翘嘴鱼/香煎翘嘴鱼.jpeg"
+      "recipes/images/e8bd4d75-22fe-40fc-bade-7dbca4e476d1.jpeg"
     ],
     "category": "水产",
     "difficulty": 4,
@@ -3823,9 +3823,9 @@
     "name": "鲤鱼炖白菜",
     "description": "![鲤鱼炖白菜](./鲤鱼炖白菜.jpeg)\n\n预估烹饪难度：★★★",
     "source_path": "dishes/aquatic/鲤鱼炖白菜/鲤鱼炖白菜.md",
-    "image_path": "d:/workspace/HowToCook/dishes/aquatic/鲤鱼炖白菜/鲤鱼炖白菜.jpeg",
+    "image_path": "recipes/images/1713e0ca-7b4c-4130-9fba-1dfff2512487.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/aquatic/鲤鱼炖白菜/鲤鱼炖白菜.jpeg"
+      "recipes/images/1713e0ca-7b4c-4130-9fba-1dfff2512487.jpeg"
     ],
     "category": "水产",
     "difficulty": 3,
@@ -3972,9 +3972,9 @@
     "name": "鳊鱼炖豆腐",
     "description": "![鳊鱼炖豆腐](./鳊鱼炖豆腐.jpg)\n\n预估烹饪难度：★★★",
     "source_path": "dishes/aquatic/鳊鱼炖豆腐/鳊鱼炖豆腐.md",
-    "image_path": "d:/workspace/HowToCook/dishes/aquatic/鳊鱼炖豆腐/鳊鱼炖豆腐.jpg",
+    "image_path": "recipes/images/51325eac-409c-45a3-8aab-a11b0b85cbbf.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/aquatic/鳊鱼炖豆腐/鳊鱼炖豆腐.jpg"
+      "recipes/images/51325eac-409c-45a3-8aab-a11b0b85cbbf.jpg"
     ],
     "category": "水产",
     "difficulty": 3,
@@ -4190,9 +4190,9 @@
     "name": "黄油煎虾",
     "description": "![示例菜成品](./黄油煎虾.jpg)\n\n黄油煎虾是一道制作相对简单、风味极佳的菜式，主要耗时在于处理活虾，总耗时在一个小时内，适合初学者进行烹饪。\n\n预估烹饪难度：★★★",
     "source_path": "dishes/aquatic/黄油煎虾/黄油煎虾.md",
-    "image_path": "d:/workspace/HowToCook/dishes/aquatic/黄油煎虾/黄油煎虾.jpg",
+    "image_path": "recipes/images/949b3e95-65f2-4c0c-8d45-e6b95dd3e7f1.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/aquatic/黄油煎虾/黄油煎虾.jpg"
+      "recipes/images/949b3e95-65f2-4c0c-8d45-e6b95dd3e7f1.jpg"
     ],
     "category": "水产",
     "difficulty": 3,

@@ -1053,9 +1053,9 @@
     "name": "柠檬水",
     "description": "![柠檬水成品](./柠檬水.jpg)\n\n预估烹饪难度：★",
     "source_path": "dishes/drink/柠檬水/柠檬水.md",
-    "image_path": "d:/workspace/HowToCook/dishes/drink/柠檬水/柠檬水.jpg",
+    "image_path": "recipes/images/68f24682-dda6-418d-ad05-b0e84a23e35a.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/drink/柠檬水/柠檬水.jpg"
+      "recipes/images/68f24682-dda6-418d-ad05-b0e84a23e35a.jpg"
     ],
     "category": "饮品",
     "difficulty": 1,
@@ -1167,9 +1167,9 @@
     "name": "泰国手标红茶",
     "description": "![泰国手标红茶成品](./泰国手标红茶.jpg)\n\n泰国手标红茶是泰国街头随处可见的奶茶，味道香纯，绵密。\n\n预估烹饪难度：★★★",
     "source_path": "dishes/drink/泰国手标红茶/泰国手标红茶.md",
-    "image_path": "d:/workspace/HowToCook/dishes/drink/泰国手标红茶/泰国手标红茶.jpg",
+    "image_path": "recipes/images/98da9cf1-71f7-4f68-bef7-34a44b5128d1.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/drink/泰国手标红茶/泰国手标红茶.jpg"
+      "recipes/images/98da9cf1-71f7-4f68-bef7-34a44b5128d1.jpg"
     ],
     "category": "饮品",
     "difficulty": 3,
@@ -1308,9 +1308,9 @@
     "name": "海边落日",
     "description": "**饮酒有害健康，未成年人禁止饮酒**\n\n预估烹饪难度：★★★",
     "source_path": "dishes/drink/海边落日/海边落日.md",
-    "image_path": "d:/workspace/HowToCook/dishes/drink/海边落日/海边落日.jpg",
+    "image_path": "recipes/images/664a0e58-8020-4dec-8866-7a459bf129dc.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/drink/海边落日/海边落日.jpg"
+      "recipes/images/664a0e58-8020-4dec-8866-7a459bf129dc.jpg"
     ],
     "category": "饮品",
     "difficulty": 3,
@@ -1448,10 +1448,10 @@
     "name": "百香果橙子特调",
     "description": "茉莉绿茶版本\n\n![tea](./tea-version.jpg)\n\n苏打气泡水版本\n\n![tea](./soda-version.jpg)\n\n预估烹饪难度：★★★",
     "source_path": "dishes/drink/百香果橙子特调/百香果橙子特调.md",
-    "image_path": "d:/workspace/HowToCook/dishes/drink/百香果橙子特调/tea-version.jpg",
+    "image_path": "recipes/images/4d850708-d818-4411-a62a-de55217153e2.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/drink/百香果橙子特调/tea-version.jpg",
-      "d:/workspace/HowToCook/dishes/drink/百香果橙子特调/soda-version.jpg"
+      "recipes/images/4d850708-d818-4411-a62a-de55217153e2.jpg",
+      "recipes/images/4d850708-d818-4411-a62a-de55217153e2.jpg"
     ],
     "category": "饮品",
     "difficulty": 3,
@@ -1889,9 +1889,9 @@
     "name": "菠萝咖啡特调",
     "description": "![示例菜成品](./菠萝咖啡特调.png)\n\n菠萝咖啡特调是非常适合家庭出品的饮料，酸甜可口。\n\n预估烹饪难度：★★★",
     "source_path": "dishes/drink/菠萝咖啡特调/菠萝咖啡特调.md",
-    "image_path": "d:/workspace/HowToCook/dishes/drink/菠萝咖啡特调/菠萝咖啡特调.png",
+    "image_path": "recipes/images/f135e7d0-2989-49a9-9d7a-c0c15acf7218.png",
     "images": [
-      "d:/workspace/HowToCook/dishes/drink/菠萝咖啡特调/菠萝咖啡特调.png"
+      "recipes/images/f135e7d0-2989-49a9-9d7a-c0c15acf7218.png"
     ],
     "category": "饮品",
     "difficulty": 3,
@@ -2025,9 +2025,9 @@
     "name": "酒酿（醪糟）",
     "description": "![酒酿成品](./酒酿醪糟.jpeg)\n\n酒酿，也叫醪糟，是一道传统中式发酵甜品。成品清甜微醺，含少量酒精，具有健脾开胃、促进消化的功效。虽然制作需要一定发酵技巧，但过程简单有趣，是发酵入门好选择。预计制作时间为 2 天（不含等待时间操作仅需 1 小时左右）。\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/drink/酒酿醪糟/酒酿醪糟.md",
-    "image_path": "d:/workspace/HowToCook/dishes/drink/酒酿醪糟/酒酿醪糟.jpeg",
+    "image_path": "recipes/images/f37b4cab-7c5d-4b4d-be67-5bc8d0c4844a.jpeg",
     "images": [
-      "d:/workspace/HowToCook/dishes/drink/酒酿醪糟/酒酿醪糟.jpeg"
+      "recipes/images/f37b4cab-7c5d-4b4d-be67-5bc8d0c4844a.jpeg"
     ],
     "category": "饮品",
     "difficulty": 4,
@@ -2142,9 +2142,9 @@
     "name": "酸梅汤",
     "description": "![酸梅汤](./imges/sour_plum_soup.jpg)\n\n视频演示： [链接](https://www.bilibili.com/video/BV1164y1F7hv/)\n\n预估烹饪难度：★★★★",
     "source_path": "dishes/drink/酸梅汤/酸梅汤.md",
-    "image_path": "d:/workspace/HowToCook/dishes/drink/酸梅汤/imges/sour_plum_soup.jpg",
+    "image_path": "recipes/images/06f17a6e-0f17-41ce-86ff-b5ecea2a1e41.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/drink/酸梅汤/imges/sour_plum_soup.jpg"
+      "recipes/images/06f17a6e-0f17-41ce-86ff-b5ecea2a1e41.jpg"
     ],
     "category": "饮品",
     "difficulty": 4,
@@ -2270,9 +2270,9 @@
     "name": "金汤力",
     "description": "**饮酒有害健康，未成年人禁止饮酒**\n\n预估烹饪难度：★★",
     "source_path": "dishes/drink/金汤力/金汤力.md",
-    "image_path": "d:/workspace/HowToCook/dishes/drink/金汤力/gin-tonic.jpg",
+    "image_path": "recipes/images/9cf9c191-8e00-40a9-897f-03f96346789c.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/drink/金汤力/gin-tonic.jpg"
+      "recipes/images/9cf9c191-8e00-40a9-897f-03f96346789c.jpg"
     ],
     "category": "饮品",
     "difficulty": 2,
@@ -2347,9 +2347,9 @@
     "name": "金菲士",
     "description": "**饮酒有害健康，未成年人禁止饮酒**\n\n预估烹饪难度：★★",
     "source_path": "dishes/drink/金菲士/金菲士.md",
-    "image_path": "d:/workspace/HowToCook/dishes/drink/金菲士/gin-fizz.jpg",
+    "image_path": "recipes/images/384de4f9-4b59-4c25-b13e-a72359dd3d92.jpg",
     "images": [
-      "d:/workspace/HowToCook/dishes/drink/金菲士/gin-fizz.jpg"
+      "recipes/images/384de4f9-4b59-4c25-b13e-a72359dd3d92.jpg"
     ],
     "category": "饮品",
     "difficulty": 2,
