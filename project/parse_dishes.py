@@ -52,7 +52,8 @@ def parse_ingredient_text(text: str) -> Tuple[str, float, str]:
     # 如果都没有匹配到，返回原始文本作为名称
     return text, None, None
 
-def parse_markdown_file(file_path: str, category: str, uuid_mapping: dict) -> Dict[str, Any]:
+def parse_markdown_file(file_path: str, category: str, uuid_mapping: dict, base_path : str) -> Dict[str, Any]:
+
 
     """
     解析菜谱Markdown文件并提取信息
@@ -288,7 +289,7 @@ def parse_markdown_file(file_path: str, category: str, uuid_mapping: dict) -> Di
         "additional_notes": additional_notes
     }
 
-def scan_dishes_directory(directory: str, uuid_mapping: dict) -> Dict[str, List[Dict[str, Any]]]:
+def scan_dishes_directory(directory: str, uuid_mapping: dict, base_path : str) -> Dict[str, List[Dict[str, Any]]]:
 
     """
     扫描菜谱目录并按分类解析所有.md文件
@@ -329,8 +330,7 @@ def scan_dishes_directory(directory: str, uuid_mapping: dict) -> Dict[str, List[
             if file.endswith('.md'):
                 file_path = os.path.join(root, file).replace('\\', '/')
                 try:
-                    recipe_data = parse_markdown_file(file_path, category_map[category], uuid_mapping)
-
+                    recipe_data = parse_markdown_file(file_path, category_map[category], uuid_mapping, base_path)
                     recipes_by_category[category].append(recipe_data)
                 except Exception as e:
                     print(f"解析文件 {file_path} 时出错: {e}")

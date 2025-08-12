@@ -2,7 +2,7 @@ import os
 import json
 import uuid
 
-def generate_uuid_for_md_files(directories : list, uuid_file_path : str) -> dict:
+def generate_uuid_for_md_files(projectPath : str, directories : list, uuid_file_path : str) -> dict:
 
     """
     为指定路径下的所有.md文件生成UUID，并将映射关系写入uuid.json文件。
@@ -20,13 +20,13 @@ def generate_uuid_for_md_files(directories : list, uuid_file_path : str) -> dict
         for root, _, files in os.walk(directory):
             for file in files:
                 if file.endswith('.md'):
-                    file_path = os.path.join(root, file)
-                    relative_path = os.path.relpath(file_path, path).replace('\\', '/')
+                    file_path = os.path.join(root, file).replace('\\', '/')
+                    relative_path = os.path.relpath(file_path, projectPath).replace('\\', '/')
                     
                     # 如果文件还没有 UUID，则生成一个
                     if relative_path not in uuid_mapping:
                         new_uuid = str(uuid.uuid4())
-                        uuid_mapping[new_uuid] = relative_path
+                        uuid_mapping[relative_path] = new_uuid
     
 
     # 如果文件存在，将数据更新回去，如果文件不存在，创建一个文件
