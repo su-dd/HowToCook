@@ -13,12 +13,36 @@ def copy_image_to_recipes(image_path: str, image_mapping: dict) -> str:
     if not image_path:
         return None
     
-    new_path = get_new_image_path(image_path, image_mapping)
+    new_path = get_new_image(image_path, image_mapping)
     
-    # 如果图片已经存在，直接返回新路径
-    if os.path.exists(new_path):
-        # 返回相对于项目根目录的路径
-        return os.path.relpath(new_path, os.getcwd()).replace('\\', '/')
+    # 返回相对于项目根目录的路径
+    return config.CDNPath + os.path.relpath(new_path, os.getcwd()).replace('\\', '/')
+
+def get_new_image(image_path: str, image_mapping: dict) -> str:
+    """
+    获取图片的新路径
+    """
+    new_path = ""
+    if image_path in image_mapping:
+        new_path = image_mapping[image_path]
+    else :
+        # 从旧路径提取文件名
+        filename = os.path.basename(image_path)
+        # 提取扩展名
+        ext = os.path.splitext(image_path)[1]
+        # 如果是网络图片且没有扩展名，尝试从URL获取扩展名
+        if not ext and image_path.startswith(('http://', 'https://')):
+            # 尝试从URL获取扩展名
+            parsed_url = urlparse(image_path)
+            path = parsed_url.path
+            ext = os.path.splitext(path)[1]
+        
+        # 如果仍然没有扩展名，使用默认的.jpg
+        if not ext:
+            ext = '.jpg'
+        # 生成新文件名
+        new_filename = f"{uuid.uuid4()}{ext}"
+        new_path = os.path.join(config.StaticImagesPath, new_filename).replace('\\', '/')
     
     # 判断是本地图片还是网络图片
     if image_path.startswith(('http://', 'https://')):
@@ -38,34 +62,6 @@ def copy_image_to_recipes(image_path: str, image_mapping: dict) -> str:
         except Exception as e:
             print(f"复制图片 {image_path} 时出错: {e}")
             return image_path  # 如果复制失败，返回原路径
-    
-    # 返回相对于项目根目录的路径
-    return os.path.relpath(new_path, os.getcwd()).replace('\\', '/')
-
-def get_new_image_path(image_path: str, image_mapping: dict) -> str:
-    """
-    获取图片的新路径
-    """
-    if image_path in image_mapping:
-        return image_mapping[image_path]
-    
-    # 从旧路径提取文件名
-    filename = os.path.basename(image_path)
-    # 提取扩展名
-    ext = os.path.splitext(image_path)[1]
-    # 如果是网络图片且没有扩展名，尝试从URL获取扩展名
-    if not ext and image_path.startswith(('http://', 'https://')):
-        # 尝试从URL获取扩展名
-        parsed_url = urlparse(image_path)
-        path = parsed_url.path
-        ext = os.path.splitext(path)[1]
-    
-    # 如果仍然没有扩展名，使用默认的.jpg
-    if not ext:
-        ext = '.jpg'
-    # 生成新文件名
-    new_filename = f"{uuid.uuid4()}{ext}"
-    new_path = os.path.join(config.RecipesPath, new_filename)
 
     image_mapping[image_path] = new_path
     return new_path

@@ -1,7 +1,16 @@
 BasePath = 'd:/workspace/HowToCook'
-RecipesPath = BasePath + '/recipes'
+
 DishesPath = BasePath + '/dishes'
-TipsPath = BasePath + '/tips'
-UuidPath = RecipesPath + '/uuid'
-RecipesUuidFile = UuidPath + '/uuid.json'
-ImageMappingFile = UuidPath + '/image.json'
+StaticTipsPath = BasePath + '/tips'
+staticPath = BasePath + '/static'
+
+StaticDishesPath = staticPath + '/recipes'
+StaticTipsPath = staticPath + '/tips'
+StaticImagesPath = staticPath + '/images'
+
+UuidPath = staticPath + '/uuid'
+DischessUuidFile = UuidPath + '/dischess_uuid.json'
+ImageUuidFile = UuidPath + '/image_uuid.json'
+TipsUuidFile = UuidPath + '/tips_uuid.json'
+
+CDNPath = 'https://cdn.jsdmirror.com/gh/su-dd/HowToCook@master/'

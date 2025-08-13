@@ -3,7 +3,7 @@ import json
 import re
 from typing import List, Dict, Any, Tuple
 
-from image_handler import copy_image_to_recipes, generate_image_mapping
+from image_handler import copy_image_to_recipes
 
 def parse_ingredient_text(text: str) -> Tuple[str, float, str]:
     """
