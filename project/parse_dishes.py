@@ -296,7 +296,11 @@ def _extract_with_unstructured(file_path: str) -> Dict[str, Any]:
     for doc in docs:
         # 提取标题
         if doc.metadata.get("category") == "Title":
-            extracted_data["title"] = doc.page_content.replace('的做法', '')
+            title = doc.page_content.replace('的做法', '')
+            # 如果标题为空，则使用文件名作为标题
+            if not title.strip():
+                title = os.path.basename(file_path).replace('.md', '')
+            extracted_data["title"] = title
         
         # 提取难度
         elif "预估烹饪难度" in doc.page_content and doc.metadata.get("category") == "NarrativeText":
@@ -376,7 +380,7 @@ def parse_markdown_file(file_path: str, category: str, uuid_mapping: dict, image
     # 提取描述
     with open(file_path, 'r', encoding='utf-8') as f:
         content = f.read()
-    description = _extract_description(content, title)
+    description = _extract_description(content, extracted_data["title"])
     
     # 提取图片链接
     images = extracted_data["images"]
@@ -440,7 +444,6 @@ def scan_dishes_directory(directory: str, uuid_mapping: dict, image_mapping: dic
         
         # 如果分类不在预定义列表中，则跳过
         if category not in recipes_by_category:
-            print(f"跳过分类: {category}")
             continue
         
         for file in files:
