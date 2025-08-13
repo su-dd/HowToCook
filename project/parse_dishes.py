@@ -53,19 +53,19 @@ def parse_ingredient_text(text: str) -> Tuple[str, float, str]:
     # 如果都没有匹配到，返回原始文本作为名称
     return text, None, None
 
-def parse_markdown_file(file_path: str, category: str, uuid_mapping: dict, image_mapping: dict, base_path : str) -> Dict[str, Any]:
+def _extract_title(content: str) -> str:
     """
-    解析菜谱Markdown文件并提取信息
+    从Markdown内容中提取标题
     """
-    with open(file_path, 'r', encoding='utf-8') as f:
-        content = f.read()
-    
-    # 提取标题
     title_match = re.search(r'# (.+)', content)
     title = title_match.group(1) if title_match else ""
-    title = title.replace('的做法', '') 
-    
-    # 提取描述（标题后的段落直到预估烹饪难度）
+    return title.replace('的做法', '')
+
+
+def _extract_description(content: str, title: str) -> str:
+    """
+    从Markdown内容中提取描述
+    """
     description_parts = []
     lines = content.split('\n')
     in_description = False
@@ -82,13 +82,21 @@ def parse_markdown_file(file_path: str, category: str, uuid_mapping: dict, image
             # 处理图片链接
             description_parts.append(line)
     
-    description = '\n'.join(description_parts).strip()
-    
-    # 提取难度
+    return '\n'.join(description_parts).strip()
+
+
+def _extract_difficulty(content: str) -> int:
+    """
+    从Markdown内容中提取难度
+    """
     difficulty_match = re.search(r'预估烹饪难度：(★+)', content)
-    difficulty = len(difficulty_match.group(1)) if difficulty_match else 0
-    
-    # 提取必需原料和工具（支持-和*两种列表标记，包括嵌套列表）
+    return len(difficulty_match.group(1)) if difficulty_match else 0
+
+
+def _extract_ingredients(content: str) -> list:
+    """
+    从Markdown内容中提取原料和工具
+    """
     ingredients = []
     processed_ingredients = set()  # 用于跟踪已处理的原料，避免重复
     ingredients_section = re.search(r'## 必备原料和工具\n(.*?)\n##', content, re.DOTALL)
@@ -184,7 +192,13 @@ def parse_markdown_file(file_path: str, category: str, uuid_mapping: dict, image
                 })
                 processed_ingredients.add(name)
     
-    # 提取操作步骤（支持-和*两种列表标记）
+    return ingredients
+
+
+def _extract_steps(content: str) -> list:
+    """
+    从Markdown内容中提取操作步骤
+    """
     steps = []
     steps_section = re.search(r'## 操作\n(.*?)(?:\n## |\Z)', content, re.DOTALL)
     if steps_section:
@@ -201,7 +215,13 @@ def parse_markdown_file(file_path: str, category: str, uuid_mapping: dict, image
     if not steps:
         steps = [{"step": 1, "description": "暂无详细步骤说明"}]
     
-    # 提取参考资料作为additional_notes
+    return steps
+
+
+def _extract_additional_notes(content: str) -> list:
+    """
+    从Markdown内容中提取参考资料作为additional_notes
+    """
     additional_notes = []
     # 查找参考资料部分（支持不同形式的参考资料标题）
     reference_patterns = [
@@ -229,36 +249,32 @@ def parse_markdown_file(file_path: str, category: str, uuid_mapping: dict, image
             # 如果都没有，使用默认值
             additional_notes.append("如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。")
     
-    # 提取图片链接
+    return additional_notes
+
+
+def _extract_images(content: str, file_path: str) -> list:
+    """
+    从Markdown内容中提取图片链接
+    """
     images = []
-    # 查找描述中的图片
-    image_matches = re.findall(r'!\[.*?\]\((.*?)\)', description)
-    for match in image_matches:
-        if match.startswith('./'):
-            # 相对路径转换为完整路径
-            image_path = os.path.join(os.path.dirname(file_path), match[2:]).replace('\\', '/')
-            images.append(image_path)
-        else:
-            images.append(match)
-    
-    # 如果描述中没有图片，查找整个文件中的所有图片
-    if not images:
-        # 查找整个文件中的所有图片
-        all_image_matches = re.findall(r'!\[.*?\]\((.*?)\)', content)
-        for match in all_image_matches:
-            if match.startswith('./'):
-                # 相对路径转换为完整路径
-                full_path = os.path.join(os.path.dirname(file_path), match[2:]).replace('\\', '/')
-                images.append(full_path)
-            else:
-                images.append(match)
-    
+
+    return images
+
+
+def _extract_main_image(content: str, description: str, images: list, file_path: str) -> str:
+    """
+    从Markdown内容中提取主图路径
+    """
     # 设置主图路径
-    image_path = images[0] if images else None
+    # 如果没有图片，主图保持为 None
+    image_path = None
+
+    return image_path
     
-    
-    print(file_path)
-    # 使用UUID作为ID
+def _extract_dish_id(file_path: str, uuid_mapping: dict) -> str:
+    """
+    从文件路径和UUID映射中提取dish_id
+    """
     relative_path = os.path.relpath(file_path, os.getcwd()).replace('\\', '/')
     dish_id = uuid_mapping.get(relative_path)
     
@@ -266,15 +282,68 @@ def parse_markdown_file(file_path: str, category: str, uuid_mapping: dict, image
     if not dish_id:
         raise ValueError(f"未找到文件 {relative_path} 的UUID映射")
     
-    # 复制图片到recipes文件夹并更新路径
+    return dish_id
+
+
+def _process_images(image_path: str, images: list, image_mapping: dict) -> tuple:
+    """
+    复制图片到recipes文件夹并更新路径
+    """
     if image_path:
         image_path = copy_image_to_recipes(image_path, image_mapping)
     
     if images:
         images = [copy_image_to_recipes(img, image_mapping) for img in images]
     
+    return image_path, images
+
+
+def _build_source_path(file_path: str, base_path: str) -> str:
+    """
+    构建源路径
+    """
+    return os.path.relpath(file_path, base_path).replace('\\', '/')
+
+
+def parse_markdown_file(file_path: str, category: str, uuid_mapping: dict, image_mapping: dict, base_path : str) -> Dict[str, Any]:
+    """
+    解析菜谱Markdown文件并提取信息
+    """
+    with open(file_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # 提取标题
+    title = _extract_title(content)
+    
+    # 提取描述
+    description = _extract_description(content, title)
+    
+    # 提取难度
+    difficulty = _extract_difficulty(content)
+    
+    # 提取必需原料和工具
+    ingredients = _extract_ingredients(content)
+    
+    # 提取操作步骤
+    steps = _extract_steps(content)
+    
+    # 提取参考资料作为additional_notes
+    additional_notes = _extract_additional_notes(content)
+    
+    # 提取图片链接
+    images = _extract_images(content, file_path)
+    
+    # 设置主图路径
+    image_path = _extract_main_image(content, description, images, file_path)
+    
+    # 提取dish_id
+    dish_id = _extract_dish_id(file_path, uuid_mapping)
+    
+    # 处理图片
+    image_path, images = _process_images(image_path, images, image_mapping)
+    
     # 构建源路径
-    source_path = os.path.relpath(file_path, base_path).replace('\\', '/')
+    source_path = _build_source_path(file_path, base_path)
     
     return {
         "id": dish_id,

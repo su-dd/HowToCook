@@ -33,7 +33,8 @@ def generate_image_mapping() -> dict:
 if __name__ == '__main__':
 
     # 刷新UUid
-    UUID_MAPPING = uuid_create.generate_uuid_for_md_files(config.BasePath, [config.DishesPath, config.StaticTipsPath], config.DischessUuidFile)
+    dishes_uuid_mapping = uuid_create.generate_uuid_for_md_files(config.BasePath, [config.DishesPath], config.DischessUuidFile)
+    tips_uuid_mapping = uuid_create.generate_uuid_for_md_files(config.BasePath, [config.TipsPath], config.TipsUuidFile)
 
     image_mapping = generate_image_mapping()
 
@@ -45,7 +46,7 @@ if __name__ == '__main__':
     os.makedirs(config.StaticDishesPath, exist_ok=True)
     
     print("开始解析菜谱文件...")
-    recipes_by_category = parse_dishes.scan_dishes_directory(config.DishesPath, UUID_MAPPING, image_mapping, config.BasePath)
+    recipes_by_category = parse_dishes.scan_dishes_directory(config.DishesPath, dishes_uuid_mapping, image_mapping, config.BasePath)
 
     recipesCount = 0
     # 为每个分类创建单独的JSON文件

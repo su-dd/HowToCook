@@ -1,10 +1,10 @@
 BasePath = 'd:/workspace/HowToCook'
 
 DishesPath = BasePath + '/dishes'
-StaticTipsPath = BasePath + '/tips'
+TipsPath = BasePath + '/tips'
 staticPath = BasePath + '/static'
 
-StaticDishesPath = staticPath + '/recipes'
+StaticDishesPath = staticPath + '/dishes'
 StaticTipsPath = staticPath + '/tips'
 StaticImagesPath = staticPath + '/images'
 

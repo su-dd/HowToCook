@@ -28,7 +28,7 @@ def get_new_image(image_path: str, image_mapping: dict) -> str:
     else :
         # 从旧路径提取文件名
         filename = os.path.basename(image_path)
-        # 提取扩展名
+        # 提.extract扩展名
         ext = os.path.splitext(image_path)[1]
         # 如果是网络图片且没有扩展名，尝试从URL获取扩展名
         if not ext and image_path.startswith(('http://', 'https://')):
@@ -50,6 +50,8 @@ def get_new_image(image_path: str, image_mapping: dict) -> str:
         try:
             response = requests.get(image_path, timeout=30)
             response.raise_for_status()
+            # 确保目标目录存在
+            os.makedirs(os.path.dirname(new_path), exist_ok=True)
             with open(new_path, 'wb') as f:
                 f.write(response.content)
         except Exception as e:
@@ -58,6 +60,8 @@ def get_new_image(image_path: str, image_mapping: dict) -> str:
     else:
         # 复制本地文件
         try:
+            # 确保目标目录存在
+            os.makedirs(os.path.dirname(new_path), exist_ok=True)
             shutil.copy2(image_path, new_path)
         except Exception as e:
             print(f"复制图片 {image_path} 时出错: {e}")
