@@ -4,3 +4,10 @@ mkdocs-minify-plugin
 mkdocs-with-pdf
 weasyprint
 requests
+
+# LangChain and Unstructured dependencies
+langchain
+langchain-unstructured
+unstructured[all-docs]
+python-magic
+lxml

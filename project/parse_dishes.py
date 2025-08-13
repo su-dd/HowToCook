@@ -2,8 +2,11 @@ import os
 import json
 import re
 from typing import List, Dict, Any, Tuple
+from pathlib import Path
 
 from image_handler import copy_image_to_recipes
+from langchain_unstructured import UnstructuredLoader
+
 
 def parse_ingredient_text(text: str) -> Tuple[str, float, str]:
     """
@@ -53,14 +56,6 @@ def parse_ingredient_text(text: str) -> Tuple[str, float, str]:
     # 如果都没有匹配到，返回原始文本作为名称
     return text, None, None
 
-def _extract_title(content: str) -> str:
-    """
-    从Markdown内容中提取标题
-    """
-    title_match = re.search(r'# (.+)', content)
-    title = title_match.group(1) if title_match else ""
-    return title.replace('的做法', '')
-
 
 def _extract_description(content: str, title: str) -> str:
     """
@@ -83,6 +78,7 @@ def _extract_description(content: str, title: str) -> str:
             description_parts.append(line)
     
     return '\n'.join(description_parts).strip()
+
 
 def _extract_times(content: str) -> tuple:
     """
@@ -226,197 +222,6 @@ def _extract_times(content: str) -> tuple:
     return prep_time, cook_time, total_time
 
 
-def _extract_difficulty(content: str) -> int:
-    """
-    从Markdown内容中提取难度
-    """
-    difficulty_match = re.search(r'预估烹饪难度：(★+)', content)
-    return len(difficulty_match.group(1)) if difficulty_match else 0
-
-
-def _extract_ingredients(content: str) -> list:
-    """
-    从Markdown内容中提取原料和工具
-    """
-    ingredients = []
-    processed_ingredients = set()  # 用于跟踪已处理的原料，避免重复
-    ingredients_section = re.search(r'## 必备原料和工具\n(.*?)\n##', content, re.DOTALL)
-    if ingredients_section:
-        ingredients_text = ingredients_section.group(1)
-        # 查找所有以列表标记开头的行，包括缩进的列表项
-        lines = ingredients_text.split('\n')
-        i = 0
-        
-        while i < len(lines):
-            line = lines[i]
-            # 检查是否为列表项，但排除引用行（>）和子标题（###）
-            if (line.strip().startswith(('- ', '* ', '  - ', '  * ')) and 
-                not line.strip().startswith('>') and
-                not line.strip().startswith(('###', '##'))):
-                # 去掉前缀获取原料名称
-                stripped_line = line.strip()
-                if stripped_line.startswith('- ') or stripped_line.startswith('* '):
-                    ingredient_text = stripped_line[2:].strip()
-                elif stripped_line.startswith('  - ') or stripped_line.startswith('  * '):
-                    ingredient_text = stripped_line[4:].strip()
-                
-                # 解析原料文本，提取名称、数量和单位
-                ingredient_name, quantity, unit = parse_ingredient_text(ingredient_text)
-                
-                # 特殊处理：如果原料名称包含子列表，则需要提取子列表项
-                if ingredient_name and (ingredient_name.endswith("：") or "包含" in ingredient_name):
-                    # 这是一个带子列表的项，如"袋装螺蛳粉一包，其中应该包含："
-                    if ingredient_name not in processed_ingredients:
-                        ingredients.append({
-                            "name": ingredient_name,
-                            "quantity": quantity,
-                            "unit": unit,
-                            "text_quantity": stripped_line,
-                            "notes": "量未指定" if quantity is None else ""
-                        })
-                        processed_ingredients.add(ingredient_name)
-                    
-                    # 查找接下来的子列表项
-                    j = i + 1
-                    while j < len(lines) and (lines[j].startswith('  - ') or lines[j].startswith('  * ') or 
-                                              lines[j].startswith('    - ') or lines[j].startswith('    * ')):
-                        sub_line = lines[j].strip()
-                        sub_ingredient_text = ""
-                        if sub_line.startswith('  - ') or sub_line.startswith('  * '):
-                            sub_ingredient_text = sub_line[4:].strip()
-                        elif sub_line.startswith('    - ') or sub_line.startswith('    * '):
-                            sub_ingredient_text = sub_line[6:].strip()
-                        
-                        if sub_ingredient_text:
-                            sub_ingredient_name, sub_quantity, sub_unit = parse_ingredient_text(sub_ingredient_text)
-                            if sub_ingredient_name and sub_ingredient_name not in processed_ingredients:
-                                ingredients.append({
-                                    "name": sub_ingredient_name,
-                                    "quantity": sub_quantity,
-                                    "unit": sub_unit,
-                                    "text_quantity": sub_line,
-                                    "notes": "量未指定" if sub_quantity is None else ""
-                                })
-                                processed_ingredients.add(sub_ingredient_name)
-                        j += 1
-                    i = j  # 跳过已处理的子项
-                    continue
-                elif ingredient_name and ingredient_name not in processed_ingredients:
-                    # 普通的原料项
-                    ingredients.append({
-                        "name": ingredient_name,
-                        "quantity": quantity,
-                        "unit": unit,
-                        "text_quantity": stripped_line,
-                        "notes": "量未指定" if quantity is None else ""
-                    })
-                    processed_ingredients.add(ingredient_name)
-            i += 1
-    
-    # 提取计算部分（支持-和*两种列表标记）
-    calculation_section = re.search(r'## 计算\n(.*?)\n##', content, re.DOTALL)
-    if calculation_section:
-        calculation_text = calculation_section.group(1)
-        # 支持-和*两种列表标记
-        calculation_lines = [line.strip() for line in calculation_text.split('\n') if line.strip().startswith(('- ', '* '))]
-        for line in calculation_lines:
-            ingredient_text = line[2:]  # 去掉 "- " 或 "* " 前缀
-            # 解析原料文本，提取名称、数量和单位
-            name, quantity, unit = parse_ingredient_text(ingredient_text)
-            if name and name not in processed_ingredients:
-                ingredients.append({
-                    "name": name,
-                    "quantity": quantity,
-                    "unit": unit,
-                    "text_quantity": line,
-                    "notes": "量未指定" if quantity is None else ""
-                })
-                processed_ingredients.add(name)
-    
-    return ingredients
-
-
-def _extract_steps(content: str) -> list:
-    """
-    从Markdown内容中提取操作步骤
-    """
-    steps = []
-    steps_section = re.search(r'## 操作\n(.*?)(?:\n## |\Z)', content, re.DOTALL)
-    if steps_section:
-        steps_text = steps_section.group(1)
-        # 查找所有以-或*开头的行，忽略子标题
-        step_lines = [line.strip() for line in steps_text.split('\n') if line.strip().startswith(('- ', '* '))]
-        for i, line in enumerate(step_lines, 1):
-            step_text = line[2:]  # 去掉 "- " 或 "* " 前缀
-            steps.append({
-                "step": i,
-                "description": step_text
-            })
-    # 如果没有找到步骤，使用默认值
-    if not steps:
-        steps = [{"step": 1, "description": "暂无详细步骤说明"}]
-    
-    return steps
-
-
-def _extract_additional_notes(content: str) -> list:
-    """
-    从Markdown内容中提取参考资料作为additional_notes
-    """
-    additional_notes = []
-    # 查找参考资料部分（支持不同形式的参考资料标题）
-    reference_patterns = [
-        r'### 参考资料\n(.*?)(?:\n#|$)',
-        r'## 附加内容\n(.*?)(?:\n#|$)',
-        r'如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。'
-    ]
-    
-    reference_found = False
-    for pattern in reference_patterns[:-1]:  # 除最后一个默认文本外的所有模式
-        reference_section = re.search(pattern, content, re.DOTALL)
-        if reference_section:
-            reference_text = reference_section.group(1).strip()
-            # 将参考资料按行分割并添加到列表中
-            reference_lines = [line.strip() for line in reference_text.split('\n') if line.strip() and not line.strip().startswith(('##', '###'))]
-            additional_notes.extend(reference_lines)
-            reference_found = True
-            break
-    
-    # 如果没有找到参考资料部分，检查是否有默认文本
-    if not reference_found:
-        if "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。" in content:
-            additional_notes.append("如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。")
-        else:
-            # 如果都没有，使用默认值
-            additional_notes.append("如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。")
-    
-    return additional_notes
-
-
-def _extract_images(content: str, file_path: str) -> list:
-    """
-    从Markdown内容中提取图片链接
-    """
-    images = []
-    # 匹配Markdown图片语法 ![alt](path)
-    image_pattern = r'!\[.*?\]\((.*?)\)'
-    matches = re.findall(image_pattern, content)
-    
-    # 转换为绝对路径
-    for match in matches:
-        # 如果是相对路径，转换为绝对路径
-        if not match.startswith('http'):
-            abs_path = os.path.join(os.path.dirname(file_path), match).replace('\\', '/')
-            images.append(abs_path)
-        else:
-            # 如果是网络图片，保持原样
-            images.append(match)
-    
-    # 去重
-    images = list(dict.fromkeys(images))
-    
-    return images
-
 def _extract_main_image(content: str, description: str, images: list, file_path: str) -> str:
     """
     从Markdown内容中提取主图路径
@@ -427,6 +232,7 @@ def _extract_main_image(content: str, description: str, images: list, file_path:
     
     return image_path
     
+
 def _extract_dish_id(file_path: str, uuid_mapping: dict) -> str:
     """
     从文件路径和UUID映射中提取dish_id
@@ -461,71 +267,147 @@ def _build_source_path(file_path: str, base_path: str) -> str:
     return os.path.relpath(file_path, base_path).replace('\\', '/')
 
 
-def parse_markdown_file(file_path: str, category: str, uuid_mapping: dict, image_mapping: dict, base_path : str) -> Dict[str, Any]:
+def _extract_with_unstructured(file_path: str) -> Dict[str, Any]:
+    """
+    使用 LangChain-Unstructured 库解析 Markdown 文件并提取结构化数据
+    """
+    # 加载文档
+    loader = UnstructuredLoader(file_path, mode="elements", post_processors=[])
+    docs = loader.load()
+    
+    # 初始化提取的数据
+    extracted_data = {
+        "title": "",
+        "description": "",
+        "difficulty": 0,
+        "ingredients": [],
+        "steps": [],
+        "prep_time": None,
+        "cook_time": None,
+        "total_time": None,
+        "images": [],
+        "additional_notes": []
+    }
+    
+    # 处理提取的元素
+    current_section = None
+    step_counter = 1
+    
+    for doc in docs:
+        # 提取标题
+        if doc.metadata.get("category") == "Title":
+            extracted_data["title"] = doc.page_content.replace('的做法', '')
+        
+        # 提取难度
+        elif "预估烹饪难度" in doc.page_content and doc.metadata.get("category") == "NarrativeText":
+            difficulty_match = re.search(r'预估烹饪难度：(★+)', doc.page_content)
+            if difficulty_match:
+                extracted_data["difficulty"] = len(difficulty_match.group(1))
+        
+        # 提取时间信息
+        elif ("预估准备时间" in doc.page_content or "预估烹饪时间" in doc.page_content or 
+              "预估总时间" in doc.page_content) and doc.metadata.get("category") == "NarrativeText":
+            prep_time, cook_time, total_time = _extract_times(doc.page_content)
+            extracted_data["prep_time"] = prep_time
+            extracted_data["cook_time"] = cook_time
+            extracted_data["total_time"] = total_time
+        
+        # 识别章节标题
+        elif doc.metadata.get("category") == "Header":
+            if "必备原料和工具" in doc.page_content:
+                current_section = "ingredients"
+            elif "操作" in doc.page_content:
+                current_section = "steps"
+            elif "计算" in doc.page_content:
+                current_section = "ingredients"  # 计算部分也属于原料
+            elif "参考资料" in doc.page_content or "附加内容" in doc.page_content:
+                current_section = "additional_notes"
+            else:
+                current_section = None
+        
+        # 提取原料
+        elif current_section == "ingredients" and doc.metadata.get("category") == "ListItem":
+            # 解析原料文本，提取名称、数量和单位
+            ingredient_name, quantity, unit = parse_ingredient_text(doc.page_content)
+            extracted_data["ingredients"].append({
+                "name": ingredient_name,
+                "quantity": quantity,
+                "unit": unit,
+                "text_quantity": doc.page_content,
+                "notes": "量未指定" if quantity is None else ""
+            })
+        
+        # 提取步骤
+        elif current_section == "steps" and doc.metadata.get("category") == "ListItem":
+            extracted_data["steps"].append({
+                "step": step_counter,
+                "description": doc.page_content
+            })
+            step_counter += 1
+        
+        # 提取图片
+        elif doc.metadata.get("category") == "Image":
+            image_path = doc.metadata.get("image_path")
+            if image_path:
+                # 转换为绝对路径
+                if not image_path.startswith('http'):
+                    abs_path = os.path.join(os.path.dirname(file_path), image_path).replace('\\', '/')
+                    extracted_data["images"].append(abs_path)
+                else:
+                    extracted_data["images"].append(image_path)
+        
+        # 提取参考资料
+        elif current_section == "additional_notes" and doc.metadata.get("category") in ["NarrativeText", "ListItem"]:
+            extracted_data["additional_notes"].append(doc.page_content)
+    
+    # 去重图片
+    extracted_data["images"] = list(dict.fromkeys(extracted_data["images"]))
+    
+    return extracted_data
+
+
+def parse_markdown_file(file_path: str, category: str, uuid_mapping: dict, image_mapping: dict, base_path: str) -> Dict[str, Any]:
     """
     解析菜谱Markdown文件并提取信息
     """
-    with open(file_path, 'r', encoding='utf-8') as f:
-        content = f.read()
-    
-    # 提取标题
-    title = _extract_title(content)
+    # 使用 LangChain-Unstructured 库解析文件
+    extracted_data = _extract_with_unstructured(file_path)
     
     # 提取描述
+    with open(file_path, 'r', encoding='utf-8') as f:
+        content = f.read()
     description = _extract_description(content, title)
     
-    # 提取难度
-    difficulty = _extract_difficulty(content)
-    
-    # 提取必需原料和工具
-    ingredients = _extract_ingredients(content)
-    
-    # 提取操作步骤
-    steps = _extract_steps(content)
-    
-    # 提取参考资料作为additional_notes
-    additional_notes = _extract_additional_notes(content)
-    
     # 提取图片链接
-    images = _extract_images(content, file_path)
+    images = extracted_data["images"]
     
     # 设置主图路径
     image_path = _extract_main_image(content, description, images, file_path)
     
-    # 提取时间信息
-    prep_time, cook_time, total_time = _extract_times(content)
-    
-    # 提取dish_id
-    dish_id = _extract_dish_id(file_path, uuid_mapping)
-    
     # 处理图片
     image_path, images = _process_images(image_path, images, image_mapping)
     
-    # 构建源路径
-    source_path = _build_source_path(file_path, base_path)
-    
     return {
-        "id": dish_id,
-        "name": title,
+        "id": _extract_dish_id(file_path, uuid_mapping),
+        "name": extracted_data["title"],
         "description": description,
-        "source_path": source_path,
+        "source_path": _build_source_path(file_path, base_path),
         "image_path": image_path,
         "images": images,
         "category": category,
-        "difficulty": difficulty,
+        "difficulty": extracted_data["difficulty"],
         "tags": [category],
         "servings": 1,
-        "ingredients": ingredients,
-        "steps": steps,
-        "prep_time_minutes": prep_time,
-        "cook_time_minutes": cook_time,
-        "total_time_minutes": total_time,
-        "additional_notes": additional_notes
+        "ingredients": extracted_data["ingredients"],
+        "steps": extracted_data["steps"],
+        "prep_time_minutes": extracted_data["prep_time"],
+        "cook_time_minutes": extracted_data["cook_time"],
+        "total_time_minutes": extracted_data["total_time"],
+        "additional_notes": extracted_data["additional_notes"]
     }
 
-def scan_dishes_directory(directory: str, uuid_mapping: dict, image_mapping: dict, base_path : str) -> Dict[str, List[Dict[str, Any]]]:
 
-
+def scan_dishes_directory(directory: str, uuid_mapping: dict, image_mapping: dict, base_path: str) -> Dict[str, List[Dict[str, Any]]]:
     """
     扫描菜谱目录并按分类解析所有.md文件
     """
