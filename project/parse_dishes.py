@@ -84,6 +84,147 @@ def _extract_description(content: str, title: str) -> str:
     
     return '\n'.join(description_parts).strip()
 
+def _extract_times(content: str) -> tuple:
+    """
+    从Markdown内容中提取准备时间、烹饪时间和总时间
+    返回 (prep_time_minutes, cook_time_minutes, total_time_minutes)
+    """
+    prep_time = None
+    cook_time = None
+    total_time = None
+    
+    # 中文数字到阿拉伯数字的映射
+    chinese_numerals = {
+        '一': 1, '二': 2, '三': 3, '四': 4, '五': 5, 
+        '六': 6, '七': 7, '八': 8, '九': 9, '十': 10,
+        '半': 0.5
+    }
+    
+    # 将中文数字转换为阿拉伯数字的函数
+    def chinese_to_arabic(chinese_num):
+        # 处理简单的中文数字
+        if chinese_num in chinese_numerals:
+            return chinese_numerals[chinese_num]
+        
+        # 处理复合中文数字，如"二十"、"二十五"等
+        if chinese_num == '二十':
+            return 20
+        elif chinese_num == '二十五':
+            return 25
+        elif chinese_num == '三十':
+            return 30
+        elif chinese_num == '三十五':
+            return 35
+        elif chinese_num == '四十':
+            return 40
+        elif chinese_num == '四十五':
+            return 45
+        elif chinese_num == '五十':
+            return 50
+        
+        return None
+    
+    # 匹配时间信息的正则表达式（支持阿拉伯数字和中文数字）
+    time_pattern = r'(预估准备时间|预估烹饪时间|预估总时间)：(\d+(?:\.\d+)?|[' + ''.join(chinese_numerals.keys()) + r']+)(?:\s*个)?\s*(分钟|小时|天)'
+    matches = re.findall(time_pattern, content)
+    
+    for match in matches:
+        time_type, value, unit = match
+        
+        # 处理中文数字
+        if value in chinese_numerals:
+            time_value = float(chinese_numerals[value])
+        else:
+            time_value = float(value)
+        
+        # 转换为分钟
+        if unit == '小时':
+            time_value *= 60
+        elif unit == '天':
+            time_value *= 1440  # 24 * 60
+        
+        if '准备时间' in time_type:
+            prep_time = int(time_value)
+        elif '烹饪时间' in time_type:
+            cook_time = int(time_value)
+        elif '总时间' in time_type:
+            total_time = int(time_value)
+    
+    # 如果没有找到明确的时间标记，尝试从描述中提取时间信息
+    if prep_time is None and cook_time is None and total_time is None:
+        # 匹配描述中的时间信息，如"需要 2 小时即可完成"或"需要四个小时即可完成"
+        desc_time_pattern = r'(\d+(?:\.\d+)?|[' + ''.join(chinese_numerals.keys()) + r']+)\s*(分钟|小时|天).*?(完成|制作)'
+        desc_matches = re.findall(desc_time_pattern, content)
+        
+        if desc_matches:
+            value, unit, _ = desc_matches[0]
+            
+            # 处理中文数字
+            if value in chinese_numerals:
+                time_value = float(chinese_numerals[value])
+            else:
+                time_value = float(value)
+            
+            # 转换为分钟
+            if unit == '小时':
+                time_value *= 60
+            elif unit == '天':
+                time_value *= 1440
+            
+            # 如果只找到一个时间，假设它是总时间
+            total_time = int(time_value)
+    
+    # 如果prep_time或cook_time未找到，尝试从步骤中提取
+    if prep_time is None or cook_time is None:
+        # 匹配步骤中的时间信息，支持中文数字
+        # 定义多个模式以匹配不同格式的时间表达
+        step_time_patterns = [
+            r'([一二三四五六七八九十半]+)\s*(分钟|小时|天)',  # 中文数字+单位
+            r'(\d+(?:\.\d+)?)\s*(分钟|小时|天)',             # 阿拉伯数字+单位
+            r'([一二三四五六七八九十半]+)个(分钟|小时|天)',    # 中文数字+"个"+单位
+            r'(\d+(?:\.\d+)?)个(分钟|小时|天)',              # 阿拉伯数字+"个"+单位
+            r'(二十|二十五|三十|三十五|四十|四十五|五十|六十)\s*(分钟|小时|天)',  # 复合中文数字+单位
+            r'(二十|二十五|三十|三十五|四十|四十五|五十|六十)个(分钟|小时|天)'   # 复合中文数字+"个"+单位
+        ]
+        
+        step_time_matches = []
+        for pattern in step_time_patterns:
+            matches = re.findall(pattern, content)
+            if matches:
+                step_time_matches.extend(matches)
+        
+        # 计算步骤中的总时间
+        step_total_minutes = 0
+        for match in step_time_matches:
+            if len(match) == 2:
+                value, unit = match
+                # 处理中文数字
+                if value in chinese_numerals:
+                    time_value = float(chinese_numerals[value])
+                else:
+                    # 处理复合中文数字
+                    time_value = chinese_to_arabic(value)
+                    if time_value is None:
+                        time_value = float(value)
+                
+                if unit == '小时':
+                    time_value *= 60
+                elif unit == '天':
+                    time_value *= 1440  # 24 * 60
+                step_total_minutes += time_value
+        
+        # 如果从步骤中提取到时间，则更新总时间
+        if step_total_minutes > 0 and total_time is None:
+            total_time = int(step_total_minutes)
+        
+        # 如果prep_time或cook_time仍为None，将步骤中的时间分配给cook_time
+        if (prep_time is None or cook_time is None) and step_total_minutes > 0:
+            if cook_time is None:
+                cook_time = int(step_total_minutes)
+            # 如果prep_time仍为None，暂时保持为None，因为很难从步骤中准确提取准备时间
+    
+    return prep_time, cook_time, total_time
+
 
 def _extract_difficulty(content: str) -> int:
     """
@@ -257,18 +398,33 @@ def _extract_images(content: str, file_path: str) -> list:
     从Markdown内容中提取图片链接
     """
     images = []
-
+    # 匹配Markdown图片语法 ![alt](path)
+    image_pattern = r'!\[.*?\]\((.*?)\)'
+    matches = re.findall(image_pattern, content)
+    
+    # 转换为绝对路径
+    for match in matches:
+        # 如果是相对路径，转换为绝对路径
+        if not match.startswith('http'):
+            abs_path = os.path.join(os.path.dirname(file_path), match).replace('\\', '/')
+            images.append(abs_path)
+        else:
+            # 如果是网络图片，保持原样
+            images.append(match)
+    
+    # 去重
+    images = list(dict.fromkeys(images))
+    
     return images
-
 
 def _extract_main_image(content: str, description: str, images: list, file_path: str) -> str:
     """
     从Markdown内容中提取主图路径
     """
     # 设置主图路径
-    # 如果没有图片，主图保持为 None
-    image_path = None
-
+    # 如果有图片，使用第一张图片作为主图
+    image_path = images[0] if images else None
+    
     return image_path
     
 def _extract_dish_id(file_path: str, uuid_mapping: dict) -> str:
@@ -336,6 +492,9 @@ def parse_markdown_file(file_path: str, category: str, uuid_mapping: dict, image
     # 设置主图路径
     image_path = _extract_main_image(content, description, images, file_path)
     
+    # 提取时间信息
+    prep_time, cook_time, total_time = _extract_times(content)
+    
     # 提取dish_id
     dish_id = _extract_dish_id(file_path, uuid_mapping)
     
@@ -358,9 +517,9 @@ def parse_markdown_file(file_path: str, category: str, uuid_mapping: dict, image
         "servings": 1,
         "ingredients": ingredients,
         "steps": steps,
-        "prep_time_minutes": None,
-        "cook_time_minutes": None,
-        "total_time_minutes": None,
+        "prep_time_minutes": prep_time,
+        "cook_time_minutes": cook_time,
+        "total_time_minutes": total_time,
         "additional_notes": additional_notes
     }
 
