@@ -4,7 +4,7 @@ import re
 from typing import List, Dict, Any, Tuple
 from pathlib import Path
 
-from image_handler import copy_image_to_recipes
+from image_handler import copy_image_to_dishes
 from langchain_unstructured import UnstructuredLoader
 
 
@@ -249,13 +249,13 @@ def _extract_dish_id(file_path: str, uuid_mapping: dict) -> str:
 
 def _process_images(image_path: str, images: list, image_mapping: dict) -> tuple:
     """
-    复制图片到recipes文件夹并更新路径
+    复制图片到dishes文件夹并更新路径
     """
     if image_path:
-        image_path = copy_image_to_recipes(image_path, image_mapping)
+        image_path = copy_image_to_dishes(image_path, image_mapping)
     
     if images:
-        images = [copy_image_to_recipes(img, image_mapping) for img in images]
+        images = [copy_image_to_dishes(img, image_mapping) for img in images]
     
     return image_path, images
 
@@ -415,7 +415,7 @@ def scan_dishes_directory(directory: str, uuid_mapping: dict, image_mapping: dic
     """
     扫描菜谱目录并按分类解析所有.md文件
     """
-    recipes_by_category = {}
+    dishes_by_category = {}
     
     # 初始化所有分类
     category_map = {
@@ -432,7 +432,7 @@ def scan_dishes_directory(directory: str, uuid_mapping: dict, image_mapping: dic
     }
     
     for category_dir in category_map.keys():
-        recipes_by_category[category_dir] = []
+        dishes_by_category[category_dir] = []
     
     for root, dirs, files in os.walk(directory):
         # 获取当前目录的分类名称
@@ -443,16 +443,16 @@ def scan_dishes_directory(directory: str, uuid_mapping: dict, image_mapping: dic
         category = path_parts[0] if path_parts and path_parts[0] else 'unknown'
         
         # 如果分类不在预定义列表中，则跳过
-        if category not in recipes_by_category:
+        if category not in dishes_by_category:
             continue
         
         for file in files:
             if file.endswith('.md'):
                 file_path = os.path.join(root, file).replace('\\', '/')
                 try:
-                    recipe_data = parse_markdown_file(file_path, category_map[category], uuid_mapping, image_mapping, base_path)
-                    recipes_by_category[category].append(recipe_data)
+                    dishe_data = parse_markdown_file(file_path, category_map[category], uuid_mapping, image_mapping, base_path)
+                    dishes_by_category[category].append(dishe_data)
                 except Exception as e:
                     print(f"解析文件 {file_path} 时出错: {e}")
     
-    return recipes_by_category
+    return dishes_by_category

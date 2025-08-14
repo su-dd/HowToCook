@@ -37,29 +37,25 @@ if __name__ == '__main__':
     tips_uuid_mapping = uuid_create.generate_uuid_for_md_files(config.BasePath, [config.TipsPath], config.TipsUuidFile)
 
     image_mapping = generate_image_mapping()
-
-    # 调整路径以正确指向项目根目录下的dishes文件夹
-    dishes_directory = config.DishesPath
-    recipes_directory = config.StaticDishesPath
     
-    # 确保recipes目录存在
+    # 确保dishes目录存在
     os.makedirs(config.StaticDishesPath, exist_ok=True)
     
     print("开始解析菜谱文件...")
-    recipes_by_category = parse_dishes.scan_dishes_directory(config.DishesPath, dishes_uuid_mapping, image_mapping, config.BasePath)
+    dishes_by_category = parse_dishes.scan_dishes_directory(config.DishesPath, dishes_uuid_mapping, image_mapping, config.BasePath)
 
-    recipesCount = 0
+    dishesCount = 0
     # 为每个分类创建单独的JSON文件
-    for category, recipes in recipes_by_category.items():
-        output_file = os.path.join(config.StaticDishesPath, f"{category}_recipes.json")
+    for category, dishes in dishes_by_category.items():
+        output_file = os.path.join(config.StaticDishesPath, f"{category}_dishes.json")
 
-        recipesCount += len(recipes)
+        dishesCount += len(dishes)
 
-        print(f"正在生成 {category} 分类的菜谱数据，共 {len(recipes)} 个菜谱...")
+        print(f"正在生成 {category} 分类的菜谱数据，共 {len(dishes)} 个菜谱...")
         
         # 写入JSON文件
         with open(output_file, 'w', encoding='utf-8') as f:
-            json.dump(recipes, f, ensure_ascii=False, indent=2)
+            json.dump(dishes, f, ensure_ascii=False, indent=2)
         
         print(f"{category} 分类的菜谱数据已保存到 {output_file}")
 
@@ -69,5 +65,5 @@ if __name__ == '__main__':
 
     count = count_md_files(config.DishesPath)
     print(f"总共有 {count} 个菜谱文件")
-    print(f"共生成 {recipesCount} 个菜谱文件")
+    print(f"共生成 {dishesCount} 个菜谱文件")
 
