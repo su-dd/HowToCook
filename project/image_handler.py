@@ -28,7 +28,7 @@ def get_new_image(image_path: str, image_mapping: dict) -> str:
     else :
         # 从旧路径提取文件名
         filename = os.path.basename(image_path)
-        # 提.extract扩展名
+        # 提取扩展名
         ext = os.path.splitext(image_path)[1]
         # 如果是网络图片且没有扩展名，尝试从URL获取扩展名
         if not ext and image_path.startswith(('http://', 'https://')):

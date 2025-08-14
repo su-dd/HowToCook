@@ -4,7 +4,7 @@ import re
 from typing import List, Dict, Any, Tuple
 from pathlib import Path
 
-from image_handler import copy_image_to_dishes
+from image_handler import copy_image_to_recipes
 from langchain_unstructured import UnstructuredLoader
 
 
@@ -71,10 +71,7 @@ def _extract_description(content: str, title: str) -> str:
         elif line.startswith('预估烹饪难度：'):
             description_parts.append(line)
             break
-        elif in_description and not line.startswith('!['):
-            description_parts.append(line)
-        elif in_description and line.startswith('!['):
-            # 处理图片链接
+        elif in_description:
             description_parts.append(line)
     
     return '\n'.join(description_parts).strip()
@@ -225,9 +222,23 @@ def _extract_times(content: str) -> tuple:
 def _extract_main_image(content: str, description: str, images: list, file_path: str) -> str:
     """
     从Markdown内容中提取主图路径
+    优先选择描述中的第一张图片作为主图，如果没有则使用所有图片中的第一张
     """
-    # 设置主图路径
-    # 如果有图片，使用第一张图片作为主图
+    # 查找描述中的图片链接
+    description_images = re.findall(r'!\[([^\]]*)\]\(([^)]+)\)', description)
+    
+    # 如果描述中有图片，使用描述中的第一张图片作为主图
+    if description_images:
+        # 获取描述中第一张图片的路径
+        desc_image_path = description_images[0][1]
+        
+        # 如果是相对路径，需要转换为绝对路径
+        if not desc_image_path.startswith(('http://', 'https://')):
+            desc_image_path = os.path.join(os.path.dirname(file_path), desc_image_path).replace('\\', '/')
+        
+        return desc_image_path
+    
+    # 如果描述中没有图片，使用所有图片中的第一张
     image_path = images[0] if images else None
     
     return image_path
@@ -252,10 +263,10 @@ def _process_images(image_path: str, images: list, image_mapping: dict) -> tuple
     复制图片到dishes文件夹并更新路径
     """
     if image_path:
-        image_path = copy_image_to_dishes(image_path, image_mapping)
+        image_path = copy_image_to_recipes(image_path, image_mapping)
     
     if images:
-        images = [copy_image_to_dishes(img, image_mapping) for img in images]
+        images = [copy_image_to_recipes(img, image_mapping) for img in images]
     
     return image_path, images
 
@@ -269,11 +280,10 @@ def _build_source_path(file_path: str, base_path: str) -> str:
 
 def _extract_with_unstructured(file_path: str) -> Dict[str, Any]:
     """
-    使用 LangChain-Unstructured 库解析 Markdown 文件并提取结构化数据
+    使用正则表达式解析 Markdown 文件并提取结构化数据
     """
-    # 加载文档
-    loader = UnstructuredLoader(file_path, mode="elements", post_processors=[])
-    docs = loader.load()
+    with open(file_path, 'r', encoding='utf-8') as f:
+        content = f.read()
     
     # 初始化提取的数据
     extracted_data = {
@@ -289,85 +299,195 @@ def _extract_with_unstructured(file_path: str) -> Dict[str, Any]:
         "additional_notes": []
     }
     
-    # 处理提取的元素
-    current_section = None
-    step_counter = 1
+    # 提取标题
+    title_match = re.search(r'^#\s+([^\n]+)', content)
+    if title_match:
+        title = title_match.group(1).replace('的做法', '').strip()
+        extracted_data["title"] = title
+    else:
+        # 如果没有找到标题，使用文件名
+        extracted_data["title"] = os.path.basename(file_path).replace('.md', '')
     
-    for doc in docs:
-        # 提取标题
-        if doc.metadata.get("category") == "Title":
-            title = doc.page_content.replace('的做法', '')
-            # 如果标题为空，则使用文件名作为标题
-            if not title.strip():
-                title = os.path.basename(file_path).replace('.md', '')
-            extracted_data["title"] = title
-        
-        # 提取难度
-        elif "预估烹饪难度" in doc.page_content and doc.metadata.get("category") == "NarrativeText":
-            difficulty_match = re.search(r'预估烹饪难度：(★+)', doc.page_content)
-            if difficulty_match:
-                extracted_data["difficulty"] = len(difficulty_match.group(1))
-        
-        # 提取时间信息
-        elif ("预估准备时间" in doc.page_content or "预估烹饪时间" in doc.page_content or 
-              "预估总时间" in doc.page_content) and doc.metadata.get("category") == "NarrativeText":
-            prep_time, cook_time, total_time = _extract_times(doc.page_content)
-            extracted_data["prep_time"] = prep_time
-            extracted_data["cook_time"] = cook_time
-            extracted_data["total_time"] = total_time
-        
-        # 识别章节标题
-        elif doc.metadata.get("category") == "Header":
-            if "必备原料和工具" in doc.page_content:
-                current_section = "ingredients"
-            elif "操作" in doc.page_content:
-                current_section = "steps"
-            elif "计算" in doc.page_content:
-                current_section = "ingredients"  # 计算部分也属于原料
-            elif "参考资料" in doc.page_content or "附加内容" in doc.page_content:
-                current_section = "additional_notes"
-            else:
-                current_section = None
-        
-        # 提取原料
-        elif current_section == "ingredients" and doc.metadata.get("category") == "ListItem":
-            # 解析原料文本，提取名称、数量和单位
-            ingredient_name, quantity, unit = parse_ingredient_text(doc.page_content)
+    # 提取难度
+    difficulty_match = re.search(r'预估烹饪难度：([★]+)', content)
+    if difficulty_match:
+        extracted_data["difficulty"] = len(difficulty_match.group(1))
+    
+    # 提取时间信息
+    prep_time, cook_time, total_time = _extract_times(content)
+    extracted_data["prep_time"] = prep_time
+    extracted_data["cook_time"] = cook_time
+    extracted_data["total_time"] = total_time
+    
+    # 提取图片
+    image_matches = re.findall(r'!\[([^\]]*)\]\(([^)]+)\)', content)
+    images_with_positions = []
+    for i, (alt, path) in enumerate(image_matches):
+        if not path.startswith('http'):
+            abs_path = os.path.join(os.path.dirname(file_path), path).replace('\\', '/')
+            extracted_data["images"].append(abs_path)
+            images_with_positions.append({"path": abs_path, "alt": alt})
+        else:
+            extracted_data["images"].append(path)
+            images_with_positions.append({"path": path, "alt": alt})
+    
+    # 提取原料
+    ingredients_section = re.search(r'##\s+必备原料和工具\s+([\s\S]*?)(?=##|$)', content)
+    if ingredients_section:
+        ingredients_text = ingredients_section.group(1)
+        # 提取列表项
+        ingredients = re.findall(r'^\s*-\s+(.+)$', ingredients_text, re.MULTILINE)
+        for ingredient in ingredients:
+            ingredient_name, quantity, unit = parse_ingredient_text(ingredient)
             extracted_data["ingredients"].append({
                 "name": ingredient_name,
                 "quantity": quantity,
                 "unit": unit,
-                "text_quantity": doc.page_content,
+                "text_quantity": ingredient,
                 "notes": "量未指定" if quantity is None else ""
             })
-        
-        # 提取步骤
-        elif current_section == "steps" and doc.metadata.get("category") == "ListItem":
-            extracted_data["steps"].append({
-                "step": step_counter,
-                "description": doc.page_content
+    
+    # 提取计算部分的原料
+    calculation_section = re.search(r'##\s+计算\s+([\s\S]*?)(?=##|$)', content)
+    if calculation_section:
+        calculation_text = calculation_section.group(1)
+        # 提取列表项
+        calculated_ingredients = re.findall(r'^\s*-\s+(.+)$', calculation_text, re.MULTILINE)
+        for ingredient in calculated_ingredients:
+            ingredient_name, quantity, unit = parse_ingredient_text(ingredient)
+            extracted_data["ingredients"].append({
+                "name": ingredient_name,
+                "quantity": quantity,
+                "unit": unit,
+                "text_quantity": ingredient,
+                "notes": "量未指定" if quantity is None else ""
             })
-            step_counter += 1
-        
-        # 提取图片
-        elif doc.metadata.get("category") == "Image":
-            image_path = doc.metadata.get("image_path")
-            if image_path:
-                # 转换为绝对路径
-                if not image_path.startswith('http'):
-                    abs_path = os.path.join(os.path.dirname(file_path), image_path).replace('\\', '/')
-                    extracted_data["images"].append(abs_path)
+    
+    # 提取步骤
+    # 首先尝试查找"## 操作"或"## 步骤"部分
+    steps_section = re.search(r'##\s+(操作|步骤)\s+([\s\S]*?)(?=##|$)', content)
+    if steps_section:
+        steps_text = steps_section.group(2)  # 使用group(2)获取步骤内容
+    else:
+        # 如果没有找到明确的步骤部分，使用整个文档内容
+        steps_text = content
+    
+    # 提取标题格式的步骤 (### 标题)
+    step_titles = re.findall(r'^\s*###\s+(.+)$', steps_text, re.MULTILINE)
+    # 提取列表格式的步骤 (- 或 * 开头)
+    list_steps = re.findall(r'^\s*[-*]\s*(.+)$', steps_text, re.MULTILINE)
+    
+    # 根据找到的步骤格式进行处理
+    if step_titles:
+        for i, step in enumerate(step_titles, 1):
+            # 检查步骤中是否包含图片
+            step_images = []
+            for img in images_with_positions:
+                # 检查图片是否在当前步骤描述中被引用
+                if img["alt"] in step or img["path"].split('/')[-1] in step:
+                    step_images.append(img["path"])
+            
+            extracted_data["steps"].append({
+                "step": i,
+                "description": step.strip(),
+                "images": step_images
+            })
+    elif list_steps:
+        for i, step in enumerate(list_steps, 1):
+            # 检查步骤中是否包含图片
+            step_images = []
+            for img in images_with_positions:
+                # 检查图片是否在当前步骤描述中被引用
+                if img["alt"] in step or img["path"].split('/')[-1] in step:
+                    step_images.append(img["path"])
+            
+            extracted_data["steps"].append({
+                "step": i,
+                "description": step.strip(),
+                "images": step_images
+            })
+    else:
+        # 如果没有找到标题格式或列表格式的步骤，再次尝试从整个文档中提取标题格式的步骤
+        full_content_step_titles = re.findall(r'^\s*###\s+(.+)$', content, re.MULTILINE)
+        for i, step in enumerate(full_content_step_titles, 1):
+            # 检查步骤中是否包含图片
+            step_images = []
+            for img in images_with_positions:
+                # 检查图片是否在当前步骤描述中被引用
+                if img["alt"] in step or img["path"].split('/')[-1] in step:
+                    step_images.append(img["path"])
+            
+            extracted_data["steps"].append({
+                "step": i,
+                "description": step.strip(),
+                "images": step_images
+            })
+    
+    # 提取附加内容
+    additional_section = re.search(r'##\s+附加内容\s+([\s\S]*?)(?=##|$)', content)
+    if additional_section:
+        additional_text = additional_section.group(1)
+        # 提取段落和图片
+        paragraphs = re.findall(r'^[^-\n].*$', additional_text, re.MULTILINE)
+        for paragraph in paragraphs:
+            if paragraph.strip():
+                # 检查段落是否包含图片
+                if paragraph.strip().startswith('![') and '](' in paragraph.strip():
+                    # 这是一个图片
+                    extracted_data["additional_notes"].append({
+                        "type": "image",
+                        "content": paragraph.strip()
+                    })
                 else:
-                    extracted_data["images"].append(image_path)
-        
-        # 提取参考资料
-        elif current_section == "additional_notes" and doc.metadata.get("category") in ["NarrativeText", "ListItem"]:
-            extracted_data["additional_notes"].append(doc.page_content)
+                    # 这是普通文本
+                    extracted_data["additional_notes"].append({
+                        "type": "text",
+                        "content": paragraph.strip()
+                    })
+    
+    # 提取参考资料
+    references_section = re.search(r'##\s+参考资料\s+([\s\S]*?)(?=##|$)', content)
+    if references_section:
+        references_text = references_section.group(1)
+        # 提取段落
+        references = re.findall(r'^[^-\n].*$', references_text, re.MULTILINE)
+        for reference in references:
+            if reference.strip():
+                # 检查段落是否包含图片
+                if reference.strip().startswith('![') and '](' in reference.strip():
+                    # 这是一个图片
+                    extracted_data["additional_notes"].append({
+                        "type": "image",
+                        "content": reference.strip()
+                    })
+                else:
+                    # 这是普通文本
+                    extracted_data["additional_notes"].append({
+                        "type": "text",
+                        "content": reference.strip()
+                    })
     
     # 去重图片
     extracted_data["images"] = list(dict.fromkeys(extracted_data["images"]))
     
     return extracted_data
+
+def _process_images(image_path: str, images: List[str], image_mapping: dict) -> Tuple[str, List[str]]:
+    """
+    处理图片路径
+    """
+    # 处理主图
+    if image_path:
+        image_path = copy_image_to_recipes(image_path, image_mapping)
+    
+    # 处理其他图片
+    processed_images = []
+    for img in images:
+        processed_img = copy_image_to_recipes(img, image_mapping)
+        if processed_img:
+            processed_images.append(processed_img)
+    
+    return image_path, processed_images
 
 
 def parse_markdown_file(file_path: str, category: str, uuid_mapping: dict, image_mapping: dict, base_path: str) -> Dict[str, Any]:
@@ -391,6 +511,81 @@ def parse_markdown_file(file_path: str, category: str, uuid_mapping: dict, image
     # 处理图片
     image_path, images = _process_images(image_path, images, image_mapping)
     
+    # 处理步骤中的图片
+    processed_steps = []
+    
+    # 收集所有可用的图片（主图、步骤中引用的图片、附加内容中的图片）
+    all_available_images = []
+    
+    # 添加主图
+    if image_path:
+        all_available_images.append(image_path)
+    
+    # 添加步骤中引用的图片
+    for step in extracted_data["steps"]:
+        for img in step.get("images", []):
+            if img not in all_available_images:
+                all_available_images.append(img)
+    
+    # 提取附加内容中的图片路径
+    additional_images = []
+    for note in extracted_data["additional_notes"]:
+        if note["type"] == "image":
+            # 从markdown格式提取图片路径
+            import re
+            img_match = re.search(r'\(([^)]+)\)', note["content"])
+            if img_match:
+                img_path = img_match.group(1)
+                additional_images.append(img_path)
+                if img_path not in all_available_images:
+                    all_available_images.append(img_path)
+    
+    # 处理步骤图片
+    step_image_index = 0  # 用于跟踪分配给步骤的图片索引
+    for i, step in enumerate(extracted_data["steps"]):
+        # 处理步骤图片
+        processed_step_images = []
+        for img in step.get("images", []):
+            processed_img = copy_image_to_recipes(img, image_mapping)
+            if processed_img:
+                processed_step_images.append(processed_img)
+        
+        # 如果步骤中没有明确引用图片，尝试从所有可用图片中分配图片
+        if not processed_step_images and all_available_images:
+            # 分配图片给步骤，优先使用主图和附加内容中的图片
+            while step_image_index < len(all_available_images) and len(processed_step_images) < 1:  # 每个步骤最多分配一张图片
+                img_to_assign = all_available_images[step_image_index]
+                processed_img = copy_image_to_recipes(img_to_assign, image_mapping)
+                if processed_img:
+                    processed_step_images.append(processed_img)
+                step_image_index += 1
+        
+        processed_steps.append({
+            "step": step["step"],
+            "description": step["description"],
+            "images": processed_step_images
+        })
+    
+    # 处理附加内容中的图片
+    processed_additional_notes = []
+    for note in extracted_data["additional_notes"]:
+        if note["type"] == "image":
+            # 处理图片
+            # 从markdown格式提取图片路径
+            import re
+            img_match = re.search(r'\(([^)]+)\)', note["content"])
+            if img_match:
+                img_path = img_match.group(1)
+                processed_img = copy_image_to_recipes(img_path, image_mapping)
+                if processed_img:
+                    processed_additional_notes.append({
+                        "type": "image",
+                        "content": processed_img
+                    })
+        else:
+            # 保留文本内容
+            processed_additional_notes.append(note)
+    
     return {
         "id": _extract_dish_id(file_path, uuid_mapping),
         "name": extracted_data["title"],
@@ -403,11 +598,11 @@ def parse_markdown_file(file_path: str, category: str, uuid_mapping: dict, image
         "tags": [category],
         "servings": 1,
         "ingredients": extracted_data["ingredients"],
-        "steps": extracted_data["steps"],
+        "steps": processed_steps,
         "prep_time_minutes": extracted_data["prep_time"],
         "cook_time_minutes": extracted_data["cook_time"],
         "total_time_minutes": extracted_data["total_time"],
-        "additional_notes": extracted_data["additional_notes"]
+        "additional_notes": processed_additional_notes
     }
 
 
