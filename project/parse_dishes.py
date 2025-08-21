@@ -219,31 +219,6 @@ def _extract_times(content: str) -> tuple:
     return prep_time, cook_time, total_time
 
 
-def _extract_main_image(content: str, description: str, images: list, file_path: str) -> str:
-    """
-    从Markdown内容中提取主图路径
-    优先选择描述中的第一张图片作为主图，如果没有则使用所有图片中的第一张
-    """
-    # 查找描述中的图片链接
-    description_images = re.findall(r'!\[([^\]]*)\]\(([^)]+)\)', description)
-    
-    # 如果描述中有图片，使用描述中的第一张图片作为主图
-    if description_images:
-        # 获取描述中第一张图片的路径
-        desc_image_path = description_images[0][1]
-        
-        # 如果是相对路径，需要转换为绝对路径
-        if not desc_image_path.startswith(('http://', 'https://')):
-            desc_image_path = os.path.join(os.path.dirname(file_path), desc_image_path).replace('\\', '/')
-        
-        return desc_image_path
-    
-    # 如果描述中没有图片，使用所有图片中的第一张
-    image_path = images[0] if images else None
-    
-    return image_path
-    
-
 def _extract_dish_id(file_path: str, uuid_mapping: dict) -> str:
     """
     从文件路径和UUID映射中提取dish_id
@@ -256,19 +231,6 @@ def _extract_dish_id(file_path: str, uuid_mapping: dict) -> str:
         raise ValueError(f"未找到文件 {relative_path} 的UUID映射")
     
     return dish_id
-
-
-def _process_images(image_path: str, images: list, image_mapping: dict) -> tuple:
-    """
-    复制图片到dishes文件夹并更新路径
-    """
-    if image_path:
-        image_path = copy_image_to_recipes(image_path, image_mapping)
-    
-    if images:
-        images = [copy_image_to_recipes(img, image_mapping) for img in images]
-    
-    return image_path, images
 
 
 def _build_source_path(file_path: str, base_path: str) -> str:
@@ -472,14 +434,10 @@ def _extract_with_unstructured(file_path: str) -> Dict[str, Any]:
     
     return extracted_data
 
-def _process_images(image_path: str, images: List[str], image_mapping: dict) -> Tuple[str, List[str]]:
+def _process_images(images: List[str], image_mapping: dict) -> List[str]:
     """
     处理图片路径
     """
-    # 处理主图
-    if image_path:
-        image_path = copy_image_to_recipes(image_path, image_mapping)
-    
     # 处理其他图片
     processed_images = []
     for img in images:
@@ -487,7 +445,7 @@ def _process_images(image_path: str, images: List[str], image_mapping: dict) -> 
         if processed_img:
             processed_images.append(processed_img)
     
-    return image_path, processed_images
+    return processed_images
 
 
 def parse_markdown_file(file_path: str, category: str, uuid_mapping: dict, image_mapping: dict, base_path: str) -> Dict[str, Any]:
@@ -497,19 +455,11 @@ def parse_markdown_file(file_path: str, category: str, uuid_mapping: dict, image
     # 使用 LangChain-Unstructured 库解析文件
     extracted_data = _extract_with_unstructured(file_path)
     
-    # 提取描述
-    with open(file_path, 'r', encoding='utf-8') as f:
-        content = f.read()
-    description = _extract_description(content, extracted_data["title"])
-    
     # 提取图片链接
     images = extracted_data["images"]
     
-    # 设置主图路径
-    image_path = _extract_main_image(content, description, images, file_path)
-    
     # 处理图片
-    image_path, images = _process_images(image_path, images, image_mapping)
+    images = _process_images(images, image_mapping)
     
     # 处理步骤中的图片
     processed_steps = []
@@ -589,7 +539,7 @@ def parse_markdown_file(file_path: str, category: str, uuid_mapping: dict, image
     return {
         "id": _extract_dish_id(file_path, uuid_mapping),
         "name": extracted_data["title"],
-        "description": description,
+        "description": extracted_data["description"],
         "source_path": _build_source_path(file_path, base_path),
         "image_path": image_path,
         "images": images,

@@ -23,7 +23,7 @@ def copy_image_to_recipes(image_path: str, image_mapping: dict) -> str:
 
 def get_new_image(image_path: str, image_mapping: dict) -> str:
     """
-    获取图片的新路径
+    获取转移、压缩图片的到StaticImagesPath目录下
     """
     new_path = ""
     if image_path in image_mapping:
@@ -40,9 +40,9 @@ def get_new_image(image_path: str, image_mapping: dict) -> str:
             path = parsed_url.path
             ext = os.path.splitext(path)[1]
         
-        # 如果仍然没有扩展名，使用默认的.jpg
+        # 如果仍然没有扩展名，使用默认的.webp
         if not ext:
-            ext = '.jpg'
+            ext = '.webp'
         # 生成新文件名
         new_filename = f"{uuid.uuid4()}{ext}"
         new_path = os.path.join(config.StaticImagesPath, new_filename).replace('\\', '/')
@@ -77,8 +77,20 @@ def get_new_image(image_path: str, image_mapping: dict) -> str:
             if img.mode == 'RGBA' and new_path.lower().endswith('.jpg'):
                 img = img.convert('RGB')
             
-            # 压缩图片并保存
-            img.save(new_path, optimize=True, quality=85)
+            # 获取文件名和扩展名
+            filename, ext = os.path.splitext(new_path)
+            
+            # 如果是JPEG或PNG格式，转换为WebP格式以减小文件大小
+            if ext.lower() in ['.jpg', '.jpeg', '.png']:
+                webp_path = filename + '.webp'
+                img.save(webp_path, 'webp', optimize=True, quality=85)
+                # 删除原文件
+                os.remove(new_path)
+                # 更新new_path为WebP文件路径
+                new_path = webp_path
+            else:
+                # 对于其他格式，使用原有的压缩方式
+                img.save(new_path, optimize=True, quality=85)
     except Exception as e:
         print(f"压缩图片 {new_path} 时出错: {e}")
     
